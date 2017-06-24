@@ -1,0 +1,14 @@
+html:not(.full-page-slider-active) {
+   body.js.page-template-template-blank-php #container { opacity: 0; }
+   body.page-template-template-blank-php {
+      padding: {
+         left: 0 !important;
+         right: 0 !important;
+      }
+      .wrap-all {
+         box-shadow: none !important;
+         max-width: none !important;
+      }
+      #body { background: transparent !important; }
+   }
+}

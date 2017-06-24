@@ -1,0 +1,66 @@
+.cv-search-form {
+
+   margin-bottom: $global_margin_after;
+   overflow: hidden;
+
+   input[type="text"],
+   input[type="submit"] {
+      display: block;
+      margin: 0;
+      border-radius: 0px;
+      font-weight: 300;
+   }
+
+   &.is-small {
+      input[type="text"],
+      input[type="submit"] {
+         height: 35px;
+         font-size: 1em;
+      }
+   }
+
+   &.is-normal {
+      input[type="text"],
+      input[type="submit"] {
+         height: 55px;
+         font-size: 1.25em;
+      }
+   }
+
+   &.is-large {
+      input[type="text"],
+      input[type="submit"] {
+         height: 75px;
+         font-size: 1.5em;
+      }
+   }
+
+   input[type="text"]{
+      width: 80%;
+   }
+
+   input[type="submit"] {
+      width: 20%;
+      border-width: 1px !important;
+   }
+
+   html:not([dir="rtl"]) & {
+      input[type="text"],
+      input[type="submit"] {
+         float: left;
+      }
+      input[type="text"]{ border-right: none; }
+      input[type="text"]{ border-radius: 3px 0 0 3px; }
+      input[type="submit"] { border-radius: 0 3px 3px 0; }
+   }
+   html[dir="rtl"] & {
+      input[type="text"],
+      input[type="submit"] {
+         float: right;
+      }
+      input[type="text"]{ border-left: none; }
+      input[type="text"]{ border-radius: 0 3px 3px 0; }
+      input[type="submit"] { border-radius: 3px 0 0 3px; }
+   }
+
+}

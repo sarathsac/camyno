@@ -1,0 +1,16 @@
+.widget .cv-social-profiles {
+   li {
+      padding: 0 !important;
+      a {
+         text-decoration: none !important;
+         display: block;
+         padding: 0.625em 0;
+      }
+      i {
+         html:not([dir="rtl"]) & { margin-right: 0.3125em; }
+         html[dir="rtl"] & { margin-left: 0.3125em; }
+      }
+   }
+}
+
+.content-section-sidebar .widget .cv-social-profiles li a { padding: 0.625em; }

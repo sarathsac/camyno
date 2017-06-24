@@ -1,0 +1,8 @@
+ @media #{$breakpoint_3} {
+   [data-entrance] {
+      opacity: 0;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      .no-js &, &.is-visible { opacity: 1; }
+   }
+}

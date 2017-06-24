@@ -1,0 +1,74 @@
+/* Import utilities */
+@import "../../../../assets/scss/utilities/variables";
+@import "../../../../assets/scss/utilities/mixins";
+
+.gform_wrapper {
+
+    /* Controls */
+    input, select, textarea {
+        margin-bottom: 0;
+        min-width: auto;
+        padding: 0.75em !important;
+        font-size: 1em !important;
+    }
+
+    /* Fields */
+    li.gfield {
+        margin-bottom: $global_margin_after*2 !important;
+
+        /* Complex inputs */
+        .ginput_complex > span {
+            margin-bottom: $global_margin_after !important;
+        }
+
+        /* Primary labels */
+        .gfield_label {
+            display: block !important;
+            font-size: 1.15em;
+            margin: 0 0 0.75em !important;
+            font-weight: 300 !important;
+        }
+
+        /* Required marker */
+        .gfield_required {
+            color: $required_marker_color !important;
+        }
+
+        /* With error */
+        &.gfield_error.gfield_contains_required {
+            background: transparent !important;
+            border-bottom: none !important;
+            border-top: none !important;
+            padding: 1em 10px 1em 0px !important;
+        }
+
+    }
+
+    /* Sections */
+    .gsection {
+        margin: 4em 0 2em !important;
+        padding: 0 0 1em !important;
+
+        h2 {
+            font-size: 1.75em !important;
+        }
+
+        .gsection_description {
+            font-size: 1em !important;
+        }
+
+    }
+
+    /* Page Steps */
+    .gf_page_steps {
+        margin: 2em 0 !important;
+        border-bottom: 1px solid transparent !important;
+
+        .gf_step {
+            opacity: 0.5;
+            height: auto !important;
+            &.gf_step_active { font-weight: 600 !important; }
+        }
+    }
+
+}

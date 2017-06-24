@@ -1,0 +1,26 @@
+.woocommerce {
+
+   .col2-set {
+      @include has-clearfix;
+      margin-bottom: 2em;
+      @media #{$breakpoint_1} {
+         html:not([dir="rtl"]) & {
+            .col-1, .col-2 {
+               float: left;
+               width: 50%;
+            }
+            .col-1 { padding-right: $spacing_2; }
+            .col-2 { padding-left: $spacing_2; }
+         }
+         html[dir="rtl"] & {
+            .col-1, .col-2 {
+               float: right;
+               width: 50%;
+            }
+            .col-1 { padding-left: $spacing_2; }
+            .col-2 { padding-right: $spacing_2; }
+         }
+      }
+   }
+
+}

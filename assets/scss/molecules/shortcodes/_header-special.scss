@@ -1,0 +1,36 @@
+.cv-special-header {
+
+   position: relative;
+
+   &:before {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      content: " ";
+      height: 1px;
+   }
+
+   .inner-text {
+      position: relative;
+      font-weight: 300;
+   }
+
+   html:not([dir="rtl"]) & .inner-text { padding: 0 0.625em 0 0; }
+   html[dir="rtl"] & .inner-text { padding: 0 0 0 0.625em; }
+
+   &.text-align-left .inner-text { padding: 0 0.625em 0 0 !important; }
+   &.text-align-right .inner-text { padding: 0 0 0 0.625em !important; }
+   &.text-align-center .inner-text { padding: 0 0.625em !important; }
+
+   margin-bottom: 0em;
+
+}
+.cv-section-white .cv-special-header {
+   &:before { display: none; }
+   border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.cv-section-black .cv-special-header {
+   &:before { display: none; }
+   border-bottom: 1px solid rgba(0,0,0,0.25);
+}

@@ -1,0 +1,11 @@
+@mixin has-clearfix {
+   clear: both;
+   &:before,
+   &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 0;
+      clear: both;
+   }
+}

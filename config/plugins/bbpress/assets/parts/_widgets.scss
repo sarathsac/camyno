@@ -1,0 +1,145 @@
+/* Login Widget */
+.bbp-login-form {
+
+   padding: 0.625em;
+   border-radius: 3px;
+
+   fieldset {
+      padding: 0;
+      border: 0 !important;
+   }
+
+   fieldset legend {
+      display: none;
+   }
+
+   .bbp-username label,
+   .bbp-email label,
+   .bbp-password label,
+   .bbp-username input,
+   .bbp-email input,
+   .bbp-password input {
+      display: block;
+      width: 100%;
+   }
+    label {
+      font-weight: 600;
+   }
+    input {
+      margin-bottom: 1em;
+   }
+
+   .bbp-submit-wrapper {
+      margin-top: 10px;
+      html:not([dir="rtl"]) & {
+         float: left;
+      }
+      html[dir="rtl"] & {
+         float: right;
+      }
+   }
+   .bbp-login-links {
+      margin-top: 10px;
+      line-height: 1.5;
+   }
+
+   .bbp-login-links a {
+      html:not([dir="rtl"]) & {
+         float: right;
+         clear: right;
+      }
+      html[dir="rtl"] & {
+         float: left;
+         clear: left;
+      }
+      &:hover { text-decoration: underline; }
+   }
+
+}
+.bbp-logged-in {
+
+   padding: 0.625em;
+   border-radius: 3px;
+   line-height: 1.25;
+   overflow: hidden;
+
+   img.avatar {
+      border-radius: 3px;
+      html:not([dir="rtl"]) & {
+         float: left;
+         margin: 0 15px 0 0;
+      }
+      html[dir="rtl"] & {
+         float: right;
+         margin: 0 0 0 15px;
+      }
+   }
+
+   h4 {
+      font-weight: bold;
+      font-size: 1em;
+      clear: none;
+      margin: 0;
+   }
+
+   a {
+      border: none !important;
+      background: transparent !important;
+      display: inline !important;
+      padding: 0 !important;
+      margin: 0 !important;
+   }
+
+}
+
+/* Search Widget */
+.widget #bbp-search-form {
+
+   overflow: hidden;
+   margin-bottom: 30px;
+   label { display: none; }
+
+   #bbp_search,
+   #bbp_search_submit {
+      display: block;
+      margin: 0;
+      height: 35px;
+      padding: 0 15px;
+      border-radius: 0px;
+   }
+
+   #bbp_search {
+      width: 70%;
+   }
+
+   #bbp_search_submit {
+      width: 30%;
+      border-width: 1px !important;
+   }
+
+   html:not([dir="rtl"]) & {
+      #bbp_search,
+      #bbp_search_submit {
+         float: left;
+      }
+      #bbp_search { border-right: none; }
+      #bbp_search { border-radius: 3px 0 0 3px; }
+      #bbp_search_submit { border-radius: 0 3px 3px 0; }
+   }
+   html[dir="rtl"] & {
+      #bbp_search,
+      #bbp_search_submit {
+         float: right;
+      }
+      #bbp_search { border-left: none; }
+      #bbp_search { border-radius: 0 3px 3px 0; }
+      #bbp_search_submit { border-radius: 3px 0 0 3px; }
+   }
+
+}
+
+
+/* Hide avatars */
+.widget .bbp-author-avatar {
+   display: none;
+}

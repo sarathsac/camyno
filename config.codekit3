@@ -1,0 +1,7093 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "389B5AC7-EC7C-4F7A-B926-35688BB9458D"
+		}
+	],
+"creatorBuild": "25813",
+"files": {
+	"\/404.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/404.php",
+		"oF": 0
+		},
+	"\/assets\/css\/icons.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/icons-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/style-responsive.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/style-responsive-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/font\/theme-icons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/font\/theme-icons.eot",
+		"oF": 0
+		},
+	"\/assets\/font\/theme-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/font\/theme-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/font\/theme-icons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/font\/theme-icons.ttf",
+		"oF": 0
+		},
+	"\/assets\/font\/theme-icons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/font\/theme-icons.woff",
+		"oF": 0
+		},
+	"\/assets\/img\/anonymous.png": {
+		"ft": 32768,
+		"iS": 39345,
+		"oA": 0,
+		"oAP": "\/assets\/img\/anonymous.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/camyno_logo.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/camyno_logo.psd",
+		"oF": 0
+		},
+	"\/assets\/img\/patterns\/congruent_outline.png": {
+		"ft": 32768,
+		"iS": 8425,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/congruent_outline.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/congruent_pentagon.png": {
+		"ft": 32768,
+		"iS": 28934,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/congruent_pentagon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/exclusive_paper.png": {
+		"ft": 32768,
+		"iS": 145378,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/exclusive_paper.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/food.png": {
+		"ft": 32768,
+		"iS": 5247,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/food.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/fresh_snow.png": {
+		"ft": 32768,
+		"iS": 88995,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/fresh_snow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/gplaypattern.png": {
+		"ft": 32768,
+		"iS": 12047,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/gplaypattern.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/green_cup.png": {
+		"ft": 32768,
+		"iS": 89278,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/green_cup.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/grey_wash_wall.png": {
+		"ft": 32768,
+		"iS": 47433,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/grey_wash_wall.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/grunge_wall.png": {
+		"ft": 32768,
+		"iS": 108721,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/grunge_wall.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/hixs_pattern_evolution.png": {
+		"ft": 32768,
+		"iS": 911,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/hixs_pattern_evolution.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/mochaGrunge.png": {
+		"ft": 32768,
+		"iS": 69250,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/mochaGrunge.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/noisy_grid.png": {
+		"ft": 32768,
+		"iS": 33159,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/noisy_grid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/notebook.png": {
+		"ft": 32768,
+		"iS": 15079,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/notebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/old_map.png": {
+		"ft": 32768,
+		"iS": 32184,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/old_map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/ricepaper_v3.png": {
+		"ft": 32768,
+		"iS": 33222,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/ricepaper_v3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/shattered.png": {
+		"ft": 32768,
+		"iS": 137733,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/shattered.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/stardust.png": {
+		"ft": 32768,
+		"iS": 9106,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/stardust.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/subtle_white_feathers.png": {
+		"ft": 32768,
+		"iS": 166566,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/subtle_white_feathers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/tree_bark.png": {
+		"ft": 32768,
+		"iS": 42360,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/tree_bark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/triangular.png": {
+		"ft": 32768,
+		"iS": 210,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/triangular.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/type.png": {
+		"ft": 32768,
+		"iS": 15630,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/type.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/whitediamond.png": {
+		"ft": 32768,
+		"iS": 9253,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/whitediamond.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/wild_oliva.png": {
+		"ft": 32768,
+		"iS": 22505,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/wild_oliva.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/wood_pattern.png": {
+		"ft": 32768,
+		"iS": 103869,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/wood_pattern.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/patterns\/xv.png": {
+		"ft": 32768,
+		"iS": 37310,
+		"oA": 0,
+		"oAP": "\/assets\/img\/patterns\/xv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/js\/pageSlide.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/compressed\/pageSlide.min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/theme.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/compressed\/theme.min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/scss\/.sass-cache\/02b2f3c95a5f8678ad3f138c3e3e7a90d515f5bc\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/02b2f3c95a5f8678ad3f138c3e3e7a90d515f5bc\/%042c",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_animate.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_animate.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_fitvids.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_fitvids.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_fullPage.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_fullPage.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_gmaps.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_gmaps.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_isotope.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_isotope.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_magnific.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_magnific.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_odometer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_odometer.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_slick.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_slick.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_tooltipster.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/2b694eaaa767a32f557c457b3d9fb388c40ba28b\/_tooltipster.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/3652243e00191c12fa16ae186d6f607d7edfa6b1\/_overlay-additional.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/3652243e00191c12fa16ae186d6f607d7edfa6b1\/_overlay-additional.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/3652243e00191c12fa16ae186d6f607d7edfa6b1\/_overlay-menu.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/3652243e00191c12fa16ae186d6f607d7edfa6b1\/_overlay-menu.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/3652243e00191c12fa16ae186d6f607d7edfa6b1\/_overlay-search.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/3652243e00191c12fa16ae186d6f607d7edfa6b1\/_overlay-search.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/3652243e00191c12fa16ae186d6f607d7edfa6b1\/_overlay.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/3652243e00191c12fa16ae186d6f607d7edfa6b1\/_overlay.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_bg-styles.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_bg-styles.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_captions.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_captions.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_clearfix.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_clearfix.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_cloud-list.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_cloud-list.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_containers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_containers.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_entrances.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_entrances.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_filter-list.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_filter-list.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_floating-anchor.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_floating-anchor.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_grid.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_header-styles.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_header-styles.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_image-hover.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_image-hover.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_logo.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_logo.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_pagination.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_pagination.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_scalable.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_scalable.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_share-buttons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_share-buttons.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_split.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_split.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_v-align.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_v-align.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_visibility.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/4a2214d6425fcf16c87c76cb7cc218373eeda34f\/_visibility.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_alignment.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_alignment.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_blockquotes.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_blockquotes.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_definition-lists.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_definition-lists.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_editor-style.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_editor-style.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_forms.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_forms.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_no-scroll.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_no-scroll.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_normalize.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_normalize.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_pre.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_pre.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_reset.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_reset.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_superlinks.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_superlinks.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_tables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/52d991899556958b32bb62737b941bca10763e82\/_tables.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_additional-bar.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_additional-bar.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_banner.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_banner.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_blank-page.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_blank-page.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_comments.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_comments.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_footer-crumbs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_footer-crumbs.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_footer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_footer.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_header.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_header.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_post-tile.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_post-tile.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_search.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_search.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_sidebars.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_sidebars.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_socket.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/55c8404e8b0d4c9646feb9cc2236aabfdde21f7c\/_socket.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/5eee155db82533d05506f04a02cb28fc3b7f91a9\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/5eee155db82533d05506f04a02cb28fc3b7f91a9\/%042c",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/688fdbcdecbe24622fb21da42c72f96e8e2664b3\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/688fdbcdecbe24622fb21da42c72f96e8e2664b3\/%042c",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/6c6a5a8cf6d3a89173c23a258728b57bce1c9bf5\/_imports.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/6c6a5a8cf6d3a89173c23a258728b57bce1c9bf5\/_imports.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/6c6a5a8cf6d3a89173c23a258728b57bce1c9bf5\/style-responsive.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/6c6a5a8cf6d3a89173c23a258728b57bce1c9bf5\/style-responsive.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/6c6a5a8cf6d3a89173c23a258728b57bce1c9bf5\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/6c6a5a8cf6d3a89173c23a258728b57bce1c9bf5\/style.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_boxed.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_boxed.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_masonry.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_masonry.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_minimal.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_minimal.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_single.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_single.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_standard.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/7932e908c7914044923ccda4d2474ccc72afc8df\/_standard.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/7bb713e2d61cb3fb755226fde2baf94ca6301861\/_mixins.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/7bb713e2d61cb3fb755226fde2baf94ca6301861\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/7bb713e2d61cb3fb755226fde2baf94ca6301861\/_variables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/7bb713e2d61cb3fb755226fde2baf94ca6301861\/_variables.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/881033745d874821a1e96aafd77b1cbe91f77014\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/881033745d874821a1e96aafd77b1cbe91f77014\/%042c",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_calendar.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_calendar.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_custom-menu.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_custom-menu.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_recent-comments.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_recent-comments.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_recent-posts.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_recent-posts.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_search.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_search.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_social-media.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_social-media.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_tag-cloud.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_tag-cloud.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_twitter-rss.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_twitter-rss.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_widgets.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/920feed8587a287f520d2abfb51231bfdb945e9e\/_widgets.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/92f4f04208bc0e55dbda570448099945debe106f\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/92f4f04208bc0e55dbda570448099945debe106f\/%042c",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/a033e9e22e9fca4495d2194725d2e9729faa79bf\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/a033e9e22e9fca4495d2194725d2e9729faa79bf\/%042c",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/a2dbb50b88d4f58f9d6f25156c6ba41e142a5323\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/a2dbb50b88d4f58f9d6f25156c6ba41e142a5323\/%042c",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/ad7f31e1af2ea47d6e2e3389e2019bd94ebf97ad\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/ad7f31e1af2ea47d6e2e3389e2019bd94ebf97ad\/%042c",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_action-box.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_action-box.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_animated-number.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_animated-number.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_button.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_button.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_change-log.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_change-log.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_column-row.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_column-row.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_contact-form.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_contact-form.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_divider.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_divider.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_gallery.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_gallery.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_header-special.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_header-special.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_header-stack.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_header-stack.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_icon-box-group.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_icon-box-group.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_icon-box.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_icon-box.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_image-fullwidth.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_image-fullwidth.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_instructions.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_instructions.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_media-flag.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_media-flag.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_notification.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_notification.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_partner-group.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_partner-group.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_portfolio.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_portfolio.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_price-table.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_price-table.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_progress-bars.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_progress-bars.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_promo-box.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_promo-box.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_recent-posts.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_recent-posts.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_search-bar.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_search-bar.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_section.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_section.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_single-column.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_single-column.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_slider.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_slider.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_social-group.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_social-group.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_sticky-menu.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_sticky-menu.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_tab-group.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_tab-group.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_team.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_team.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_testimonial-group.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_testimonial-group.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_toggle-group.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_toggle-group.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_user-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/.sass-cache\/cf2f1625db89165ba62af924d8e266bed17fbccb\/_user-image.scssc",
+		"oF": 0
+		},
+	"\/assets\/scss\/.sass-cache\/fce21a5420a5a3116050934f03249a88e204abee\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/scss\/.sass-cache\/fce21a5420a5a3116050934f03249a88e204abee\/%042c",
+		"oF": 0
+		},
+	"\/assets\/scss\/_imports.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_imports.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_bg-styles.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_bg-styles.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_captions.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_captions.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_clearfix.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_clearfix.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_cloud-list.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_cloud-list.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_containers.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_containers.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_entrances.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_entrances.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_filter-list.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_filter-list.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_floating-anchor.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_floating-anchor.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_grid.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_grid.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_header-styles.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_header-styles.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_image-hover.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_image-hover.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_logo.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_logo.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_pagination.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_pagination.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_scalable.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_scalable.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_share-buttons.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_share-buttons.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_split.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_split.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_v-align.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_v-align.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/_visibility.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/_visibility.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/overlay\/_overlay-additional.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/overlay\/_overlay-additional.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/overlay\/_overlay-menu.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/overlay\/_overlay-menu.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/overlay\/_overlay-search.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/overlay\/_overlay-search.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/overlay\/_overlay.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/overlay\/_overlay.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/widgets\/_calendar.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/widgets\/_calendar.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/widgets\/_custom-menu.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/widgets\/_custom-menu.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/widgets\/_recent-comments.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/widgets\/_recent-comments.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/widgets\/_recent-posts.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/widgets\/_recent-posts.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/widgets\/_search.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/widgets\/_search.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/widgets\/_social-media.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/widgets\/_social-media.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/widgets\/_tag-cloud.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/widgets\/_tag-cloud.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/widgets\/_twitter-rss.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/widgets\/_twitter-rss.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/atoms\/widgets\/_widgets.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/atoms\/widgets\/_widgets.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_additional-bar.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_additional-bar.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_banner.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_banner.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_blank-page.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_blank-page.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_comments.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_comments.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_footer-crumbs.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_footer-crumbs.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_footer.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_footer.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_header.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_header.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_post-tile.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_post-tile.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_search.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_search.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_sidebars.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_sidebars.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/_socket.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/_socket.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/blog\/_boxed.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/blog\/_boxed.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/blog\/_masonry.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/blog\/_masonry.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/blog\/_minimal.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/blog\/_minimal.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/blog\/_single.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/blog\/_single.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/blog\/_standard.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/blog\/_standard.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_action-box.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_action-box.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_animated-number.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_animated-number.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_button.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_button.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_change-log.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_change-log.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_column-row.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_column-row.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_contact-form.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_contact-form.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_divider.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_divider.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_gallery.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_gallery.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_header-special.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_header-special.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_header-stack.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_header-stack.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_icon-box-group.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_icon-box-group.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_icon-box.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_icon-box.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_image-fullwidth.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_image-fullwidth.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_instructions.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_instructions.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_media-flag.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_media-flag.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_notification.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_notification.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_partner-group.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_partner-group.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_portfolio.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_portfolio.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_price-table.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_price-table.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_progress-bars.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_progress-bars.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_promo-box.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_promo-box.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_recent-posts.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_recent-posts.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_search-bar.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_search-bar.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_section.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_section.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_single-column.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_single-column.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_slider.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_slider.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_social-group.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_social-group.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_sticky-menu.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_sticky-menu.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_tab-group.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_tab-group.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_team.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_team.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_testimonial-group.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_testimonial-group.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_toggle-group.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_toggle-group.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/molecules\/shortcodes\/_user-image.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/molecules\/shortcodes\/_user-image.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/plugins\/_animate.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/plugins\/_animate.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/plugins\/_fitvids.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/plugins\/_fitvids.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/plugins\/_fullPage.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/plugins\/_fullPage.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/plugins\/_gmaps.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/plugins\/_gmaps.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/plugins\/_isotope.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/plugins\/_isotope.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/plugins\/_magnific.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/plugins\/_magnific.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/plugins\/_odometer.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/plugins\/_odometer.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/plugins\/_slick.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/plugins\/_slick.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/plugins\/_tooltipster.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/plugins\/_tooltipster.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_alignment.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_alignment.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_blockquotes.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_blockquotes.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_definition-lists.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_definition-lists.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_editor-style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_editor-style.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_forms.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_forms.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_no-scroll.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_no-scroll.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_normalize.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_normalize.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_pre.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_pre.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_reset.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_reset.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_superlinks.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_superlinks.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/quarks\/_tables.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/quarks\/_tables.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/style-responsive.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/style-responsive.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/style.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/utilities\/_mixins.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_mixins.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/utilities\/_variables.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_variables.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bbpress.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/bbpress.php",
+		"oF": 0
+		},
+	"\/comments.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/comments.php",
+		"oF": 0
+		},
+	"\/config\/background\/assets\/background.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/background\/assets\/background-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/background\/assets\/background.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/background\/assets\/background.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/background\/assets\/compressed\/jquery.background.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/background\/assets\/compressed\/compressed\/jquery.background.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/background\/assets\/jquery.background.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/background\/assets\/compressed\/jquery.background.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/background\/class-background.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/background\/class-background.php",
+		"oF": 0
+		},
+	"\/config\/background\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/background\/config.php",
+		"oF": 0
+		},
+	"\/config\/background\/dynamic-styles.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/background\/dynamic-styles.php",
+		"oF": 0
+		},
+	"\/config\/banner-settings\/assets.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/banner-settings\/assets.php",
+		"oF": 0
+		},
+	"\/config\/banner-settings\/assets\/banner-settings.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/banner-settings\/assets\/banner-settings-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/banner-settings\/assets\/banner-settings.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/banner-settings\/assets\/banner-settings.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/banner-settings\/assets\/compressed\/jquery.banner-settings.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/banner-settings\/assets\/compressed\/compressed\/jquery.banner-settings.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/banner-settings\/assets\/jquery.banner-settings.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/banner-settings\/assets\/compressed\/jquery.banner-settings.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/banner-settings\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/banner-settings\/config.php",
+		"oF": 0
+		},
+	"\/config\/banner-settings\/register.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/banner-settings\/register.php",
+		"oF": 0
+		},
+	"\/config\/banner-settings\/render.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/banner-settings\/render.php",
+		"oF": 0
+		},
+	"\/config\/banner-settings\/update.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/banner-settings\/update.php",
+		"oF": 0
+		},
+	"\/config\/color-scheme\/assets\/color-scheme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/color-scheme\/assets\/color-scheme-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/color-scheme\/assets\/color-scheme.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/color-scheme\/assets\/color-scheme.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/color-scheme\/assets\/compressed\/jquery.color-scheme.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/color-scheme\/assets\/compressed\/compressed\/jquery.color-scheme.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/color-scheme\/assets\/jquery.color-scheme.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/color-scheme\/assets\/compressed\/jquery.color-scheme.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/color-scheme\/class-color-scheme.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/color-scheme\/class-color-scheme.php",
+		"oF": 0
+		},
+	"\/config\/color-scheme\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/color-scheme\/config.php",
+		"oF": 0
+		},
+	"\/config\/color-scheme\/dynamic-styles.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/color-scheme\/dynamic-styles.php",
+		"oF": 0
+		},
+	"\/config\/color-scheme\/register-schemes.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/color-scheme\/register-schemes.php",
+		"oF": 0
+		},
+	"\/config\/page-settings\/assets.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/page-settings\/assets.php",
+		"oF": 0
+		},
+	"\/config\/page-settings\/assets\/compressed\/jquery.page-settings.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/page-settings\/assets\/compressed\/compressed\/jquery.page-settings.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/page-settings\/assets\/jquery.page-settings.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/page-settings\/assets\/compressed\/jquery.page-settings.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/page-settings\/assets\/page-settings.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/page-settings\/assets\/page-settings-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/page-settings\/assets\/page-settings.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/page-settings\/assets\/page-settings.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/page-settings\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/page-settings\/config.php",
+		"oF": 0
+		},
+	"\/config\/page-settings\/register.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/page-settings\/register.php",
+		"oF": 0
+		},
+	"\/config\/page-settings\/render.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/page-settings\/render.php",
+		"oF": 0
+		},
+	"\/config\/page-settings\/update.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/page-settings\/update.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/bbpress\/assets\/bbpress.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/bbpress\/assets\/bbpress-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/plugins\/bbpress\/assets\/bbpress.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/bbpress\/assets\/bbpress.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/bbpress\/assets\/parts\/_bread-crumbs.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/bbpress\/assets\/parts\/_bread-crumbs.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/bbpress\/assets\/parts\/_forums.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/bbpress\/assets\/parts\/_forums.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/bbpress\/assets\/parts\/_notices.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/bbpress\/assets\/parts\/_notices.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/bbpress\/assets\/parts\/_profile.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/bbpress\/assets\/parts\/_profile.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/bbpress\/assets\/parts\/_search.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/bbpress\/assets\/parts\/_search.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/bbpress\/assets\/parts\/_widgets.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/bbpress\/assets\/parts\/_widgets.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/bbpress\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/bbpress\/config.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/bbpress\/dynamic-styles.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/bbpress\/dynamic-styles.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/bbpress\/modify-theme.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/bbpress\/modify-theme.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/bbpress\/settings-page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/bbpress\/settings-page.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/bbpress\/shortcodes\/class-bbpress-forum.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/bbpress\/shortcodes\/class-bbpress-forum.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/bbpress\/shortcodes\/class-bbpress-recovery.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/bbpress\/shortcodes\/class-bbpress-recovery.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/bbpress\/shortcodes\/class-bbpress-registration.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/bbpress\/shortcodes\/class-bbpress-registration.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/contact-form-7\/assets\/contact-form-7.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/contact-form-7\/assets\/contact-form-7-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/plugins\/contact-form-7\/assets\/contact-form-7.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/contact-form-7\/assets\/contact-form-7.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/contact-form-7\/class-contact-form-7.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/contact-form-7\/class-contact-form-7.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/contact-form-7\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/contact-form-7\/config.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/events-calendar\/assets\/events-calendar.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/events-calendar\/assets\/events-calendar-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/plugins\/events-calendar\/assets\/events-calendar.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/events-calendar\/assets\/events-calendar.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/events-calendar\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/events-calendar\/config.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/events-calendar\/dynamic-styles.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/events-calendar\/dynamic-styles.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/events-calendar\/modify-theme.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/events-calendar\/modify-theme.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/gravity-forms\/assets\/gravity-forms.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/gravity-forms\/assets\/gravity-forms-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/plugins\/gravity-forms\/assets\/gravity-forms.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/gravity-forms\/assets\/gravity-forms.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/gravity-forms\/class-gravity-form.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/gravity-forms\/class-gravity-form.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/gravity-forms\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/gravity-forms\/config.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/gravity-forms\/dynamic-styles.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/gravity-forms\/dynamic-styles.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/layerslider\/class-fullscreen-layerslider.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/layerslider\/class-fullscreen-layerslider.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/layerslider\/class-layerslider.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/layerslider\/class-layerslider.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/layerslider\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/layerslider\/config.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/add-actions.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/add-actions.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/assets.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_cart-button.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_cart-button.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_cart.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_cart.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_checkout.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_checkout.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_forms.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_forms.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_grouped-product.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_grouped-product.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_layout.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_layout.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_price.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_price.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_product-list-shortcode.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_product-list-shortcode.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_product-list.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_product-list.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_quantity.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_quantity.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_review.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_review.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_shortcodes.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_shortcodes.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_single-product.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_single-product.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_sitewide-notice.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_sitewide-notice.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_star-rating.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_star-rating.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_tabs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_tabs.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_widgets.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/002d4b0ad86f4a24633e2433b50a50cb1a7ed6b4\/_widgets.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/5cc02faa8f61de88f351a2aec0ab0a8bf9d1a441\/%042c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/5cc02faa8f61de88f351a2aec0ab0a8bf9d1a441\/%042c",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/7bb713e2d61cb3fb755226fde2baf94ca6301861\/_mixins.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/7bb713e2d61cb3fb755226fde2baf94ca6301861\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/7bb713e2d61cb3fb755226fde2baf94ca6301861\/_variables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/7bb713e2d61cb3fb755226fde2baf94ca6301861\/_variables.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/.sass-cache\/ccdd742ce3ec7a289cba7b55867a6406c26f713e\/woocommerce.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/.sass-cache\/ccdd742ce3ec7a289cba7b55867a6406c26f713e\/woocommerce.scssc",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/compressed\/jquery.woocommerce.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/compressed\/compressed\/jquery.woocommerce.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/jquery.woocommerce.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/compressed\/jquery.woocommerce.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_cart-button.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_cart-button.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_cart.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_cart.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_checkout.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_checkout.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_forms.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_forms.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_grouped-product.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_grouped-product.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_layout.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_layout.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_price.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_price.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_product-list-shortcode.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_product-list-shortcode.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_product-list.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_product-list.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_quantity.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_quantity.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_review.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_review.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_shortcodes.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_shortcodes.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_single-product-gallery.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_single-product-gallery.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_single-product.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_single-product.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_sitewide-notice.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_sitewide-notice.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_star-rating.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_star-rating.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_tabs.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_tabs.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/parts\/_widgets.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/parts\/_widgets.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/assets\/woocommerce.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/woocommerce-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/plugins\/woocommerce\/assets\/woocommerce.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/assets\/woocommerce.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/plugins\/woocommerce\/cart-button.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/cart-button.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/config.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/dynamic-styles.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/dynamic-styles.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/modify-actions.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/modify-actions.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/modify-theme.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/modify-theme.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/settings-page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/settings-page.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/shortcodes\/product-list.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/shortcodes\/product-list.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/shortcodes\/woocommerce-cart.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/shortcodes\/woocommerce-cart.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/shortcodes\/woocommerce-checkout.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/shortcodes\/woocommerce-checkout.php",
+		"oF": 0
+		},
+	"\/config\/plugins\/woocommerce\/shortcodes\/woocommerce-my-account.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/plugins\/woocommerce\/shortcodes\/woocommerce-my-account.php",
+		"oF": 0
+		},
+	"\/config\/portfolio\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/portfolio\/config.php",
+		"oF": 0
+		},
+	"\/config\/post-formats\/assets\/compressed\/jquery.format-settings.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/post-formats\/assets\/compressed\/compressed\/jquery.format-settings.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/post-formats\/assets\/format-settings.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/post-formats\/assets\/format-settings-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/post-formats\/assets\/format-settings.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/post-formats\/assets\/format-settings.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/post-formats\/assets\/jquery.format-settings.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/post-formats\/assets\/compressed\/jquery.format-settings.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/post-formats\/class-format-settings.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/post-formats\/class-format-settings.php",
+		"oF": 0
+		},
+	"\/config\/post-formats\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/post-formats\/config.php",
+		"oF": 0
+		},
+	"\/config\/shortcode-composer\/assets\/compressed\/jquery.canvys-composer.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/shortcode-composer\/assets\/compressed\/compressed\/jquery.canvys-composer.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/shortcode-composer\/assets\/compressed\/jquery.canvys-modal.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/shortcode-composer\/assets\/compressed\/compressed\/jquery.canvys-modal.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/shortcode-composer\/assets\/jquery.canvys-composer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/shortcode-composer\/assets\/compressed\/jquery.canvys-composer.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/shortcode-composer\/assets\/jquery.canvys-modal.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/shortcode-composer\/assets\/compressed\/jquery.canvys-modal.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/shortcode-composer\/assets\/select-arrow.png": {
+		"ft": 32768,
+		"iS": 22188,
+		"oA": 0,
+		"oAP": "\/config\/shortcode-composer\/assets\/select-arrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/config\/shortcode-composer\/assets\/shortcode-composer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/shortcode-composer\/assets\/shortcode-composer-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/shortcode-composer\/assets\/shortcode-composer.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/shortcode-composer\/assets\/shortcode-composer.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/shortcode-composer\/class-shortcode-composer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcode-composer\/class-shortcode-composer.php",
+		"oF": 0
+		},
+	"\/config\/shortcode-composer\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcode-composer\/config.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/class-shortcode-control.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/class-shortcode-control.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/class-shortcode.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/class-shortcode.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/config.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/carousel-config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/carousel-config.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/color.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/color.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/coordinates.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/coordinates.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/dev.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/dev.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/file.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/file.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/gallery.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/gallery.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/icon.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/icon.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/image.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/image.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/layout.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/layout.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/link.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/link.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/list.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/list.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/number.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/number.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/pattern.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/pattern.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/select-image_size.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/select-image_size.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/select-multiple.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/select-multiple.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/select-page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/select-page.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/select-sidebar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/select-sidebar.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/select.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/select.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/slider-config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/slider-config.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/controls\/text.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/controls\/text.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/shortcode-regex.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/shortcode-regex.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/action-box.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/action-box.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/animated-number.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/animated-number.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/blog.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/blog.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/button-child.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/button-child.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/button-group.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/button-group.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/button.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/button.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/change-log.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/change-log.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/column-row.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/column-row.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/column.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/column.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/divider-row.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/divider-row.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/divider.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/divider.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/form-field.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/form-field.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/form.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/form.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/fullwidth-slide-element.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/fullwidth-slide-element.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/fullwidth-slide.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/fullwidth-slide.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/fullwidth-slider.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/fullwidth-slider.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/gallery.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/gallery.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/header-special.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/header-special.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/header-stack-line.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/header-stack-line.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/header-stack.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/header-stack.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/icon-box-child.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/icon-box-child.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/icon-box-group.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/icon-box-group.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/icon-box.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/icon-box.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/image-fullwidth.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/image-fullwidth.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/image.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/image.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/instructions-step.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/instructions-step.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/instructions.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/instructions.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/map-fullwidth.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/map-fullwidth.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/map-marker.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/map-marker.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/map.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/map.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/media-flag.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/media-flag.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/notification.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/notification.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/partner-group.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/partner-group.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/partner.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/partner.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/portfolio.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/portfolio.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/price-option.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/price-option.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/price-table.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/price-table.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/progress-bars-task.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/progress-bars-task.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/progress-bars.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/progress-bars.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/promo-box-line.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/promo-box-line.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/promo-box.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/promo-box.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/recent-portfolio.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/recent-portfolio.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/recent-posts.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/recent-posts.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/row.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/row.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/search-bar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/search-bar.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/section.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/section.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/single-column.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/single-column.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/social-group.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/social-group.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/spacer-row.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/spacer-row.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/spacer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/spacer.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/sticky-menu-item.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/sticky-menu-item.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/sticky-menu.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/sticky-menu.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/tab-group.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/tab-group.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/tab.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/tab.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/team-member.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/team-member.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/team.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/team.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/testimonial-group.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/testimonial-group.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/testimonial.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/testimonial.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/text-block.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/text-block.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/toggle-group.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/toggle-group.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/toggle.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/toggle.php",
+		"oF": 0
+		},
+	"\/config\/shortcodes\/tags\/video.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/shortcodes\/tags\/video.php",
+		"oF": 0
+		},
+	"\/config\/template-builder\/assets\/canvys-builder.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/template-builder\/assets\/canvys-builder-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/template-builder\/assets\/canvys-builder.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/template-builder\/assets\/canvys-builder.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/template-builder\/assets\/compressed\/jquery.canvys-builder.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/template-builder\/assets\/compressed\/compressed\/jquery.canvys-builder.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/template-builder\/assets\/jquery.canvys-builder.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/template-builder\/assets\/compressed\/jquery.canvys-builder.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/template-builder\/class-template-builder.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/template-builder\/class-template-builder.php",
+		"oF": 0
+		},
+	"\/config\/template-builder\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/template-builder\/config.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/assets\/camyno_logo.png": {
+		"ft": 32768,
+		"iS": 27067,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/assets\/camyno_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/config\/theme-settings\/assets\/compressed\/jquery.theme-settings.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/theme-settings\/assets\/compressed\/compressed\/jquery.theme-settings.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/theme-settings\/assets\/jquery.theme-settings.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/assets\/compressed\/jquery.theme-settings.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/theme-settings\/assets\/theme-settings.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/theme-settings\/assets\/theme-settings-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/theme-settings\/assets\/theme-settings.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/assets\/theme-settings.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/theme-settings\/class-settings-page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/class-settings-page.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/class-theme-settings.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/class-theme-settings.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/config.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/dynamic-styles.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/dynamic-styles.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/pages\/advanced.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/pages\/advanced.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/pages\/blog.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/pages\/blog.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/pages\/footer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/pages\/footer.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/pages\/general.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/pages\/general.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/pages\/header.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/pages\/header.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/pages\/portfolio.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/pages\/portfolio.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/pages\/sidebar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/pages\/sidebar.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/pages\/social.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/pages\/social.php",
+		"oF": 0
+		},
+	"\/config\/theme-settings\/pages\/visual.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/theme-settings\/pages\/visual.php",
+		"oF": 0
+		},
+	"\/config\/widget-areas\/assets\/compressed\/jquery.sidebar-manager.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/widget-areas\/assets\/compressed\/compressed\/jquery.sidebar-manager.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/widget-areas\/assets\/compressed\/jquery.widget-options.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/config\/widget-areas\/assets\/compressed\/compressed\/jquery.widget-options.min.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/widget-areas\/assets\/jquery.sidebar-manager.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/widget-areas\/assets\/compressed\/jquery.sidebar-manager.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/widget-areas\/assets\/jquery.widget-options.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/config\/widget-areas\/assets\/compressed\/jquery.widget-options.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/config\/widget-areas\/assets\/sidebar-manager.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/config\/widget-areas\/assets\/sidebar-manager-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/config\/widget-areas\/assets\/sidebar-manager.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/config\/widget-areas\/assets\/sidebar-manager.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/config\/widget-areas\/class-sidebar-manager.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/widget-areas\/class-sidebar-manager.php",
+		"oF": 0
+		},
+	"\/config\/widget-areas\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/widget-areas\/config.php",
+		"oF": 0
+		},
+	"\/config\/widget-areas\/get-sidebars.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/widget-areas\/get-sidebars.php",
+		"oF": 0
+		},
+	"\/config\/widget-areas\/register-widget-areas.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/config\/widget-areas\/register-widget-areas.php",
+		"oF": 0
+		},
+	"\/editor-style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/editor-style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/footer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/functions-canvys.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/functions-canvys.php",
+		"oF": 0
+		},
+	"\/functions.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/functions.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/inc\/animations.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/animations.php",
+		"oF": 0
+		},
+	"\/inc\/assets.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/assets.php",
+		"oF": 0
+		},
+	"\/inc\/class-html.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/class-html.php",
+		"oF": 0
+		},
+	"\/inc\/conditionals.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/conditionals.php",
+		"oF": 0
+		},
+	"\/inc\/content\/404-page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/404-page.php",
+		"oF": 0
+		},
+	"\/inc\/content\/additional-bar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/additional-bar.php",
+		"oF": 0
+		},
+	"\/inc\/content\/banner.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/banner.php",
+		"oF": 0
+		},
+	"\/inc\/content\/before-search.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/before-search.php",
+		"oF": 0
+		},
+	"\/inc\/content\/logo.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/logo.php",
+		"oF": 0
+		},
+	"\/inc\/content\/main-navigation.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/main-navigation.php",
+		"oF": 0
+		},
+	"\/inc\/content\/overlay-additional.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/overlay-additional.php",
+		"oF": 0
+		},
+	"\/inc\/content\/overlay-menu.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/overlay-menu.php",
+		"oF": 0
+		},
+	"\/inc\/content\/overlay-search.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/overlay-search.php",
+		"oF": 0
+		},
+	"\/inc\/content\/page-grid.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/page-grid.php",
+		"oF": 0
+		},
+	"\/inc\/content\/related-portfolio_items.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/related-portfolio_items.php",
+		"oF": 0
+		},
+	"\/inc\/content\/related-posts.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/related-posts.php",
+		"oF": 0
+		},
+	"\/inc\/content\/share-buttons.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/share-buttons.php",
+		"oF": 0
+		},
+	"\/inc\/content\/socket.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/content\/socket.php",
+		"oF": 0
+		},
+	"\/inc\/custom-menus.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/custom-menus.php",
+		"oF": 0
+		},
+	"\/inc\/dynamic-styles.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/dynamic-styles.php",
+		"oF": 0
+		},
+	"\/inc\/editor-style.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/editor-style.php",
+		"oF": 0
+		},
+	"\/inc\/formats\/aside.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/formats\/aside.php",
+		"oF": 0
+		},
+	"\/inc\/formats\/audio.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/formats\/audio.php",
+		"oF": 0
+		},
+	"\/inc\/formats\/chat.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/formats\/chat.php",
+		"oF": 0
+		},
+	"\/inc\/formats\/gallery.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/formats\/gallery.php",
+		"oF": 0
+		},
+	"\/inc\/formats\/image.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/formats\/image.php",
+		"oF": 0
+		},
+	"\/inc\/formats\/link.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/formats\/link.php",
+		"oF": 0
+		},
+	"\/inc\/formats\/quote.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/formats\/quote.php",
+		"oF": 0
+		},
+	"\/inc\/formats\/standard.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/formats\/standard.php",
+		"oF": 0
+		},
+	"\/inc\/formats\/video.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/formats\/video.php",
+		"oF": 0
+		},
+	"\/inc\/frontend.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/frontend.php",
+		"oF": 0
+		},
+	"\/inc\/globals.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/globals.php",
+		"oF": 0
+		},
+	"\/inc\/helpers.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/helpers.php",
+		"oF": 0
+		},
+	"\/inc\/icons.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/inc\/icons-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/inc\/localization.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/localization.php",
+		"oF": 0
+		},
+	"\/inc\/loops\/blog-boxed.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/loops\/blog-boxed.php",
+		"oF": 0
+		},
+	"\/inc\/loops\/blog-masonry.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/loops\/blog-masonry.php",
+		"oF": 0
+		},
+	"\/inc\/loops\/blog-minimal.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/loops\/blog-minimal.php",
+		"oF": 0
+		},
+	"\/inc\/loops\/blog-standard.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/loops\/blog-standard.php",
+		"oF": 0
+		},
+	"\/inc\/loops\/search.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/loops\/search.php",
+		"oF": 0
+		},
+	"\/inc\/plugins\/class-tgm-plugin-activation.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/plugins\/class-tgm-plugin-activation.php",
+		"oF": 0
+		},
+	"\/inc\/plugins\/layersliderwp-6.4.0.installable.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/plugins\/layersliderwp-6.4.0.installable.zip",
+		"oF": 0
+		},
+	"\/inc\/plugins\/register-plugins.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/plugins\/register-plugins.php",
+		"oF": 0
+		},
+	"\/inc\/static-text.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/static-text.php",
+		"oF": 0
+		},
+	"\/inc\/style.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/style.php",
+		"oF": 0
+		},
+	"\/inc\/typography.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/typography.php",
+		"oF": 0
+		},
+	"\/inc\/validation.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/validation.php",
+		"oF": 0
+		},
+	"\/inc\/widgets.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/widgets.php",
+		"oF": 0
+		},
+	"\/inc\/widgets\/google-map.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/widgets\/google-map.php",
+		"oF": 0
+		},
+	"\/inc\/widgets\/qr-code.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/widgets\/qr-code.php",
+		"oF": 0
+		},
+	"\/inc\/widgets\/recent-portfolio.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/widgets\/recent-portfolio.php",
+		"oF": 0
+		},
+	"\/inc\/widgets\/recent-posts.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/widgets\/recent-posts.php",
+		"oF": 0
+		},
+	"\/inc\/widgets\/social-media.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/widgets\/social-media.php",
+		"oF": 0
+		},
+	"\/inc\/widgets\/twitter-rss.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/widgets\/twitter-rss.php",
+		"oF": 0
+		},
+	"\/inc\/wp-updates-theme.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/wp-updates-theme.php",
+		"oF": 0
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/lang\/canvys.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lang\/canvys.po",
+		"oF": 0
+		},
+	"\/page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page.php",
+		"oF": 0
+		},
+	"\/screenshot.png": {
+		"ft": 32768,
+		"iS": 426638,
+		"oA": 0,
+		"oAP": "\/screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/search.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/search.php",
+		"oF": 0
+		},
+	"\/searchform.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/searchform.php",
+		"oF": 0
+		},
+	"\/sidebar-footer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-footer.php",
+		"oF": 0
+		},
+	"\/sidebar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar.php",
+		"oF": 0
+		},
+	"\/single-portfolio_item.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/single-portfolio_item.php",
+		"oF": 0
+		},
+	"\/single-post.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/single-post.php",
+		"oF": 0
+		},
+	"\/single.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/single.php",
+		"oF": 0
+		},
+	"\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/style-min.css",
+		"oF": 1,
+		"oS": 0
+		},
+	"\/template-blank.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-blank.php",
+		"oF": 0
+		},
+	"\/template-grid.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-grid.php",
+		"oF": 0
+		},
+	"\/template-noheader.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-noheader.php",
+		"oF": 0
+		},
+	"\/tribe-events\/default-template.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tribe-events\/default-template.php",
+		"oF": 0
+		},
+	"\/tribe-events\/list\/single-event.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tribe-events\/list\/single-event.php",
+		"oF": 0
+		},
+	"\/tribe-events\/pro\/day\/single-event.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tribe-events\/pro\/day\/single-event.php",
+		"oF": 0
+		},
+	"\/tribe-events\/pro\/map\/single-event.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tribe-events\/pro\/map\/single-event.php",
+		"oF": 0
+		},
+	"\/tribe-events\/single-event.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tribe-events\/single-event.php",
+		"oF": 0
+		},
+	"\/woocommerce\/archive-product.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/archive-product.php",
+		"oF": 0
+		},
+	"\/woocommerce\/loop\/add-to-cart.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/loop\/add-to-cart.php",
+		"oF": 0
+		},
+	"\/woocommerce\/loop\/loop-end.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/loop\/loop-end.php",
+		"oF": 0
+		},
+	"\/woocommerce\/loop\/loop-start.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/loop\/loop-start.php",
+		"oF": 0
+		},
+	"\/woocommerce\/loop\/rating.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/loop\/rating.php",
+		"oF": 0
+		},
+	"\/woocommerce\/notices\/error.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/notices\/error.php",
+		"oF": 0
+		},
+	"\/woocommerce\/notices\/notice.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/notices\/notice.php",
+		"oF": 0
+		},
+	"\/woocommerce\/notices\/success.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/notices\/success.php",
+		"oF": 0
+		},
+	"\/woocommerce\/single-product.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/single-product.php",
+		"oF": 0
+		},
+	"\/woocommerce\/single-product\/rating.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/single-product\/rating.php",
+		"oF": 0
+		},
+	"\/woocommerce\/single-product\/review.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/single-product\/review.php",
+		"oF": 0
+		},
+	"\/woocommerce\/single-product\/tabs\/tabs.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/woocommerce\/single-product\/tabs\/tabs.php",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 511727530,
+	"displayValue": "Camyno",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-ceiling"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 0,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"gcl": {
+			"active": false,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onevar": {
+			"active": false,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"smarttabs": {
+			"active": false,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"trailing": {
+			"active": true,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": false,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.min.js",
+		"autoOutputPathRelativePath": "\/compressed",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "scss",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 3,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 0,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "multisite\/camyno",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

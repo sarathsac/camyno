@@ -1,0 +1,46 @@
+[class*="cv-highlight-"] {
+   padding: 0.25em;
+}
+
+.cv-highlight-yellow {
+   background: #fdfbef;
+   color: #c3690f;
+}
+
+.cv-highlight-blue {
+   background: #e5e7f5;
+   color: #38659a;
+}
+
+.cv-highlight-red {
+   background: #fcf4f0;
+   color: #ac2b1f;
+}
+
+.cv-highlight-green {
+   background: #d9ebaa;
+   color: #4c5d36;
+}
+
+[class*="cv-dropcap-"]:before {
+   padding: 4px;
+   background: #f9f9f9;
+   color: #888;
+   font-weight: 600;
+   font-size: 9px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-family: tahoma;
+}
+
+.cv-dropcap-small:before {
+   content: "Small Dropcap";
+}
+
+.cv-dropcap-medium:before {
+   content: "Medium Dropcap";
+}
+
+.cv-dropcap-large:before {
+   content: "Large Dropcap";
+}

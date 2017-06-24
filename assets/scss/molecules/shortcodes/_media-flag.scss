@@ -1,0 +1,51 @@
+.cv-media-flag {
+
+   &.responsive-behavior-content .flag-media,
+   &.responsive-behavior-media .flag-content {
+      position: absolute;
+      top: -9999em;
+      left: -99999em;
+   }
+
+   .flag-media * {
+      margin-bottom: 0;
+   }
+
+   &.responsive-behavior-above .flag-media {
+      margin-bottom: 0.9375em;
+   }
+
+   > div {
+      clear: both;
+   }
+
+   @media #{$breakpoint_1} { & {
+
+      &.padding-normal .flag-content { padding: 1.5625em; }
+      &.padding-more .flag-content { padding: 2.1875em; }
+      &.padding-much-more .flag-content { padding: 3.125em; }
+
+      &.responsive-behavior-above .flag-media { margin-bottom: 0; }
+
+      > div {
+         width: 50%;
+         clear: none;
+         position: relative !important;
+         top: 0 !important; left: 0 !important;
+      }
+
+      &.media-position-left {
+         > .flag-content { float: right; }
+         > .flag-media { float: left; }
+      }
+
+      &.media-position-right {
+         > .flag-content { float: left; }
+         > .flag-media { float: right; }
+      }
+
+      .js & { opacity: 0; }
+
+   } }
+
+}

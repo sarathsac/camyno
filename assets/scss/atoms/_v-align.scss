@@ -1,0 +1,19 @@
+.v-align-top,
+.v-align-middle,
+.v-align-bottom {
+
+   display: table !important;
+   table-layout: fixed;
+   width: 100%;
+   height: 100%;
+
+   > * {
+      display: table-cell !important;
+      vertical-align: middle;
+   }
+
+}
+
+.v-align-top > * { vertical-align: top; }
+.v-align-middle > * { vertical-align: middle; }
+.v-align-bottom > * { vertical-align: bottom; }

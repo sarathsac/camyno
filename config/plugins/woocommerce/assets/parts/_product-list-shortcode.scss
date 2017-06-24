@@ -1,0 +1,42 @@
+.woocommerce .cv-woocommerce-product-list {
+
+   .wc-loop-thumbnail {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+   }
+
+   .overlay-link,
+   .product-caption {
+      position: absolute;
+      top: 0; left: 0;
+      height: 100%;
+      width: 100%;
+   }
+
+   .product-caption {
+      background: rgba(0,0,0,0.5);
+      padding: 1.5625em;
+      transition: opacity 0.25s ease;
+
+      h3 {
+         margin-bottom: 0;
+         line-eight: 1.5;
+         font-size: 1.25em;
+      }
+
+      .price {
+         font-size: 1.25em;
+         del { font-size: 0.75em; }
+      }
+
+      .star-rating {
+         opacity: 0.75;
+      }
+
+   }
+
+   .wc-loop-thumbnail .product-caption { opacity: 0; }
+   .wc-loop-thumbnail:hover .product-caption { opacity: 1; }
+
+}

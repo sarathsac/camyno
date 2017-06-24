@@ -1,0 +1,168 @@
+.cv-fullscreen-overlay {
+
+   /* Overlay Menu */
+   &.overlay-menu-wrap {
+
+      .overlay-menu {
+         &, ul { list-style: none; }
+         &, ul, li {
+            margin: 0 !important;
+            padding: 0 !important;
+         }
+         > li > ul {
+            overflow: hidden;
+            transition: height 0.25s ease;
+         }
+         &.submenu-open > li > ul {
+            transition: height 0.25s ease 0.25s;
+         }
+      }
+
+      a {
+         display: block;
+         transition: opacity 0.25s ease 0.5s, background 0.25s ease, height 0.25s ease 0.25s;
+         -webkit-tap-highlight-color: transparent;
+      }
+
+      .overlay-menu.submenu-open a {
+         transition: opacity 0.25s ease, background 0.25s ease, height 0.25s ease;
+      }
+
+      /* Font Sizing */
+      .overlay-menu {
+         > li > a { font-size: 1.25em; }
+         ul a { font-size: 1em; }
+         ul ul a { font-size: 0.85em; }
+         @media #{$breakpoint_1} { & {
+            > li > a { font-size: 1.5em; }
+            ul a { font-size: 1em; }
+         } }
+         @media #{$breakpoint_2} { & {
+            > li > a { font-size: 2em; }
+            ul a { font-size: 1.15em; }
+         } }
+      }
+
+      /* Add spacing above menu */
+      .overlay-menu { margin-top: 60px !important; }
+
+      /* Add borders */
+      .overlay-menu > li {
+         &.menu-item-has-children,
+         &.page_item_has_children {
+            transition: border 0.25s ease 0.25s;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            & + {
+               .menu-item-has-children,
+               .page_item_has_children {
+                  border-top: none !important;
+               }
+            }
+         }
+      }
+      .overlay-menu.submenu-open > li {
+         &.menu-item-has-children,
+         &.page_item_has_children {
+            transition: border 0.25s ease;
+            border-top-color: transparent;
+            border-bottom-color: transparent;
+         }
+      }
+
+      /* Hide non active menu items */
+      .overlay-menu.submenu-open > li:not(.is-active) > a {
+         opacity: 0 !important;
+         height: 0px !important;
+         &:after, &:before { display: none; }
+      }
+
+      .overlay-menu > li {
+
+         /* Menu items with children */
+         &.menu-item-has-children,
+         &.page_item_has_children {
+            position: relative;
+            > a { z-index: 99; }
+            > a > .toggle {
+               position: absolute;
+               z-index: 99;
+               top: 0; bottom: 0;
+               right: 15px;
+               margin: auto 0;
+               height: 1.5em; width: 1.5em;
+               &:after {
+                  position: absolute;
+                  top: 0; left: 0;
+                  height: 1.5em;
+                  width: 1.5em;
+                  line-height: 1.5em;
+                  text-align: center;
+                  font-family: 'theme-icons';
+                  content: '\ea1b';
+                  display: inline-block;
+                  transition: transform 0.25s ease;
+                  transform: none;
+                  text-shadow: rgba(0,0,0,0.75) 0px 0px 1px !important;
+               }
+            }
+            > a:before {
+               position: absolute;
+               top: 0; bottom: 0;
+               right: 15px;
+               margin: auto 0;
+               height: 1.5em; width: 1.5em;
+               content: " ";
+               background: rgba(0,0,0,0.05);
+               border-radius: 1.5em;
+               box-shadow: inset rgba(0,0,0,0.05) 0px 0px 0px 1px;
+            }
+         }
+
+         /* Second level menus */
+         ul { z-index: 20; }
+
+         /* Third Level Menus */
+         ul ul {
+            height: auto !important;
+            overflow: visible !important;
+            background: rgba(0,0,0,0.025) !important;
+         }
+
+         /* Top level items */
+         > a {
+            height: 2em;
+            line-height: 2em;
+            font-weight: 300;
+            overflow: hidden;
+         }
+
+         /* Second level items */
+         ul a {
+            height: 40px;
+            line-height: 40px;
+            font-weight: 600;
+            opacity: 0.85;
+            padding: 0 !important;
+            &:hover { opacity: 1; }
+         }
+
+         /* Third level items */
+         ul ul a {
+            font-weight: 300;
+         }
+
+         /* hide inactive sub menus */
+         &:not(.is-active) > ul { height: 0px !important; }
+
+         /* Add light background to active links */
+         &.is-active > a { background: rgba(0,0,0,0.05); }
+
+         /* Rotate the plus icon */
+         &.is-active > a > .toggle:after { transform: rotate(45deg); }
+
+      }
+
+   }
+
+}

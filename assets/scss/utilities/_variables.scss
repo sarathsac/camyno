@@ -1,0 +1,49 @@
+/**
+ * Global variables used by all stylesheets
+ */
+
+/* Global spacing below elements */
+$global_margin_after: 10px;
+
+/* Global side spacing for wrappers */
+$side_padding: 1.5em;
+
+/* Horixontal spacing for column/grid layouts */
+$spacing_1: 1em;
+$spacing_2: 2em;
+$spacing_3: 4em;
+$spacing_4: 6em;
+
+/* Media Query Breakpoints */
+$breakpoint_1: "all and (min-width: 40em)";
+$breakpoint_2: "all and (min-width: 50em)";
+$breakpoint_3: "all and (min-width: 60em)";
+$breakpoint_4: "all and (min-width: 70em)";
+
+/* Reverse Media Query Breakpoints */
+$breakpoint_max_1: "all and (max-width: 40em)";
+$breakpoint_max_2: "all and (max-width: 50em)";
+$breakpoint_max_3: "all and (max-width: 60em)";
+$breakpoint_max_4: "all and (max-width: 70em)";
+
+/* Special Breakpoints */
+$breakpoint_sidebars: "all and (min-width: 50em)";
+$breakpoint_max_sidebars: "all and (max-width: 50em)";
+
+/* Global Form Colors */
+$required_marker_color: #DB4321;
+$input_error_border: #F26646;
+
+/* Notification Colors */
+
+$info_bg_color: #e5e7f5;
+$info_text_color: #38659a;
+
+$success_bg_color: #d9ebaa;
+$success_text_color: #4c5d36;
+
+$warning_bg_color: #fdfbef;
+$warning_text_color: #c3690f;
+
+$error_bg_color: #fcf4f0;
+$error_text_color: #ac2b1f;

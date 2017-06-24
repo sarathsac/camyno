@@ -1,0 +1,41 @@
+.cv-twitter-rss-widget {
+
+   a {
+      display: block;
+      overflow: hidden;
+      line-height: 1.25;
+   }
+
+   strong {
+      display: block;
+      margin-top: 0.15em;
+   }
+
+   span {
+      opacity: 0.75;
+      font-size: 0.85em;
+   }
+
+   i {
+      font-size: 1.25em;
+      float: left;
+      width: 2.25em;
+      height: 2.25em;
+      line-height: 2.25em;
+      border-radius: 3px;
+      background: #eee;
+      text-align: center;
+      margin-right: 0.5em;
+      color: #fff;
+      text-shadow: rgba(0,0,0,0.2) 0px 1px 2px;
+   }
+
+   .twitter-feed i {
+      background: #4DA9F0;
+   }
+
+   .rss-feed i {
+      background: #F79B42;
+   }
+
+}

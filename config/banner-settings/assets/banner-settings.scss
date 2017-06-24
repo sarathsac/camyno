@@ -1,0 +1,118 @@
+@import "../../../assets/scss/utilities/variables";
+@import "../../../assets/scss/utilities/mixins";
+@import "../../../assets/scss/atoms/clearfix";
+@import "../../../assets/scss/atoms/split";
+@import "../../../assets/scss/atoms/grid";
+
+.cv-banner-settings-form-table {
+
+   /* Color Picker */
+   .wp-picker-container .button {
+      padding: 5px 8px !important;
+      line-height: 16px !important;
+      height: auto !important;
+   }
+
+   /* Extra padding */
+   tr {
+      td { padding: 30px 0; }
+      &:not(.no-border) { border-bottom: 1px solid #ddd; }
+   }
+
+   /* Custom banner Controls Styles */
+   .custom-settings-option {
+      display: none;
+      p { margin-bottom: 8px; }
+   }
+   @media screen and (min-width: 783px) {
+      .custom-settings-option {
+         background: #f9f9f9;
+         border-left: 1px solid #ddd;
+         border-right: 1px solid #ddd;
+         th {
+            padding: {
+               left: 30px;
+               right: 30px;
+            }
+         }
+         html:not([dir="rtl"]) & td { padding-right: 30px; }
+         html[dir="rtl"] & td { padding-left: 30px; }
+      }
+   }
+
+   /* Show/Hide appropriate background image controls */
+   #cv_banner_bg_image_source_control_wrap .image-controls {
+
+      display: none;
+
+      #cv_banner_bg_custom_control_wrap,
+      #cv_banner_bg_preset_control_wrap {
+         display: none;
+      }
+
+      &[data-source="custom"] {
+         display: block;
+         #cv_banner_bg_custom_control_wrap { display: block; }
+      }
+
+      &[data-source="preset"] {
+         display: block;
+         #cv_banner_bg_preset_control_wrap { display: block; }
+      }
+
+   }
+
+   /* Custom background Uploader */
+   #cv_banner_bg_custom_control_wrap.has-image #cv_banner_bg_custom_select_image,
+   #cv_banner_bg_custom_control_wrap:not(.has-image) #cv_banner_bg_custom_remove_image,
+   #cv_banner_bg_custom_control_wrap:not(.has-image) .cv_banner_bg_custom_preview,
+   #cv_banner_bg_custom_control_wrap:not(.has-image) #cv_banner_bg_style_control_wrap {
+      display: none;
+   }
+   .cv_banner_bg_custom_preview {
+      max-width: 400px;
+      padding: 5px;
+      margin-bottom: 8px;
+      background: #f9f9f9;
+      border: 1px solid #eee;
+      img {
+         display: block;
+         cursor: pointer;
+         max-width: 100%;
+      }
+   }
+
+   /* Background pattern Presets */
+   .cv-background-presets {
+      .background-preset-option {
+         padding-bottom: 10px !important;
+         margin-bottom: 0 !important;
+         input { display: none; }
+         label {
+            display: block;
+            padding: 5px;
+         }
+         label:hover,
+         input:checked + label {
+            background: rgba(0,0,0,0.05);
+         }
+         strong {
+            display: block;
+            margin: 0 0 5px !important;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            color: rgba(0,0,0,0.7);
+            font-size: 11px;
+            i { margin-right: 5px; }
+         }
+         input:not(:checked) + label .icon-circle,
+         input:checked + label .icon-circle-empty { display: none; }
+         .quick-preview {
+            height: 40px;
+            border: 2px solid #fff;
+            box-shadow: #ddd 0px 0px 0px 1px;
+         }
+      }
+   }
+
+}

@@ -1,0 +1,9 @@
+.filter-list {
+
+   li {
+      &:not(:last-child) {
+         padding-right: 5px;
+      }
+   }
+
+}

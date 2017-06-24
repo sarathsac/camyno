@@ -1,0 +1,61 @@
+#payment,
+.woocommerce form.checkout,
+.woocommerce form.checkout_coupon,
+div.woocommerce form, {
+
+   h3 {
+      margin-bottom: 0;
+      padding-bottom: 0.5em;
+   }
+
+   /* Form Fields */
+   .form-row {
+      label {
+         &:not(.checkbox) {
+            display: block;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+            abbr {
+               border-bottom: none;
+               color: $required_marker_color;
+            }
+         }
+      }
+      select,
+      .input-text {
+         width: 100%;
+      }
+      input, select, textarea {
+         margin-bottom: 0.5em;
+      }
+      &.woocommerce-invalid {
+         input, select, textarea {
+            border: 1px solid $input_error_border !important;
+         }
+      }
+   }
+
+   /* Form Rows */
+   .form-row-wide {
+      clear: both;
+   }
+   @media #{$breakpoint_1} {
+      html:not([dir="rtl"]) & {
+         .form-row-first, .form-row-last {
+            float: left;
+            width: 50%;
+         }
+         .form-row-first { padding-right: $spacing_1; }
+         .form-row-last { padding-left: $spacing_1; }
+      }
+      html[dir="rtl"] & {
+         .form-row-first, .form-row-last {
+            float: right;
+            width: 50%;
+         }
+         .form-row-first { padding-left: $spacing_1; }
+         .form-row-last { padding-right: $spacing_1; }
+      }
+   }
+
+}

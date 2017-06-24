@@ -1,0 +1,36 @@
+.woocommerce {
+
+   .quantity {
+
+      margin-bottom: 1em;
+      border-radius: 3px;
+
+      html:not([dir="rtl"]) & {
+         float: left;
+         margin-right: 0.625em;
+      }
+      html[dir="rtl"] & {
+         float: right;
+         margin-left: 0.625em;
+      }
+
+      input {
+         border: none !important;
+         background: transparent !important;
+         width: 40px;
+         height: 40px;
+         text-align: center;
+         margin-bottom: 0 !important;
+         &[type="number"] {
+            -moz-appearance: textfield;
+            &::-webkit-inner-spin-button,
+            &::-webkit-outer-spin-button {
+               -webkit-appearance: none;
+               margin: 0;
+            }
+         }
+      }
+
+   }
+
+}

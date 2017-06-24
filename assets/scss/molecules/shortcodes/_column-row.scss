@@ -1,0 +1,14 @@
+.cv-column-row {
+
+   &.is-boxed > * > .column-inner {
+      padding: 1em;
+      border-radius: 3px;
+      box-shadow: rgba(0,0,0,0.1) 0px 5px 5px -5px;
+      &:before {
+         content: "";
+         display: block;
+         height: $global_margin_after;
+      }
+   }
+
+}

@@ -1,0 +1,40 @@
+.cv-divider {
+
+   .divider-inner {
+
+      height: 1px;
+      line-height: 0px;
+
+      /* Alignment */
+      &.align-left { float: left; text-align: left; }
+      &.align-right { float: right; text-align: right; }
+      &.align-center { margin: 0 auto; text-align: center; }
+
+      /* Divider Text */
+      .divider-text {
+         padding: 0 0.5em;
+         height: 1.5em;
+         line-height: 1.5em;
+         margin-top: -0.75em;
+         display: inline-block;
+         color: inherit;
+      }
+
+      /* Divider icon */
+      .divider-icon i {
+         font-size: 1.25em;
+      }
+
+      /* Divider accent */
+      &.styled-divider {
+         .divider-accent {
+            height: 0.75em;
+            width: 0.75em;
+            margin-top: -0.375em;
+            display: inline-block;
+         }
+      }
+
+   }
+
+}

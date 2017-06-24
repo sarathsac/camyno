@@ -1,0 +1,40 @@
+/* Scalable Content */
+[class*="cv-scalable-"] {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+[class*="cv-scalable-"]:after {
+  display: block;
+  content: "";
+}
+.cv-scalable-1x1:after {
+  padding-top: 100%;
+}
+.cv-scalable-16x9:after {
+  padding-top: 56.25%;
+}
+.cv-scalable-3x2:after {
+  padding-top: 66.66%;
+}
+.cv-scalable-4x2:after {
+  padding-top: 50%;
+}
+.cv-scalable-5x2:after {
+  padding-top: 40%;
+}
+.cv-scalable-6x2:after {
+  padding-top: 33%;
+}
+.scalable-content {
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0;
+  overflow: hidden;
+}
+
+/* Scalable Typogrphy */
+.cv-scaling-typography {
+  opacity: 0;
+  .no-js & { opacity: 1; }
+}

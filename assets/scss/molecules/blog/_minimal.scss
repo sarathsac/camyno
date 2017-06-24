@@ -1,0 +1,80 @@
+.posts-wrapper.style-minimal + .cv-pagination {
+   margin-bottom: 60px;
+}
+
+.post.style-minimal {
+
+   .post-inner {
+      max-width: 800px;
+      margin: 0 auto;
+   }
+
+   padding: 60px 25px;
+   font-size: 1.25em;
+   @media #{$breakpoint_max_1} { & {
+      font-size: 1em !important;
+   } }
+   text-align: center;
+
+   /* Post Categories */
+   .post-category {
+      a {
+         text-transform: uppercase;
+         letter-spacing: 1px;
+      }
+      a:not(:last-child):after {
+         content: ",";
+         margin-right: 0.1875em;
+      }
+   }
+
+   /* Post Title */
+   .post-title {
+      font-weight: 600;
+      @media #{$breakpoint_max_1} { & {
+         font-size: 1.25em !important;
+      } }
+   }
+
+   &.format-quote .post-title {
+      font-family: georgia;
+      text-transform: none;
+      letter-spacing: 0px;
+      font-weight: 400;
+      font-style: italic;
+   }
+
+   /* Post Content */
+   .post-content {
+      font-size: 0.85em;
+      margin: $global_margin_after/2 0;
+      @media #{$breakpoint_1} { & {
+         font-size: 1.5em;
+      } }
+   }
+
+   /* Post Meta */
+   .post-meta {
+
+      a, span {
+         text-decoration: none;
+      }
+
+      a {
+         transition: color 0.25s ease;
+      }
+
+      li {
+         float: none !important;
+         display: inline-block !important;
+      }
+
+      > li:not(:last-child):after {
+         content: "/";
+         margin: 0 0.5em;
+         opacity: 0.5;
+      }
+
+   }
+
+}

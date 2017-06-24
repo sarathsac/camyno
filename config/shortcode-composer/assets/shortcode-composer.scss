@@ -1,0 +1,702 @@
+@import "../../../assets/scss/utilities/variables";
+@import "../../../assets/scss/utilities/mixins";
+@import "../../../assets/scss/atoms/visibility";
+@import "../../../assets/scss/atoms/clearfix";
+@import "../../../assets/scss/atoms/cloud-list";
+@import "../../../assets/scss/atoms/split";
+@import "../../../assets/scss/atoms/grid";
+
+$wp_breakpoint_1: "screen and (max-width: 782px)";
+
+/* Disable body scrolling when modal is open */
+body.cv-composer-active { overflow: hidden !important; }
+
+#cv-composer-absolute-container { z-index: 150000; /* Do not modify this */ }
+
+/* Only reveal the add shortcode button for post content editors */
+#wp-content-wrap .button.cv-composer-launch { display: inline-block !important; }
+
+/* Shortcode COntent WP Editor */
+#cv-shortcode-content-wp-editor-wrap {
+   position: fixed;
+   top: 0; left: 0;
+   height: 100%;
+   width: 100%;
+   background: rgba(255,255,255,0.975);
+   overflow: hidden;
+   z-index: 100001; /* Do not modify this */
+   display: none; /* Hidden by default */
+   .cv-shortcode-content-wp-editor-wrap-controls,
+   .cv-shortcode-content-wp-editor {
+      margin: 0 auto;
+      padding: 15px 50px;
+      max-width: 1000px;
+   }
+   .cv-shortcode-content-wp-editor-wrap-controls {
+      text-align: right;
+      overflow: hidden;
+      padding: 15px 50px;
+      button {
+         margin: 0 0 0 15px;
+         padding: 0;
+         display: block;
+         float: right;
+         height: 50px;
+         width: 50px;
+         border-radius: 50px;
+         border: 2px solid #ccc;
+         color: #888;
+         line-height: 47px;
+         text-align: center;
+         background: transparent;
+         cursor: pointer;
+         font-size: 20px;
+         transition: border 0.25s ease, color 0.25s ease;
+         &:hover {
+            color: #333;
+            border: 2px solid #777;
+         }
+      }
+   }
+}
+body.cv-shortcode-content-wp-editor-active {
+   overflow: hidden;
+   #cv-shortcode-content-wp-editor-wrap {
+      display: block !important;
+   }
+}
+
+/* Style the overlay */
+.cv-composer-overlay {
+   position: fixed;
+   top: 0; left: 0; right: 0;
+   width: 100%; height: 100%;
+   background: transparent;
+   z-index: 100000; /* Do not modify this */
+   overflow: hidden;
+   backface-visibility: hidden;
+}
+
+/* Only apply scrolling / background color to foremost overlay */
+.cv-composer-overlay:last-child {
+   background: rgba(0,0,0,0.65);
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+/* == Styling the entrance/exit == */
+
+.cv-composer-container {
+   max-width: 1200px;
+   margin: 0 auto;
+   opacity: 0;
+   transition: opacity 0.1s ease;
+}
+
+/* == basic typography == */
+
+.cv-composer-overlay a {
+   cursor: pointer;
+   outline: none;
+}
+
+/* == Modal Header == */
+
+.cv-composer-header-wrap,
+.cv-composer-header-wrap * {
+   box-sizing: border-box;
+}
+
+.cv-composer-header-wrap {
+   position: absolute;
+   top: 0; left: 0; right: 0;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1200px;
+   padding: 0 25px;
+   z-index: 8;
+}
+
+/* Instance 1 */
+.cv-composer-overlay .cv-composer-header-wrap {
+   padding: 0 25px;
+}
+
+@media #{$breakpoint_2} {
+
+   /* Instance 2 */
+   .cv-composer-overlay:nth-child(2) .cv-composer-header-wrap {
+      padding: 0 40px;
+   }
+
+   /* Instance 3 */
+   .cv-composer-overlay:nth-child(3) .cv-composer-header-wrap {
+      padding: 0 55px;
+   }
+
+   /* Instance 3 */
+   .cv-composer-overlay:nth-child(4) .cv-composer-header-wrap {
+      padding: 0 70px;
+   }
+
+}
+
+.cv-composer-header {
+   background: #93CF53;
+   overflow: hidden;
+   padding: 10px 25px;
+   line-height: 35px;
+}
+
+/* Fresh/ Default Skin */
+.cv-composer-header,
+.cv-composer-toolbar {
+   background: #0074a2;
+}
+
+/* Light Skin */
+.admin-color-light {
+   .cv-composer-header,
+   .cv-composer-toolbar {
+      background: #555;
+   }
+}
+
+/* Blue Skin */
+.admin-color-blue {
+   .cv-composer-header,
+   .cv-composer-toolbar {
+      background: #4796b3;
+   }
+}
+
+/* Coffee Skin */
+.admin-color-coffee {
+   .cv-composer-header,
+   .cv-composer-toolbar {
+      background: #9ea476;
+   }
+}
+
+/* Ectoplasm Skin */
+.admin-color-ectoplasm {
+   .cv-composer-header,
+   .cv-composer-toolbar {
+      background: #a3b745;
+   }
+}
+
+/* Midnight Skin */
+.admin-color-midnight {
+   .cv-composer-header,
+   .cv-composer-toolbar {
+      background: #e14d43;
+   }
+}
+
+/* Ocean Skin */
+.admin-color-ocean {
+   .cv-composer-header,
+   .cv-composer-toolbar {
+      background: #9ebaa0;
+   }
+}
+
+/* Sunrise Skin */
+.admin-color-sunrise {
+   .cv-composer-header,
+   .cv-composer-toolbar {
+      background: #dd823b;
+   }
+}
+
+.cv-composer-title {
+   height: 35px;
+   line-height: 35px;
+   margin: 0; padding: 0;
+   font-weight: 300;
+   font-size: 12px;
+   color: rgba(255,255,255,0.9);
+}
+
+.cv-composer-title [class*="icon-"] {
+   display: none;
+}
+
+html:not([dir="rtl"]) {
+   .cv-composer-header {
+      text-align: left;
+   }
+}
+html[dir="rtl"] {
+   .cv-composer-header {
+      text-align: right;
+   }
+}
+
+@media #{$breakpoint_2} {
+   .cv-composer-header {
+      text-align: center !important;
+   }
+   .cv-composer-title {
+      font-size: 16px;
+   }
+}
+
+/* == Modal Header Toolbar == */
+
+.cv-composer-toolbar {
+   position: absolute;
+   top: 10px;
+   height: 35px;
+}
+.cv-composer-toolbar ul {
+   list-style: none;
+   margin: 0; padding: 0;
+}
+.cv-composer-toolbar a {
+   display: block;
+   width: 35px;
+   text-align: center;
+   height: 35px;
+   line-height: 32px;
+   border: 2px solid rgba(255,255,255,0.75);
+   color: rgba(255,255,255,0.75);
+   font-size: 16px;
+   border-radius: 50px;
+}
+.cv-composer-toolbar a:hover {
+   background: rgba(255,255,255,0.075);
+   border-color: rgba(255,255,255,1);
+   color: rgba(255,255,255,1);
+}
+
+/* Submit button */
+.cv-composer-submit {
+   .cv-builder-is-loading & {
+      border: 2px dashed rgba(255,255,255,0.75);
+      animation: rotating 2s linear infinite;
+      i { display: none; }
+   }
+}
+@keyframes rotating {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+html:not([dir="rtl"]) {
+   .cv-composer-overlay .cv-composer-toolbar {
+      right: 50px;
+   }
+   .cv-composer-toolbar ul li {
+      float: left;
+   }
+   .cv-composer-toolbar a {
+      margin-left: 10px;
+   }
+}
+html[dir="rtl"] {
+   .cv-composer-overlay .cv-composer-toolbar {
+      left: 50px;
+   }
+   .cv-composer-toolbar ul li {
+      float: right;
+   }
+   .cv-composer-toolbar a {
+      margin-right: 10px;
+   }
+}
+@media #{$breakpoint_2} {
+   html:not([dir="rtl"]) {
+      .cv-composer-overlay:nth-child(2) .cv-composer-toolbar {
+         right: 65px;
+      }
+      .cv-composer-overlay:nth-child(3) .cv-composer-toolbar {
+         right: 80px;
+      }
+      .cv-composer-overlay:nth-child(4) .cv-composer-toolbar {
+         right: 95px;
+      }
+   }
+   html[dir="rtl"] {
+      .cv-composer-overlay:nth-child(2) .cv-composer-toolbar {
+         left: 65px;
+      }
+      .cv-composer-overlay:nth-child(3) .cv-composer-toolbar {
+         left: 80px;
+      }
+      .cv-composer-overlay:nth-child(4) .cv-composer-toolbar {
+         left: 95px;
+      }
+   }
+}
+
+/* == Composer Modal == */
+
+.cv-composer-modal-wrap {
+   box-sizing: border-box;
+}
+.cv-composer-modal-wrap {
+   margin: 0 auto;
+   max-width: 1200px;
+   min-height: 100%;
+}
+.cv-composer-modal {
+   background: #fff;
+   box-shadow: rgba(0,0,0,0.15) 0px 0px 5px 5px;
+}
+
+/* Instance 1 */
+.cv-composer-overlay .cv-composer-modal-wrap {
+   padding: 55px 25px 0;
+}
+
+@media #{$breakpoint_2} {
+
+   /* Instance 2 */
+   .cv-composer-overlay:nth-child(2) .cv-composer-modal-wrap {
+      padding: 55px 40px 0;
+   }
+
+   /* Instance 3 */
+   .cv-composer-overlay:nth-child(3) .cv-composer-modal-wrap {
+      padding: 55px 55px 0;
+   }
+
+   /* Instance 4 */
+   .cv-composer-overlay:nth-child(4) .cv-composer-modal-wrap {
+      padding: 55px 70px 0;
+   }
+
+}
+
+/* == Modal Content == */
+
+.cv-modal-content-padding { overflow: hidden; padding: 25px 25px 0; }
+.cv-modal-content-padding.with-bottom { padding: 25px; }
+
+/* == Large Options == */
+
+.cv-composer-large-option {
+   display: block;
+   padding: 35px 25px;
+   font-size: 16px;
+   font-weight: 300;
+   border: 1px solid #eee;
+   border-radius: 5px;
+   margin-bottom: 25px;
+   color: #777;
+   line-height: 25px;
+}
+.cv-composer-large-option span,
+.cv-composer-large-option strong {
+   display: block;
+}
+.cv-composer-large-option:hover {
+   background: #f9f9f9;
+   border: 1px solid #ddd;
+   color: #444;
+}
+.cv-composer-large-option.has-icon [class*="icon-"] {
+   display: none;
+}
+
+.cv-composer-large-option strong {
+   font-weight: 24px;
+   margin-bottom: 5px;
+   color: #222;
+}
+.cv-composer-large-option:hover strong {
+   color: #000;
+}
+
+@media #{$breakpoint_2} {
+   .cv-composer-large-option.has-icon [class*="icon-"] {
+      display: block;
+      height: 50px;
+      width: 50px;
+      font-size: 50px;
+      margin-top: 10px;
+      text-align: center;
+   }
+   html:not([dir="rtl"]) {
+      .cv-composer-large-option.has-icon strong,
+      .cv-composer-large-option.has-icon span {
+         margin-left: 70px;
+      }
+      .cv-composer-large-option.has-icon [class*="icon-"] {
+         float: left;
+      }
+   }
+   html[dir="rtl"] {
+      .cv-composer-large-option.has-icon strong,
+      .cv-composer-large-option.has-icon span {
+         margin-right: 70px;
+      }
+      .cv-composer-large-option.has-icon [class*="icon-"] {
+         float: right;
+      }
+   }
+}
+
+/* == Available Modules == */
+
+.cv-composer-available-module {
+   display: block;
+   padding: 25px 25px 0px;
+   border: 1px solid #eee;
+   border-radius: 5px;
+   text-align: center;
+   box-sizing: border-box;
+   min-height: 140px;
+}
+.cv-composer-available-module [class*="icon-"] {
+   display: block;
+   font-size: 45px;
+   height: 65px;
+   line-height: 65px;
+   color: #444;
+}
+.cv-composer-available-module .textual-icon {
+   display: block;
+   font-size: 35px;
+   height: 65px;
+   line-height: 65px;
+   color: #444;
+}
+.cv-composer-available-module strong {
+   color: #444;
+   font-weight: 600;
+   font-size: 12px;
+}
+.cv-composer-available-module:hover {
+   border: 1px solid #A2D164;
+   background: #F0F7E6;
+}
+.cv-composer-available-module:hover [class*="icon-"],
+.cv-composer-available-module:hover strong {
+   color: #648A32 !important;
+}
+
+/* == Available Shortcodes == */
+
+.cv-composer-modal .cv-composer-available {
+   background: #f9f9f9;
+   border-bottom: 1px solid #eee;
+   padding: 20px;
+}
+.cv-composer-modal .cv-composer-available a {
+   margin: 5px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+html:not([dir="rtl"]) .cv-composer-modal .cv-composer-available a {
+   float: left;
+}
+html[dir="rtl"] .cv-composer-modal .cv-composer-available a {
+   float: right;
+}
+
+/* == Shortcode Controls == */
+
+/* Shortcode Explanation */
+.shortcode-explanation-wrap {
+   padding: 0 !important;
+   background: #f9f9f9;
+   border-bottom: 1px solid #ddd !important;
+}
+.shortcode-explanation-wrap .show-shortcode-explanation {
+   text-align: center;
+   cursor: pointer;
+   color: #888 !important;
+   font-weight: 300;
+   padding: 15px 0;
+   margin: 0;
+}
+.shortcode-explanation-wrap .shortcode-explanation {
+   cursor: pointer;
+   color: #888;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 30px;
+   color: #777 !important;
+   padding: 20px 0;
+   margin: 0;
+}
+
+.cv-composer-modal .cv-compose-shortcode {
+   .control, .explanation {
+      box-sizing: border-box;
+   }
+}
+
+.cv-composer-modal .cv-compose-shortcode {
+   overflow: hidden;
+}
+
+.cv-composer-modal .cv-compose-shortcode .shortcode-attributes {
+   margin-bottom: 0;
+}
+
+.cv-composer-modal .cv-compose-shortcode .submit-box {
+   padding: 25px;
+   text-align: center;
+}
+
+.cv-composer-modal .cv-compose-shortcode .control-wrap {
+   border-bottom: 1px solid #eee;
+   padding: 50px 0;
+   .control-padding {
+      padding: 0 25px;
+   }
+}
+
+.cv-composer-modal .cv-compose-shortcode .control-wrap label.cv-attribute-title {
+   display: block;
+   font-size: 16px;
+   margin-bottom: 10px;
+   font-weight: 600;
+}
+.cv-composer-modal .cv-compose-shortcode .control-wrap p.cv-attribute-description {
+   font-size: 14px;
+   color: #999;
+}
+
+.cv-composer-modal .cv-compose-shortcode .control-wrap {
+   .control, .explanation {
+      padding: 0 25px;
+   }
+}
+
+@media #{$breakpoint_3} {
+   .cv-composer-modal .cv-compose-shortcode .control-wrap {
+      .control, .explanation {
+         width: 50%;
+      }
+   }
+   html:not([dir="rtl"]) .cv-composer-modal .cv-compose-shortcode .control-wrap {
+      .control, .explanation {
+         float: right;
+      }
+   }
+   html[dir="rtl"] .cv-composer-modal .cv-compose-shortcode .control-wrap {
+      .control, .explanation {
+         float: left;
+      }
+   }
+}
+
+.cv-composer-modal .cv-compose-shortcode .attribute-control {
+   textarea, select, input:not([type="checkbox"]) {
+      border: 1px solid #ddd !important;
+      color: #666;
+      width: 100%;
+      line-height: 20px;
+      padding: 7px;
+      box-shadow: none;
+      border-radius: 5px;
+   }
+}
+
+.cv-composer-modal .cv-compose-shortcode .attribute-control {
+   select, input:not([type="checkbox"]) {
+      height: auto;
+   }
+}
+
+.cv-composer-modal .cv-compose-shortcode .attribute-control select:not([multiple]) {
+   -webkit-border-radius: 0.2em;
+   border-radius: 0.2em;
+   -webkit-appearance: none;
+   background-image: url(select-arrow.png);
+   background-size: 6px;
+   background-repeat: no-repeat;
+}
+
+html:not([dir="rtl"]) .cv-composer-modal .cv-compose-shortcode .attribute-control select {
+   background-position: right 10px center;
+}
+
+html[dir="rtl"] .cv-composer-modal .cv-compose-shortcode .attribute-control select {
+   background-position: left 10px center;
+}
+
+.cv-composer-modal .cv-compose-shortcode .attribute-control {
+   textarea, select, input:not([type="checkbox"]) {
+      &:focus {
+         border: 1px solid #ccc !important;
+         color: #222;
+      }
+   }
+}
+
+/* Hide certain attributes when adding a shortcode directly */
+.cv-builder-hidden #cv-composer-absolute-container .cv-composer-launch,
+.cv-builder-hidden .control-module_title {
+   display: none !important;
+}
+
+/* Content Editor */
+
+.cv-composer-content-editor-wrap {
+   padding: 25px;
+   border-bottom: 1px solid #eee;
+   .cv-composer-content-editor-current-content-preview {
+      border-radius: 5px;
+      padding: 15px;
+      border: 1px dashed #eee;
+      background: #f9f9f9;
+      overflow: hidden;
+      max-height: 300px;
+      cursor: pointer;
+      color: #999;
+      h1, h2, h3, h4, h5, h6 {
+         color: #000 !important;
+         font-weight: 200 !important;
+         margin: 20px 0 !important;
+         padding: 0 !important;
+         border: none !important;
+      }
+      h1 { font-size: 2em !important; }
+      h2 { font-size: 1.75em !important; }
+      h3 { font-size: 1.5em !important; }
+      h4 { font-size: 1.25em !important; }
+      h5 { font-size: 1em !important; }
+      h6 { font-size: 0.75em !important; }
+   }
+   .cv-composer-content-editor-current-content {
+      display: none !important;
+   }
+}
+
+.cv-composer-content-editor-title {
+   display: block;
+   font-size: 16px;
+   margin-bottom: 25px;
+   font-weight: 600;
+}
+
+/* Content Elements Editor */
+
+.cv-composer-modal .content-elements .cv-sortzone {
+   position: relative;
+}
+.cv-composer-modal .content-elements {
+   background: #f9f9f9;
+   border-bottom: 1px solid #ddd;
+   padding: 50px 15px;
+   box-shadow: inset rgba(0,0,0,0.05) 0px 0px 3px 3px;
+}
+.cv-composer-modal .content-elements .content-elements-size-limiter {
+   max-width: 600px;
+   margin: 0 auto;
+}
+.cv-composer-modal .content-elements .cv-add-module {
+   padding-bottom: 0;
+}
+
+/* Additional Controls */
+
+.cv-composer-modal .cv-compose-shortcode .additional-controls {
+   border-top: 1px solid #eee;
+}

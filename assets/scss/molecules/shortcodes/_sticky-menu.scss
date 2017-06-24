@@ -1,0 +1,52 @@
+.cv-sticky-nav {
+
+   text-align: center;
+   transition: box-shadow 0.15s ease;
+   box-shadow: rgba(0,0,0,0) 0px 0px 5px 5px;
+
+   &.is-stuck {
+      position: fixed;
+      z-index: 90;
+      width: 100%;
+      top: 0; left: 0; right: 0;
+      margin: 0 auto;
+      box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.1);
+   }
+
+   &.no-borders {
+      border-top: 1px solid transparent !important;
+      border-bottom: 1px solid transparent !important;
+   }
+
+   body.layout-boxed &.is-stuck { max-width: 75em; }
+   body.layout-expanded &.is-stuck { max-width: 80em; }
+
+   a {
+      padding: 1.25em;
+      display: inline-block;
+      cursor: pointer;
+      background: transparent;
+      transition: background 0.25s ease, color 0.25s ease;
+      text-decoration: none;
+      position: relative;
+      max-height: 100%;
+      &:after {
+         top: -1px;
+         left: 50%;
+         border: solid transparent;
+         content: " ";
+         height: 0;
+         width: 0;
+         position: absolute;
+         pointer-events: none;
+         border-top-color: transparent;
+         border-width: 10px;
+         margin-left: -10px;
+         transition: border 0.25s ease;
+      }
+      &.is-active:after {
+         border-top-color: black;
+      }
+   }
+
+}

@@ -1,0 +1,110 @@
+#socket {
+
+   text-align: center;
+
+   a { text-decoration: none; }
+
+   .cv-user-font { margin: 0 -0.625em; }
+
+   .socket-text {
+      margin: 0;
+      line-height: 1.875em;
+   }
+
+   .socket-social {
+      margin: 0;
+      list-style: none;
+      cursor: default;
+      padding: 0 !important;
+      li {
+         display: inline;
+         cursor: default;
+      }
+      a {
+         line-height: 1.875em; width: 1.875em;
+         text-align: center;
+         padding: 0 0.625em;
+         transition: color 0.25s ease;
+         span { display: none; }
+         i { font-size: 1.25em; }
+      }
+   }
+
+   .socket-menu {
+      margin: 0 0.625em;
+      list-style: none;
+      cursor: default;
+      padding: 0 !important;
+      li {
+         display: inline;
+         cursor: default;
+      }
+      li:not(:last-child):after {
+         content: "/";
+         margin: 0 0.1875em;
+         opacity: 0.5;
+      }
+      a {
+         line-height: 1.875em;
+         padding: 0 0.3125em;
+         transition: color 0.25s ease;
+      }
+   }
+
+   &.layout-inline {
+      .cv-wrap-wrapper {
+         padding: {
+            top: 1em !important;
+            bottom: 1em !important;
+         }
+      }
+   }
+
+   &.layout-centered {
+
+      .cv-wrap-wrapper {
+         padding: {
+            top: 3em !important;
+            bottom: 3em !important;
+         }
+      }
+
+      .socket-social a {
+         display: inline-block;
+         height: 3em;
+         width: 3em;
+         line-height: 3em;
+         border-radius: 3em;
+         margin: 0 0.3125em;
+         text-align: center;
+      }
+
+      .socket-menu a {
+         text-transform: uppercase;
+         letter-spacing: 1px;
+      }
+
+      .socket-menu, .socket-social, .socket-text {
+         margin-bottom: 1.5em;
+         &:last-child { margin-bottom: 0; }
+      }
+
+   }
+
+   @media #{$breakpoint_3} { &.layout-inline {
+
+      text-align: none;
+
+      html:not([dir="rtl"]) & {
+         .socket-text { float: left; }
+         .socket-menu, .socket-social { float: right; }
+      }
+
+      html[dir="rtl"] & {
+         .socket-text { float: right; }
+         .socket-menu, .socket-social { float: left; }
+      }
+
+   } }
+
+}

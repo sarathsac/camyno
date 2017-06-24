@@ -1,0 +1,181 @@
+.cv-testimonial-group-slider {
+   margin-bottom: $global_margin_after;
+   .slick-dots {
+
+      bottom: 2em !important;
+      height: 2em !important;
+      line-height: 2em !important;
+      display: none !important;
+      width: 40% !important;
+      transition: opacity 0.25s ease;
+      @media #{$breakpoint_2} { display: block !important; }
+
+      li {
+         margin: 0 3px !important;
+      }
+      html:not([dir="rtl"]) & {
+         right: 0 !important;
+         left: auto !important;
+         text-align: right !important;
+         padding-right: 1em !important;
+      }
+      html[dir="rtl"] & {
+         right: auto !important;
+         left: 0 !important;
+         text-left: right !important;
+         padding-left: 1em !important;
+      }
+      button {
+         display: inline-block;
+         color: rgba(0,0,0,0);
+         text-indent: -999px;
+         height: 0.75em;
+         width: 0.75em;
+         border-radius: 0.75em;
+      }
+   }
+   .slick-dots { opacity: 0; }
+   &:hover .slick-dots { opacity: 1; }
+}
+
+.cv-testimonial-group {
+
+   &.is-single-column {
+      margin-bottom: $global_margin_after;
+      > div:not(:last-child) {
+         margin-bottom: $spacing_2;
+      }
+   }
+
+   .testimonial-content {
+
+      position: relative;
+      padding: 0.9375em;
+      border-radius: 3px;
+
+      .testimonial-quote {
+         font-style: italic;
+         line-height: 1.5;
+         font-size: 1.25em;
+         font-weight: 300;
+      }
+
+      p {
+         margin: 0;
+      }
+
+      &:after, &:before {
+         top: 100%;
+         border: solid transparent;
+         content: " ";
+         height: 0;
+         width: 0;
+         position: absolute;
+         pointer-events: none;
+      }
+
+      &:after {
+         border-color: rgba(0,0,0,0);
+         border-width: 10px;
+      }
+
+      &:before {
+         border-color: rgba(0,0,0,0);
+         border-width: 11px;
+      }
+
+   }
+
+   .author-profile {
+
+      .author-name,
+      .company-info {
+         margin: 0;
+      }
+
+      .testimonial-image {
+         display: inline-block;
+         width: 5em;
+         height: 5em;
+         border-radius: 5em;
+      }
+
+      .author-name {
+         font-size: 1em;
+         margin-top: 0.625em;
+         font-weight: 600;
+      }
+
+      .company-info {
+         font-size: 0.85em;
+      }
+
+   }
+
+   html:not([dir="rtl"]) & {
+      .author-profile {
+         margin: 20px 0 0 1em;
+         .textual-information,
+         .testimonial-image {
+            float: left;
+         }
+         .testimonial-image {
+            margin: 0 0.9375em 0 0;
+         }
+      }
+      .testimonial-content {
+         &:after, &:before {
+            left: 3em;
+         }
+         &:after {
+            margin-left: -5px;
+         }
+         &:before {
+            margin-left: -6px;
+         }
+      }
+   }
+
+   html[dir="rtl"] & {
+      .author-profile {
+         margin: 20px 1em 0 0;
+         .textual-information,
+         .testimonial-image {
+            float: right;
+         }
+         .testimonial-image {
+            margin: 0 0 0 0.9375em;
+         }
+      }
+      .testimonial-content {
+         &:after, &:before {
+            right: 3em;
+         }
+         &:after {
+            margin-right: -5px;
+         }
+         &:before {
+            margin-right: -6px;
+         }
+      }
+   }
+
+}
+
+.cv-section-white .cv-testimonial-group {
+   .testimonial-content {
+      & { border: none !important; background: rgba(255,255,255,0.15) !important; }
+      &:after { border-top-color: rgba(255,255,255,0.15) !important; }
+      &:before { display: none; }
+      .testimonial-quote { color: rgba(255,255,255,0.75) !important; }
+   }
+}
+
+.cv-section-black .cv-testimonial-group {
+   .testimonial-content {
+      & { border: none !important; background: rgba(0,0,0,0.15) !important; }
+      &:after { border-top-color: rgba(0,0,0,0.15) !important; }
+      &:before { display: none; }
+      .testimonial-quote { color: rgba(0,0,0,0.75) !important; }
+   }
+}

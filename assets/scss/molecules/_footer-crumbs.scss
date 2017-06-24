@@ -1,0 +1,141 @@
+#footer-bread-crumbs {
+
+   padding: 1em 0;
+
+   .bread-crumbs {
+
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      overflow: hidden;
+
+      li {
+         display: block;
+         html:not([dir="rtl"]) & { float: left; }
+         html[dir="rtl"] & { float: right; }
+      }
+
+      li:not(:last-child):after {
+         content: "/";
+         font-size: 0.85em;
+         font-weight: 600;
+         padding: 0 0.5em;
+         opacity: 0.5;
+      }
+
+      span {
+         cursor: default;
+      }
+
+   }
+
+   @media #{$breakpoint_1} {
+
+      padding: 0;
+
+      .bread-crumbs {
+
+         li {
+
+            padding: 0;
+            position: relative;
+
+            /* Z-index fix */
+            &:nth-child(1)  { z-index: 10; }
+            &:nth-child(2)  { z-index: 9; }
+            &:nth-child(3)  { z-index: 8; }
+            &:nth-child(4)  { z-index: 7; }
+            &:nth-child(5)  { z-index: 6; }
+            &:nth-child(6)  { z-index: 5; }
+            &:nth-child(7)  { z-index: 4; }
+            &:nth-child(8)  { z-index: 3; }
+            &:nth-child(9)  { z-index: 2; }
+            &:nth-child(10) { z-index: 1; }
+
+            &:first-child > a {
+               background: transparent !important;
+               html:not([dir="rtl"]) & { padding-left: 0 !important; }
+               html[dir="rtl"] & { padding-right: 0 !important; }
+            }
+
+            &:last-child a { background: transparent !important; }
+
+            a, span {
+               position: relative;
+               display: block;
+               height: 50px;
+               line-height: 50px;
+               text-decoration: none;
+               transition: color 0.15s ease, background 0.25s ease;
+               font-weight: 400;
+               html:not([dir="rtl"]) & { padding: 0 0 0 25px; }
+               html[dir="rtl"] & { padding: 0 25px 0; }
+            }
+
+            &:not(:last-child) {
+
+               &:after { display: none; }
+
+               a, span {
+
+                  &:after, &:before {
+                     top: 50%;
+                     border: solid transparent;
+                     content: " ";
+                     height: 0;
+                     width: 0;
+                     position: absolute;
+                     pointer-events: none;
+                     transform: scale(0.5,1);
+                     transition: border 0.25s ease;
+                  }
+
+                  &:after {
+                     border-color: rgba(0, 0, 0, 0);
+                     border-width: 30px;
+                     margin-top: -30px;
+                  }
+
+                  &:before {
+                     border-color: rgba(255, 255, 255, 0);
+                     border-width: 30px;
+                     margin-top: -30px;
+                  }
+
+                  html:not([dir="rtl"]) & {
+
+                     padding: 0 10px 0 25px;
+
+                     &:after, &:before {
+                        left: 100%;
+                        transform-origin: left center;
+                     }
+
+                     &:after { margin-left: -1px; }
+
+                  }
+
+                  html[dir="rtl"] & {
+
+                     padding: 0 25px 0 10px;
+
+                     &:after, &:before {
+                        right: 100%;
+                        transform-origin: right center;
+                     }
+
+                     &:after { margin-right: -1px; }
+
+                  }
+
+               }
+
+            }
+
+         }
+
+      }
+
+   }
+
+}

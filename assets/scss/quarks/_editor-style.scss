@@ -1,0 +1,54 @@
+[class*="cv-highlight-"] {
+   padding: 0.25em;
+}
+
+.cv-highlight-yellow {
+   background: $warning_bg_color;
+   color: $warning_text_color;
+}
+
+.cv-highlight-blue {
+   background: $info_bg_color;
+   color: $info_text_color;
+}
+
+.cv-highlight-red {
+   background: $error_bg_color;
+   color: $error_text_color;
+}
+
+.cv-highlight-green {
+   background: $success_bg_color;
+   color: $success_text_color;
+}
+
+[class*="cv-dropcap-"] {
+   clear: both;
+   &:first-letter {
+      line-height: 1;
+      font-weight: 300;
+      text-transform: uppercase;
+      html:not([dir="rtl"]) & {
+         margin-right: 0.25em;
+         float: left;
+         clear: left;
+      }
+      html[dir="rtl"] & {
+         margin-left: 0.25em;
+         float: right;
+         clear: right;
+      }
+   }
+}
+
+.cv-dropcap-small:first-letter {
+   font-size: 3em;
+}
+
+.cv-dropcap-medium:first-letter {
+   font-size: 5em;
+}
+
+.cv-dropcap-large:first-letter {
+   font-size: 6.5em;
+}

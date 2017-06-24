@@ -1,0 +1,113 @@
+.js .cv-toggle-group {
+
+   margin-bottom: $global_margin_after;
+
+   .toggle-handle {
+      transition: background 0.25s ease;
+   }
+
+   > .toggle-filters {
+      padding: 0 0 0.9375em;
+      li {
+         cursor: default;
+      }
+      li:not(:last-child):after {
+         content: "/";
+         margin: 0 0.1875em;
+         opacity: 0.5;
+      }
+      a {
+         padding: 0 0.3125em;
+         transition: color 0.25s ease;
+      }
+   }
+
+   > .toggle {
+
+      /* Toggle Title */
+      > .toggle-title {
+         margin: 0;
+         font-size: 1em;
+         padding: 0.9375em;
+         cursor: pointer;
+         border-bottom: none !important;
+         > span {
+            display: block;
+            opacity: 1;
+            transition: opacity 0.25s ease;
+            &:before {
+               font-family: "theme-icons";
+               font-style: normal;
+               font-weight: normal;
+               speak: none;
+               text-decoration: inherit;
+               font-variant: normal;
+               text-transform: none;
+               transform: none;
+               content: '\ea1b';
+               display: inline-block;
+               transition: transform 0.25s ease;
+               html:not([dir="rtl"]) & {
+                  margin-right: 0.3125em;
+               }
+               html[dir="rtl"] & {
+                  margin-left: 0.3125em;
+               }
+            }
+         }
+      }
+
+      &.is-open > .toggle-title > span:before {
+         transform: rotate(45deg);
+      }
+
+      /* Toggle Content */
+      > div {
+         overflow: hidden;
+         height: 0px;
+         transition: height 0.25s ease;
+         border-top: none !important;
+         > .toggle-content {
+            overflow: hidden;
+            transition: opacity 0.25s ease;
+            opacity: 0;
+            padding: 0.9375em;
+         }
+      }
+      &.is-open > div > .toggle-content {
+         opacity: 1;
+      }
+   }
+
+   &:not(.is-collapsed) {
+      > .toggle {
+         opacity: 1;
+         transition: opacity 0.25s ease;
+         box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.1);
+         &.is-disabled {
+            opacity: 0.35;
+         }
+      }
+      > .toggle:not(:last-child) {
+         margin-bottom: 0.9375em;
+      }
+      border-bottom: 0 !important;
+   }
+
+   &.is-collapsed {
+      box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.1);
+      > .toggle {
+         > .toggle-title > span {
+            opacity: 1;
+            transition: opacity 0.25s ease;
+         }
+         &.is-disabled > .toggle-title > span {
+            opacity: 0.25;
+         }
+      }
+      > .toggle > div {
+         border-bottom: none !important;
+      }
+   }
+
+}

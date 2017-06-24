@@ -1,0 +1,53 @@
+/* Wraps the entire page */
+.wrap-all {
+   position: relative;
+   overflow: hidden;
+   margin: 0 auto;
+   body:not(.container-layout-free) & {
+      box-shadow: rgba(0,0,0,0.05) 0px 0px 2px 2px;
+   }
+}
+
+/* Content wrapper */
+.wrap {
+   margin: 0 auto;
+   padding: 0 $side_padding;
+   &.is-free {
+      max-width: none !important;
+      width: 100% !important;
+   }
+   &.is-stretched {
+      max-width: none !important;
+      width: 100% !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+   }
+}
+
+/* Outer Container Sizes */
+.responsive.container-layout-boxed-70 .wrap-all { max-width: 70em; }
+.responsive.container-layout-boxed-75 .wrap-all { max-width: 75em; }
+.responsive.container-layout-boxed-80 .wrap-all { max-width: 80em; }
+.responsive.container-layout-boxed-85 .wrap-all { max-width: 85em; }
+.not-responsive.container-layout-boxed-70 .wrap-all { width: 70em; }
+.not-responsive.container-layout-boxed-75 .wrap-all { width: 75em; }
+.not-responsive.container-layout-boxed-80 .wrap-all { width: 80em; }
+.not-responsive.container-layout-boxed-85 .wrap-all { width: 85em; }
+
+/* Stretched layout */
+.container-layout-free  .wrap-all { max-width: 100%; }
+
+/* Content Wrap Sizes */
+.responsive.wrap-layout-constrained-60 .wrap { max-width: 60em; }
+.responsive.wrap-layout-constrained-65 .wrap { max-width: 65em; }
+.responsive.wrap-layout-constrained-70 .wrap { max-width: 70em; }
+.responsive.wrap-layout-constrained-75 .wrap { max-width: 75em; }
+.not-responsive.wrap-layout-constrained-60 .wrap { width: 60em; }
+.not-responsive.wrap-layout-constrained-65 .wrap { width: 65em; }
+.not-responsive.wrap-layout-constrained-70 .wrap { width: 70em; }
+.not-responsive.wrap-layout-constrained-75 .wrap { width: 75em; }
+
+/* Add padding to the body for boxed layouts */
+@media #{$breakpoint_1} {
+   body.responsive[class*="container-layout-boxed"] { padding: 0 1.5625em; }
+}

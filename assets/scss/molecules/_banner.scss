@@ -1,0 +1,189 @@
+#top-banner {
+
+   box-sizing: content-box;
+   max-height: 400px;
+   font-size: 0.85em;
+   text-align: center;
+   overflow: hidden;
+   transition: box-shadow 0.5s ease;
+   .cv-user-font { position: relative; }
+
+   /**
+    * Support for fixed backgrounds on tablets/mobile devices
+    * is currently very hit or miss, until a solution is found
+    * fixed backgrounds are disabled on non-desktop devices
+    */
+   body.dixable-fixed-backgrounds & { background-attachment: scroll !important; }
+
+   /* Responsive Sizing */
+   @media #{$breakpoint_1} { & {
+      max-height: 500px;
+   } }
+   @media #{$breakpoint_2} { & {
+      max-height: 600px;
+      font-size: 1em;
+   } }
+   @media #{$breakpoint_3} { & {
+      max-height: none;
+   } }
+
+   /* Padding amounts */
+   &.text-style-inline {
+      .wrap { padding: {
+         top: 1.25em;
+         bottom: 1.25em;
+      }; }
+   }
+   &.text-style-left,
+   &.text-style-right,
+   &.text-style-center {
+      .wrap { padding: {
+         top: 2.1875em;
+         bottom: 2.1875em;
+      }; }
+   }
+
+   /* Hide border when transparency is not active & text is hidden */
+   body:not(.header-transparency-active) &.style-source-main.text-style-hidden {
+      border-color: transparent !important;
+   }
+
+   /* Text Alignment */
+   &.text-style-left { text-align: left; }
+   &.text-style-right { text-align: right; }
+
+   /* Allow for custom typography colors */
+   &.has-custom-color * { color: inherit !important; }
+
+   /* Header Transparency Adds Padding */
+   body.header-transparency-active.menu-style-overlay #header ~ &,
+   body.header-transparency-active.menu-style-dropdown #header ~ & {
+      padding-top: 136px;
+      @media #{$breakpoint_1} { & {
+         padding-top: 86px;
+      } }
+   }
+   body.header-transparency-active.menu-style-modern #header ~ & {
+      padding-top: 136px;
+      @media #{$breakpoint_1} { & {
+         padding-top: 85px;
+      } }
+      @media #{$breakpoint_3} { & {
+         padding-top: 125px !important;
+      } }
+   }
+   body.header-transparency-active.menu-style-modern #header.has-menu-tree ~ & {
+      @media #{$breakpoint_3} { & {
+         padding-top: 150px !important;
+      } }
+   }
+
+   /* Page Title */
+   .banner-title {
+      h3, h5 {
+         display: block;
+         margin: 0.3125em 0;
+         font-size: 1.5em;
+      }
+      h3 {
+         font-size: 2em;
+      }
+   }
+
+   &:not(.text-style-inline) {
+      h3, h5 {
+         margin: 0 !important;
+         line-height: 1.25;
+      }
+      h3 {
+         font-size: 3em;
+         font-weight: 300;
+      }
+      h5 {
+         font-size: 1.5em;
+         font-weight: 600;
+      }
+      &.style-source-custom h5 {
+         opacity: 0.85;
+      }
+      .js & {
+         h3 { font-size: 1.2em; }
+         h5 { font-size: 0.5em; }
+      }
+   }
+
+   /* Bread Crumbs */
+   .bread-crumbs {
+      margin: 0.3125em 0;
+      list-style: none;
+      padding: 0 !important;
+      li {
+         display: inline;
+      }
+      a, span {
+         text-decoration: none;
+         transition: color 0.15s ease;
+         font-size: 0.95em;
+         font-weight: 400;
+      }
+      a:hover { opacity: 1; }
+      span {
+         cursor: default;
+      }
+      li:not(:last-child):after {
+         content: "/";
+         font-size: 0.85em;
+         font-weight: 600;
+         padding: 0 1em;
+         opacity: 0.5;
+      }
+   }
+
+   &:not(.text-style-inline) .bread-crumbs { opacity: 0.95; }
+
+   @media #{$breakpoint_1} { & {
+
+      /* Inline text Style */
+      &.text-style-inline {
+         .bread-crumbs {
+            margin-top: -25px;
+            margin-bottom: 0;
+            position: absolute;
+            top: 50%;
+            height: 50px;
+            line-height: 50px;
+         }
+         .banner-title {
+            margin: 0 -5px;
+            h3, h5 {
+               display: inline;
+               margin: 0 5px;
+            }
+            h3 {
+               font-size: 1.25em !important;
+               font-weight: 400;
+            }
+            h5 {
+               font-size: 1.25em !important;
+            }
+         }
+         html:not([dir="rtl"]) & {
+            .banner-title {
+               text-align: left;
+               float: left;
+            }
+            .bread-crumbs { right: 0; }
+         }
+         html[dir="rtl"] & {
+            .banner-title {
+               text-align: right;
+               float: right;
+            }
+            .bread-crumbs { left: 0; }
+         }
+      }
+
+
+   } }
+
+}

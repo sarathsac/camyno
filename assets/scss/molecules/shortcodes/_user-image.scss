@@ -1,0 +1,18 @@
+.cv-user-image {
+   display: block;
+}
+.cv-user-image-wrap {
+   &.align-image-left,
+   &.align-image-right {
+      @include has-clearfix;
+   }
+   &.align-image-left .cv-user-image {
+      float: left;
+   }
+   &.align-image-right .cv-user-image {
+      float: right;
+   }
+   &.align-image-center .cv-user-image {
+      margin: 0 auto;
+   }
+}

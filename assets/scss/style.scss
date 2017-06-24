@@ -1,0 +1,24 @@
+/**
+ * The base stylesheet for our theme
+ *
+ * Built using the atomic design principle for better organization
+ * see: http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/
+ */
+
+/* Import utilities */
+@import "utilities/*";
+
+/* Reset Media Query Breakpoints */
+$breakpoint_1: "all and (min-width: 5px)";
+$breakpoint_2: "all and (min-width: 5px)";
+$breakpoint_3: "all and (min-width: 5px)";
+$breakpoint_4: "all and (min-width: 5px)";
+$breakpoint_max_1: "all and (max-width: 5px)";
+$breakpoint_max_2: "all and (max-width: 5px)";
+$breakpoint_max_3: "all and (max-width: 5px)";
+$breakpoint_max_4: "all and (max-width: 5px)";
+$breakpoint_sidebars: "all and (min-width: 5px)";
+$breakpoint_max_sidebars: "all and (max-width: 5px)";
+
+/* Import all files */
+@import "imports";

@@ -1,0 +1,14 @@
+.sidebar .tagcloud {
+
+   cursor: default;
+
+   a {
+      transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
+      padding: 0.5em 0.75em;
+      border-radius: 3px;
+      display: inline-block;
+      margin-bottom: 0.5em;
+      font-size: 0.85em !important;
+   }
+
+}

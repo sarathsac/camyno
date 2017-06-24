@@ -1,0 +1,6497 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: camyno/comments.php:110
+msgid "%1$s - %2$s"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/settings-page.php:141
+#: camyno/config/theme-settings/pages/blog.php:154
+#: camyno/config/theme-settings/pages/footer.php:219
+msgid "%s Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/google-map.php:1
+msgid "%s Google Map"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/qr-code.php:1
+msgid "%s QR Code"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/recent-portfolio.php:1
+msgid "%s Recent Portfolio Items"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/recent-posts.php:1
+msgid "%s Recent Posts"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/add-actions.php:281
+msgid "%s Search results for: %s"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/social-media.php:1
+msgid "%s Social Media"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/twitter-rss.php:1
+msgid "%s Twitter & RSS Feed"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/background/class-background.php:299
+msgid "* Please note that the image used in the preview above is not being displayed at its actual size, it has been limited to better demonstrate the various background settings. For a more accurate representation of your background mouse over the \"View Fullscreen Preview\" text above, this will display a preview with the images actual size."
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/footer.php:219
+msgid "1 Column"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "1 X 1"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "1/2 Width (50%)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "1/3 Width (33%)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "1/4 Width (25%)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "10%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "100%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "100% of the screen height"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "110%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "120%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "130%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "140%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "150%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "160%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "170%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "175%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "180%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "190%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/partner-group.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+#: camyno/config/shortcodes/tags/blog.php:1
+#: camyno/config/theme-settings/pages/footer.php:219
+msgid "2 Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "20%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "200%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "225%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "25%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/partner-group.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "3 Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "3 X 2"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "30%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "300%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/partner-group.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "4 Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "4 X 2"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "40%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "400%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/partner-group.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "5 Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "5 X 2"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "50%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "50% of the screen height"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/partner-group.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "6 Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "6 X 2"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "60%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "7 Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "70%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "75%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "75% of the screen height"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "8 Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "80%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "90%"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "<strong>MP4</strong> file to use for the video."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "<strong>Ogg</strong> file to use for the video."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "<strong>WebM</strong> file to use for the video."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "A list of all supported Video Services can be found on <a href=\"%s\">WordPress.org</a>. <em>Please note that only Youtube/Vimeo videos will be responsive.</em><br /><br /><strong>Working Examples:</strong><br />https://www.youtube.com/watch?v=jJ054AEGQHA<br />http://vimeo.com/68208871"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Accent"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Accent Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Accent Focused"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-marker.php:1
+msgid "Active & visible on load"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-marker.php:1
+msgid "Active, visible on marker click"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/advanced.php:1
+msgid "Adanced"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:543
+msgid "Add After Existing Content"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:533
+msgid "Add Before Existing Content"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:425
+msgid "Add Full Width Module"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcode-composer/class-shortcode-composer.php:1
+msgid "Add Shortcode"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/widget-areas/class-sidebar-manager.php:116
+msgid "Add Sidebar"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/advanced.php:92
+msgid "Add any additional HTML to the %s section of every page."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcode-composer/class-shortcode-composer.php:1
+msgid "Add/Edit Shortcode"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:559
+msgid "Additional Elements"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:90
+msgid "Additional Header HTML"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:884
+msgid "Additional Information"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:889
+msgid "Additional Information Position"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Additional update information"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:150
+msgid "Address:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "After Number"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "After the button"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:234
+msgid "After theme settings have been saved you will be able to customize the background of your website by going to Appearance > Background."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:235
+msgid "After theme settings have been saved you will no longer be able to customize the background of your website. This is because the wide layout will cover the screen."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Alignment"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "All Black Content (For sections with light backgrounds)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "All White Content (For sections with dark backgrounds)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "All categories"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/header.php:791
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "All content"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/recent-posts.php:1
+msgid "All formats"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Allow the content of this section to stretch to the size of the layout."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Alternate"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Alternate Content"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:204
+msgid "Alternate Content Header"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Alternate with captions visible on hover"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/shortcodes/tags/image.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Animated Entrance"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Animated Number"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Animated numbers use a subtle \"odometer\" style animation to come fully into view."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Applied Styles"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Arrow pointing down"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Arrow pointing down & border"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Arrow pointing up"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Arrow pointing up & border"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "As many as possible"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "As many products as possible"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Atleast 100% of the screen height"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Atleast 25% of the screen height"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Atleast 50% of the screen height"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Atleast 75% of the screen height"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Attributes"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Audio"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:409
+msgid "Auto Edit New Modules"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/background/class-background.php:258
+msgid "Automatic, background image will be scaled automatically to cover the screen"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:746
+msgid "Automatic, image will be scaled to cover the banner"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:123
+msgid "Automatically Display Featured Images"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Autoplay"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Available Options"
+msgstr ""
+
+#. Text in function
+#: camyno/config/background/class-background.php:1
+msgid "Background"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/background/class-background.php:224
+#: camyno/config/background/class-background.php:291
+msgid "Background Attachment"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:275
+#: camyno/config/theme-settings/pages/header.php:696
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Background Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:306
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/background/class-background.php:246
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Background Image"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:412
+#: camyno/config/theme-settings/pages/header.php:776
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Background Image Attachment"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:705
+msgid "Background Image Source"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:346
+#: camyno/config/theme-settings/pages/header.php:744
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Background Image Style"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Background Overlay Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Background Overlay Opacity"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/background/class-background.php:271
+msgid "Background Position"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:386
+#: camyno/config/theme-settings/pages/header.php:716
+#: camyno/config/background/class-background.php:186
+msgid "Background Presets"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/background/class-background.php:281
+msgid "Background Repeat"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Background Source"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/background/class-background.php:256
+msgid "Background Style"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+msgid "Background preset"
+msgstr ""
+
+#. Text in function
+#: camyno/config/background/class-background.php:1
+msgid "Background updated. <a href=\"%s\">Visit your site</a> to see how it looks."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:560
+msgid "Banner"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:69
+msgid "Banner:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Base Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Basic Text Input"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Before the button"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/blog.php:1
+#: camyno/config/theme-settings/pages/general.php:152
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Blog"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:122
+msgid "Blog Header & Banner Behavior"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:93
+msgid "Blog Layout"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:110
+msgid "Blog Page"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/header.php:791
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Blog Posts"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:136
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Blog Style"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Blue"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Bold"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Bottom"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Bottom Border"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Bottom Center"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Bottom Left"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Bottom Padding"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Bottom Right"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Box Proportions (Width X Height)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:139
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Boxed"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:227
+msgid "Boxed (Max Width: 1120px)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:228
+msgid "Boxed (Max Width: 1200px)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:229
+msgid "Boxed (Max Width: 1280px)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:230
+msgid "Boxed (Max Width: 1360px)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/branding.php:1
+msgid "Branding"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:144
+msgid "Bread Crumbs"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Button"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Button Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Button Custom Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Button Style"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Button Text"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/advanced.php:80
+msgid "CSS will be added to the %s section of every page."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:333
+msgid "Cancel"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/partner-group.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Carousel"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/partner-group.php:1
+msgid "Carousel Config"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Carousel Configuration"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:81
+msgid "Cart Icon"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Category"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+#: camyno/config/shortcodes/tags/image.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Center"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Center Center"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Center Left"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Center Right"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:164
+msgid "Centered, all content displayed on multiple lines"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:644
+msgid "Centered, on multiple lines"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Change Log Update"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Change logs allow you to efficiently display updates and changes to pretty much anything, including any of your products, the progress of something you are working on, or changes to the site itself. The content of this shortcode will be displayed as additional update information."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Check this out"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Checkbox"
+msgstr ""
+
+#. Text in echo
+#: camyno/functions.php:162
+msgid "Choose a color scheme"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Circular (image must have square proportions)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/toggle.php:1
+#: camyno/config/shortcodes/tags/tab.php:1
+msgid "Click to Toggle"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:823
+msgid "Clicking the search icon will launch a fullscreen overlay modal containing a large search bar, use this control to dictate which content of your website should be searched through when using this search bar."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:601
+msgid "Collapsing Header"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/color-scheme/class-color-scheme.php:1
+msgid "Color Scheme"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:122
+msgid "Color Scheme:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/color-scheme/class-color-scheme.php:1
+msgid "Color scheme updated. <a href=\"%s\">Visit your site</a> to see how it looks."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "Column Align"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/visual.php:196
+msgid "Combinations"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:133
+msgid "Comma delimited list of keywords describing your website, used by search engines."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/toggle.php:1
+msgid "Comma delimited list of tags to identify this toggle, if tags are specified on at least one toggle then the toggle group will be filterable."
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/blog.php:183
+msgid "Comment Count"
+msgstr ""
+
+#. Text in echo
+#: camyno/comments.php:65
+msgid "Comments are closed"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Compact post tile"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:398
+msgid "Confirming/Canceling Changes"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:240
+msgid "Constrained Width (Max: 1040px)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:241
+msgid "Constrained Width (Max: 1120px)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:242
+msgid "Constrained Width (Max: 1200px)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:239
+msgid "Constrained Width (Max: 960px)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/contact-form-7/class-contact-form-7.php:1
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Contact Form"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/contact-form-7/class-contact-form-7.php:1
+msgid "Contact Form 7"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Content Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Content Padding"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Content Section"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:114
+msgid "Content Sliding"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:59
+msgid "Control how sidebars should behave when viewed on different screen sizes, this is only applicable if responsive behavior for the theme has not been disabled."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:233
+msgid "Control the container layout of your website, the container wraps all content and determines the outer width of your website."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:245
+msgid "Control the layout of your website."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Controls"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:130
+msgid "Controls:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-marker.php:1
+msgid "Coordinates"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Cover"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:164
+msgid "Create Gallery"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:316
+msgid "Create a list of your social media profiles which can then be displayed in different ways throughout your website, just add at least one profile below and you\\'ll be able to display your social media prescence all over your website."
+msgstr ""
+
+#. Text in function
+#: camyno/config/background/class-background.php:186
+msgid "Custom Background"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Custom Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:260
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Custom Height"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:146
+msgid "Custom Height:"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:328
+msgid "Custom Image"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:569
+msgid "Custom Logo"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Custom Margins Size"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:50
+msgid "Custom Sidebars"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:737
+msgid "Custom background Image"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Custom color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:678
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Custom height"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:709
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Custom image"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+msgid "Custom settings"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/sidebar.php:51
+msgid "Custom sidebars can be created/managed from the <a href=\"%s\">widgets page</a>. Once you have created at least one custom sidebar you will be able to use your custom sidebars on your pages."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:668
+msgid "Custom styles"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Custom styling"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/background/class-background.php:259
+msgid "Custom, background image can be tiled and positioned in different ways to fit the screen"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/partner-group.php:1
+msgid "Customize how the carousel element should behave."
+msgstr ""
+
+#. Text in echo
+#: camyno/functions.php:159
+msgid "Customize settings"
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: camyno/config/template-builder/class-template-builder.php:1
+msgid "Default Editor"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:63
+msgid "Default Page Layout"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:83
+msgid "Default Single Portfolio Item Layout"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:925
+msgid "Default Transparency Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:918
+msgid "Default Transparency Logo"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Default background"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:212
+msgid "Default banner settings can be set in Appearance > Theme Settings > Header > Banner."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:210
+msgid "Default footer settings can be set in Appearance > Theme Settings > Footer"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:225
+msgid "Default layout can be set in Appearance > Theme Settings > Sidebars"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/inc/widgets/google-map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Default map styling"
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+#: camyno/config/banner-settings/render.php:1
+msgid "Default settings"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:156
+msgid "Default settings can be set in Appearance > Theme Settings > Header > Transparency."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Default shop loop style"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/bbpress/settings-page.php:61
+msgid "Default sidebar layout for all forum related pages."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:69
+msgid "Default sidebar layout for pages, can be overriden for each page."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:89
+msgid "Default sidebar layout for single portfolio items, can be overriden for each portfolio item."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:347
+msgid "Delete"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:273
+#: camyno/config/theme-settings/pages/social.php:343
+msgid "Delete Profile"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:184
+msgid "Description"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Different Browsers support different file types (mp4, ogv, webm). If you embed example.mp4 then video the video player will automatically check if an example.ogv and/or example.webm video is available and display those files when applicable."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:159
+msgid "Disable Comments"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:120
+msgid "Disable all responsive features, website will not respond to different screen sizes."
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/blog.php:209
+msgid "Disable post formats, learn more about post formats <a href=\"%s\">here</a>."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:128
+msgid "Disable the template builder module previews, recommended if you will be working with pages that have a lot of content."
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+msgid "Disabled"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:192
+msgid "Disabled Post Meta"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "Dismiss this notice"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:654
+msgid "Display Bread Crumbs"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:241
+msgid "Display Breadcrumbs"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:94
+msgid "Display Cart Preview"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/tab.php:1
+msgid "Display Icon"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:115
+msgid "Display Related Portfolio Items"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:201
+msgid "Display Settings"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:169
+msgid "Display Title"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:106
+msgid "Display a dropdown above the shop which will allow users to change the sorting order of the listed products."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:619
+msgid "Display a light drop shadow below the header."
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/footer.php:179
+msgid "Display a menu in the socket area, menu can be chosen/edited <a href=\"%s\">here</a> after theme settings have been saved."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:97
+msgid "Display a preview of the cart when the cart icon is hovered over."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:84
+msgid "Display a shopping cart icon in the header."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:612
+msgid "Display a small (1px) border beneath the header, for visual separation."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/tab.php:1
+msgid "Display an icon next to the title of this tab."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:245
+msgid "Display bread crumbs in the banner when applicable."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:657
+msgid "Display bread crumbs in the header when applicable."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:147
+msgid "Display bread crumbs just above the footer/socket area."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Display post thumbnails normally"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:293
+msgid "Display share buttons for various social media outlets."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:126
+msgid "Display the featured image immediately before the portfolio item content, this only applies to items whose content was not created using the page builder."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:811
+msgid "Display the search bar in the header."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:834
+msgid "Display the secondary menu in the header."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:155
+msgid "Display the socket area, which is immediately below the footer."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Display your posts in a complete blog, please note that it is best practice to have onl yone of these elements per page."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:850
+msgid "Display your social media profiles in the header."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:863
+msgid "Displayed Social Media Outlets"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/google-map.php:1
+msgid "Displays a Google Map."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/qr-code.php:1
+msgid "Displays a QR code from a URL."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/twitter-rss.php:1
+msgid "Displays links to your Twitter & RSS feeds."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/recent-portfolio.php:1
+msgid "Displays recent portfolio items."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/recent-posts.php:1
+msgid "Displays recent posts, optionally by format."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/social-media.php:1
+msgid "Displays your saved social media outlets."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Divider"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Divider Text"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Do not add any link to the images"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Do not display post thumbnails at all"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Down"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Down Left"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Down Right"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Downwards"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:403
+msgid "Drag to Duplicate"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:588
+msgid "Dropdown"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "E-Mail Address"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Each header tag will likely have a diferent weight already applied to it, this can be overridden here"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Each notification type has a unique default icon, you can choose whether to use this icon, a custom one, or hide the icon altogether."
+msgstr ""
+
+#. Text in function
+#: camyno/comments.php:122
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "Element"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "Element Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "Element Type"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Elements Alignment"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:88
+msgid "Empty Cart Icon"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:103
+msgid "Enable Catalog Ordering"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:101
+msgid "Enable IE 10 + Metro tile icon support"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Enable Parallax"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:111
+msgid "Enable Shop Double Images"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:604
+msgid "Enable collapsing header, header will reduce to a smaller height when scrolled down."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:118
+msgid "Enable full page content sliding, please note that this will comletely hide the banner area."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:905
+msgid "Enable header transparency on all pages by default, use this with caution. If this is checked make sure the header logo/text color will show up well on top of the banner."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Enable pagination when applicable."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Enable parallax scrolling effect for this sections content"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Enable scrolling background effect for this section. Keep in mind this works best with background images that tile perfectly."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:597
+msgid "Enable sticky behavior, meaning the header will scroll with the page."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:626
+msgid "Enable stretched header, which means the header will stretch to fill the width of the outer container."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:137
+msgid "Enable the floating back to top link in the bottom corner of the screen."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:913
+msgid "Enable the glassy background effect for the transparent header by default."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:167
+msgid "Enable the glassy background effect for the transparent header."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:213
+msgid "Enable the widgetized columns in the footer, you will be able to control the layout below."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:96
+msgid "Enable touch icon support for iOS 2.0+ and Android 2.1+"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:902
+msgid "Enabled By Default"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Enabled Controls"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:300
+msgid "Enabled Share Buttons"
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+msgid "Enabled, with custom settings"
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+msgid "Enabled, with theme settings defaults"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Enscribed in a circle"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Enscribed in a circle with border"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:140
+msgid "Enter a comma delimited list of labels to be used by the automatically generated page navigation buttons."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:140
+msgid "Enter a full .mp3 URL here. You must include both file types for full browser support."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:211
+msgid "Enter a full .mp4 URL here. You must include both file types."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:150
+msgid "Enter a full .ogg or .oga URL here. You must include both file types for full browser support."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:221
+msgid "Enter a full .ogv URL here. You must include both file types."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:182
+msgid "Enter a full URL here, the title of this post will be used as the link text."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+msgid "Enter a number to represent this step (Numeric value only, maximum of 3 characters). <strong>Leave this blank to use an automatically assigned number based on the number of steps</strong>."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Enter a numeric value only, commas will be added automatically."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/contact-form-7/class-contact-form-7.php:1
+msgid "Enter a title for this form"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Enter a value here to override the default margins, value must include units for example \"50px\" or \"3em\"."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Enter any text that should be displayed underneath the price, such as recrring payment information."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:241
+msgid "Enter either a YouTube or Vimeo video page URL here, it is not necessary to enter the actual embed URL."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/background/class-background.php:248
+msgid "Enter image URL or select an image"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Enter the number of posts to be displayed per page, enter a number only. Default is to display all posts on one page."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:272
+#: camyno/config/theme-settings/pages/social.php:342
+msgid "Enter your full %s URL."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Error (Red)"
+msgstr ""
+
+#. Text in echo
+#: camyno/tribe-events/single-event.php:85
+msgid "Event Navigation"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:187
+msgid "Example secondary content."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Excluded Post Formats"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:362
+msgid "Exit Full Screen"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:394
+msgid "Exiting Fullscreen"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "External Video Embed"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Faint inner shadow"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Fast"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:87
+msgid "Favicon"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:157
+msgid "Featured Gallery"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Featured Option"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Featured products"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Features Added"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Features Removed"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Features Updated"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Field"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Field Label"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Field Placeholder"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Field Type"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Field Width"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Filled"
+msgstr ""
+
+#. Text in echo
+#: camyno/tribe-events/list/single-event.php:75
+msgid "Find out more"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:156
+msgid "First enter a full address in the specified field above, then press the \"Get Coordinates\" button above to convert the address into usable coordinates. Alternatively you can enter your own coordinates in the fields below."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/background/class-background.php:294
+msgid "Fixed"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:779
+#: camyno/config/background/class-background.php:227
+msgid "Fixed, background image will remain fixed in place"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:134
+msgid "Floating Back to Top Link"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:144
+msgid "Floating Back to Top Link Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:206
+#: camyno/config/color-scheme/class-color-scheme.php:221
+msgid "Focused Link"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:233
+msgid "Focused Menu Item"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/twitter-rss.php:1
+msgid "Follow"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Font Size"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Font Size Adjustment"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/theme-settings/pages/footer.php:1
+msgid "Footer"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:218
+msgid "Footer Column Layout"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:202
+msgid "Footer Settings"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:152
+msgid "Footer Socket"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:224
+msgid "Footer Title"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:70
+msgid "Footer:"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:371
+#: camyno/config/theme-settings/pages/header.php:766
+msgid "Foreground Overlay Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:358
+#: camyno/config/theme-settings/pages/header.php:753
+msgid "Foreground Overlay Opacity"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Form Style"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Form Submitted Message"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/recent-posts.php:175
+msgid "Format:"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/bbpress/settings-page.php:65
+msgid "Forum Pages Header & Banner Behavior"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/bbpress/settings-page.php:47
+msgid "Forum Search Bar"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/bbpress/settings-page.php:55
+msgid "Forums Layout"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:231
+msgid "Free, fill the width of the screen"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:243
+msgid "Free, will fill the width of the outer container"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "From a specific category"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Full Name"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:361
+#: camyno/config/template-builder/class-template-builder.php:363
+msgid "Full Screen"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:176
+#: camyno/config/theme-settings/pages/portfolio.php:131
+msgid "Full Size Featured Images"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Full Width"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Full Width Map"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Full screen content sections are the foundation for your pages content, they provide the background images, color schemes, and the perfect way to divide the content of your page and add some organization. Content sections can contain any number or row modules which can be used to further organize your content."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:249
+msgid "Fullscreen Overlay Color"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/custom-menus.php:1
+msgid "Fullscreen Overlay Menu"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/custom-menus.php:1
+msgid "Fullscreen Overlay Menu (Logged In User)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:590
+msgid "Fullscreen overlay"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Gallery"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:557
+#: camyno/config/theme-settings/pages/general.php:1
+msgid "General"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:212
+msgid "General Font Size"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:154
+msgid "Get Coordinates"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Ghost"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Glassy"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:163
+#: camyno/config/theme-settings/pages/header.php:910
+msgid "Glassy Background"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Go"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Green"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/partner-group.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Grid"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "HTML5 Video Background .mp4 file"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "HTML5 Video Background .ogv file"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "HTML5 Video Background .webm file"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "HTML5 Video Background Fallback Image"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "HTML5 Video MP4 URL"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "HTML5 Video Ogg URL"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "HTML5 Video WebM URL"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "HTML5 video"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/header.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Header"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:635
+msgid "Header Banner"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:636
+msgid "Header Banner refers to the section displayed immediately below the header. Its intended purpose is to display textual information about the current page. The settings below are used to determine the default settings and can be overwritten on certain pages individually."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:609
+msgid "Header Border"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:616
+msgid "Header Drop Shadow"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:182
+msgid "Header Five"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Header Five (h5)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:181
+msgid "Header Four"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Header Four (h4)"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/custom-menus.php:1
+msgid "Header Menu"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/custom-menus.php:1
+msgid "Header Menu (Logged In User)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:178
+msgid "Header One"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Header One (h1)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:183
+msgid "Header Six"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Header Six (h6)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Header Tag"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:180
+msgid "Header Three"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Header Three (h3)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:148
+msgid "Header Transparency"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:179
+msgid "Header Two"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Header Two (h2)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:68
+msgid "Header:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Headers"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Height"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:647
+msgid "Hidden, do not display textual information"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:127
+msgid "Hide Related Products on Product Pages"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:119
+msgid "Hide Upsells on Product Pages"
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+msgid "Hide both widgetized columns & socket"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Hide content completely"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Hide media completely"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:112
+msgid "Hide simple bread crumbs, this refers to any time the current page is a direct child of the home page, for example \"Home > Blog\" or \"Home > Shop\"."
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+msgid "Hide socket area"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:187
+msgid "Hide the Themefyre attribution text in the socket area."
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+msgid "Hide the banner"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:91
+msgid "Hide the cart icon when it is empty."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Hide the icon"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/bbpress/settings-page.php:50
+msgid "Hide the large search bar displayed above the forums index."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:130
+msgid "Hide the related products section displayed on single product pages."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:122
+msgid "Hide the upsells section displayed on single product pages."
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+msgid "Hide widgetized columns"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:308
+msgid "History"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:551
+msgid "Home / About / The Team"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Horizontal"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:390
+msgid "Hot Keys"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "How the column should be aligned."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:114
+msgid "IE 10 + Metro Tile Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:118
+msgid "IE 10 + Metro Tile Icon"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/icon-box.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/tab.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+#: camyno/config/shortcodes/tags/notification.php:1
+#: camyno/config/shortcodes/tags/price-option.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Icon"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Icon Box"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Icon Box Link"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Icon Box Title, will default to \"Check this out\" if left blank."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Icon Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Icon Position"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+msgid "Icon Source"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Icon Style"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Icon boxes are a staple in any modern website, they can be used for many prposes including a list of services or showing off some of your companys best attributes."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+msgid "Icon font character"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Image"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:255
+msgid "Image Hover Effect Overlay Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Image Links"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Image Proportions (Width X Height)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:180
+#: camyno/config/banner-settings/render.php:335
+msgid "Image URL is broken"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Images"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Increase or decrease this lines relative font size."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Informational (Blue)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Initial Checkbox Status"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Inline & Centered"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:589
+msgid "Inline Tree"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:163
+msgid "Inline, all content dislpayed on one line"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Inline, icon displayed on same line as title"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:643
+msgid "Inline, on a single line"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:237
+msgid "Inner Container Width"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:67
+msgid "Inner Containers:"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:544
+msgid "Insert the selected template after the existing page content."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:534
+msgid "Insert the selected template before the existing page content."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "Install Plugins"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "Install Required Plugins"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/shortcodes/controls/image.php:81
+#: camyno/config/shortcodes/controls/gallery.php:116
+msgid "It seems your are no longer logged in. Please log in and try again."
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/advanced.php:86
+msgid "JavaScript will be added immediately before the closing %s tag."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Large"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Larger"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:217
+msgid "Larger - 15px"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:158
+msgid "Latitude:"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:217
+msgid "Layout"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+#: camyno/config/shortcodes/tags/image.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Left"
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+#: camyno/config/plugins/woocommerce/settings-page.php:170
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/theme-settings/pages/sidebar.php:65
+#: camyno/config/theme-settings/pages/sidebar.php:75
+#: camyno/config/theme-settings/pages/sidebar.php:85
+#: camyno/config/theme-settings/pages/sidebar.php:95
+#: camyno/config/theme-settings/pages/sidebar.php:105
+#: camyno/config/plugins/bbpress/settings-page.php:57
+msgid "Left Sidebar"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:645
+msgid "Left aligned, on multiple lines"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Left of content"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Less"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Light"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Line"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Line Content Source"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Line Font Weight"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Line Text"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Line border & shadow"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Line divider with square accent"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Link"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:178
+msgid "Link URL"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "List Style"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:575
+msgid "Logo / Menu Layout"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:577
+msgid "Logo Left, Menu Right"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:578
+msgid "Logo Right, Menu Left"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/partner-group.php:1
+msgid "Logo/Partner Group"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:162
+msgid "Longitude:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Loop"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:132
+msgid "MP3 File URL"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:203
+msgid "MP4 File URL"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Main Content"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:182
+msgid "Main Content Header"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:857
+msgid "Main Header Area (Will only be visible on large screens)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:73
+msgid "Main Menu Top Level Item"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+msgid "Map"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Map Hue"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Map ID"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Margins"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-marker.php:1
+msgid "Marker"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:140
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Masonry"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:143
+msgid "Masonry - Stretched"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/inc/widgets/google-map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Match the alternate content"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/inc/widgets/google-map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Match the footer"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/inc/widgets/google-map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Match the main content"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:125
+msgid "Match the settings for the blog page specified above"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:127
+msgid "Match the settings for the blog page specified above, and hide the banner text"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/bbpress/settings-page.php:68
+msgid "Match the settings for the page with the slug matching the one specified in bbPress Settings"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:107
+msgid "Match the settings for the portfolio page specified above"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:109
+msgid "Match the settings for the portfolio page specified above, and hide the banner text"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:160
+msgid "Match the settings for the shop page specified in WooCommerce Settings"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:162
+msgid "Match the settings for the shop page specified in WooCommerce Settings, and hide the banner text on product pages"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/inc/widgets/google-map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Match the socket"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Maximum Number of Products"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "Maximum Width"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Media Flag"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Media Image"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Media Position"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Media Source"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Media moved above content"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Media moved below content"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Medium"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:232
+msgid "Menu Item"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:586
+msgid "Menu Style"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Message"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:141
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Minimal"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:144
+msgid "Minimal - Stretched"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Minimum Height"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:406
+msgid "Modules can be duplicated and repositioned at the same time, simply drag a module by the duplicate button and a copy will be made instead of moving the existing module."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "More"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Much Larger"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:218
+msgid "Much Larger - 16px"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Much More"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:214
+msgid "Much Smaller - 12px"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Neutral (Match the section)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "New Message [Sent by contact form at %s]"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/widget-areas/class-sidebar-manager.php:114
+msgid "New Sidebar"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:331
+msgid "New Template Name"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "New York, NY"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/widget-areas/class-sidebar-manager.php:115
+msgid "New sidebar name"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:241
+msgid "New sidebars can be created on the widgets page (Appearance > Widgets)."
+msgstr ""
+
+#. Text in function
+#: camyno/comments.php:33
+#: camyno/comments.php:54
+msgid "Newer"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+msgid "No Background Image"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "No Icon"
+msgstr ""
+
+#. Text in echo
+#: camyno/woocommerce/loop/rating.php:24
+msgid "No Ratings Yet"
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+#: camyno/config/plugins/woocommerce/settings-page.php:172
+#: camyno/config/theme-settings/pages/sidebar.php:67
+#: camyno/config/theme-settings/pages/sidebar.php:77
+#: camyno/config/theme-settings/pages/sidebar.php:87
+#: camyno/config/theme-settings/pages/sidebar.php:97
+#: camyno/config/theme-settings/pages/sidebar.php:107
+#: camyno/config/plugins/bbpress/settings-page.php:59
+msgid "No Sidebar"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "No adjustment"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "No alignment"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/inc/widgets/google-map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "No controls"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "No parallax effect"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-marker.php:1
+msgid "No popup window"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:341
+msgid "No saved templates were found, you can create one by pressing Save Page as Template above."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "No scrolling effect"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "No sidebar"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "No special styling"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "No, checkbox should not be checked"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "No, disable pagination"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "No, disable the autocomplete feature"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/tab.php:1
+msgid "No, do not display the icon"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "No, do not enable stretched content"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "No, gallery columns should remain fixed"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "No, this field is not required"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "No, this option should be displayed normally"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "No, video must be started manually"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "No, video will be muted"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "No, video will have no controls"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "No, video will play once and then stop"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/media-flag.php:1
+#: camyno/config/plugins/contact-form-7/class-contact-form-7.php:1
+#: camyno/config/theme-settings/pages/blog.php:111
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/theme-settings/pages/portfolio.php:93
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/image.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "None"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:755
+#: camyno/config/shortcodes/tags/promo-box.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "None, do not display an overlay color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "None, let the content dictate the height"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:707
+msgid "None, no background image"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/media-flag.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/animated-number.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Normal"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:216
+msgid "Normal - 14px"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Normal Content"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:206
+#: camyno/config/color-scheme/class-color-scheme.php:221
+msgid "Normal Link"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:64
+msgid "Notable CSS Selectors"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Notification Box"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Notification Text"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Notification Type"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+msgid "Number"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/partner-group.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/theme-settings/pages/blog.php:151
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Number of Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+msgid "Number of Portoflio Items"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Number of Posts"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/recent-posts.php:183
+#: camyno/inc/widgets/recent-portfolio.php:126
+msgid "Number of posts to show:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+msgid "Numeric"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Numeric Input"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:150
+msgid "Numeric value only, if left blank all products will be displayed on one page."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:142
+msgid "OGG File URL"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:213
+msgid "OGV File URL"
+msgstr ""
+
+#. Text in function
+#: camyno/comments.php:30
+#: camyno/comments.php:51
+msgid "Older"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/twitter-rss.php:1
+msgid "On Twitter"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:134
+msgid "On portfolio item pages allow the featured image to be expanded to full size."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "On sale products"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:118
+msgid "On single portfolio item pages display related items below the post content."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:179
+msgid "On single post pages allow the featured image to be expanded to full size."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:171
+msgid "On single post pages display related posts below the post content."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+msgid "Only show portfolio items which have thumbnails"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Only show posts which have thumbnails"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Opacity"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:329
+msgid "Open Social Links In New Window"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:332
+msgid "Open all social media links in a new window/tab."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Open image in a lightbox"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Open image in current tab"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Open image in new tab/window"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Optional Descriptin"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Optional Form Title"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Optional Title"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+msgid "Optionally add a title to be displayed immediately before the map."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:189
+msgid "Optionally enter a short description for this page, will be displayed adjacent to the display title in the banner."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:281
+msgid "Optionally select a background color to be used for the banner. <strong>Pro Tip: When using a background image set this color to one remotely similar to the overall image, this way as the image is loading the color will be visible.</strong>"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:296
+msgid "Optionally select a color to be used for the banner typography."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Optionaly add a placeholder for this field."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:225
+msgid "Outer Container Width"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:66
+msgid "Outer Container:"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:817
+msgid "Overlay Search Bar Type"
+msgstr ""
+
+#. Text in function
+#: camyno/config/template-builder/class-template-builder.php:1
+msgid "Page Builder"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Page Pagination"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:549
+msgid "Page Title"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/header.php:791
+#: camyno/config/theme-settings/pages/general.php:152
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Pages"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/inc/widgets/google-map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Pan & zoom"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/inc/widgets/google-map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Pan only"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Perfect grid"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/loops/search.php:43
+msgid "Permalink"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Placeholder"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:83
+msgid "Plural Item Label"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-marker.php:1
+msgid "Popup Window"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/portfolio.php:1
+#: camyno/config/theme-settings/pages/general.php:152
+msgid "Portfolio"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:104
+msgid "Portfolio Item Header & Banner Behavior"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:76
+msgid "Portfolio Item Labels"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/header.php:791
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Portfolio Items"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:92
+msgid "Portfolio Page"
+msgstr ""
+
+#. Text in function
+#: camyno/comments.php:114
+#: camyno/config/theme-settings/pages/blog.php:183
+msgid "Post Author"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/blog.php:183
+msgid "Post Category"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/blog.php:183
+msgid "Post Date"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:206
+msgid "Post Formats"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/blog.php:183
+msgid "Post Tags"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Post Thumbnails Handling"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:223
+msgid "Poster Image URL"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Posts Per Page"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Preset Colors"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Preset Patterns"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:708
+msgid "Preset background"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Preset pattern"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:370
+msgid "Preview Changes"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Price"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Price Option"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Product Category"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Product Style"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:148
+msgid "Products Per Page"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:114
+msgid "Products displayed within shop loops will display the first image in their gallery (if any) when hovered over."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:80
+msgid "Project"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:84
+msgid "Projects"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Promo Box"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Promo boxes will be displayed as text on top of a background which you customize, the entire box can then optionally be linked to any URL of your choice."
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/qr-code.php:94
+msgid "QR Code URL:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Query Type"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:78
+msgid "Quick CSS"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:84
+msgid "Quick JavaScript"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:384
+msgid "Quick Tips"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/twitter-rss.php:119
+msgid "RSS Feed URL:"
+msgstr ""
+
+#. Text in function
+#: camyno/woocommerce/loop/rating.php:49
+msgid "Rated %s out of 5, based on %s customer reviews."
+msgstr ""
+
+#. Text in function
+#: camyno/woocommerce/single-product/review.php:39
+#: camyno/woocommerce/single-product/rating.php:43
+msgid "Rated %s out of 5."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Recent Posts"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+msgid "Recent portfolio Items"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+msgid "Recent portfolio items title, will be displayed immediately before the portfolio items."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Recent posts title, will be displayed immediately before the posts."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Recent products"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Recieved E-Mail Subject"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Recipient E-mail Address"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Red"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:172
+#: camyno/config/color-scheme/class-color-scheme.php:230
+msgid "Regular inline text"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:168
+msgid "Related Posts Below Single Posts"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Release Date"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:138
+#: camyno/config/post-formats/class-format-settings.php:148
+#: camyno/config/post-formats/class-format-settings.php:209
+#: camyno/config/post-formats/class-format-settings.php:219
+msgid "Remove File"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:166
+msgid "Remove Gallery"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:185
+#: camyno/config/banner-settings/render.php:340
+#: camyno/config/post-formats/class-format-settings.php:229
+msgid "Remove Image"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:538
+msgid "Replace Existing Content"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:539
+msgid "Replace the existing page content with the selected template."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Required Field"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Responsive"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+#: camyno/config/theme-settings/pages/sidebar.php:54
+#: camyno/config/theme-settings/pages/general.php:117
+msgid "Responsive Behavior"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/class-theme-settings.php:213
+msgid "Restore Defaults"
+msgstr ""
+
+#. Text in echo
+#: camyno/tribe-events/single-event.php:63
+msgid "Return To All Events"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "Return to the dashboard"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+#: camyno/config/shortcodes/tags/image.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Right"
+msgstr ""
+
+#. Text in function
+#: camyno/config/page-settings/render.php:1
+#: camyno/config/plugins/woocommerce/settings-page.php:171
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/theme-settings/pages/sidebar.php:66
+#: camyno/config/theme-settings/pages/sidebar.php:76
+#: camyno/config/theme-settings/pages/sidebar.php:86
+#: camyno/config/theme-settings/pages/sidebar.php:96
+#: camyno/config/theme-settings/pages/sidebar.php:106
+#: camyno/config/plugins/bbpress/settings-page.php:58
+msgid "Right Sidebar"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:646
+msgid "Right aligned, on multiple lines"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Right of content"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Rounded corners"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/visual.php:196
+msgid "Sans Serif"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:334
+msgid "Save"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:281
+#: camyno/config/template-builder/class-template-builder.php:377
+msgid "Save Changes"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/class-theme-settings.php:214
+#: camyno/config/background/class-background.php:308
+msgid "Save Settings"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/background/class-background.php:293
+msgid "Scroll"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:778
+#: camyno/config/background/class-background.php:226
+msgid "Scroll, background image will scroll with page"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Scrolling Background Direction"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Scrolling Background Speed"
+msgstr ""
+
+#. Text in echo
+#: camyno/searchform.php:4
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Search Autocomplete"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:808
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Search Bar"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:73
+msgid "Search Results Page Layout"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Search Type"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Search..."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/custom-menus.php:1
+msgid "Secondary Header Menu"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/custom-menus.php:1
+msgid "Secondary Header Menu (Logged In User)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:831
+msgid "Secondary Menu"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:838
+msgid "Secondary Menu Position"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:207
+#: camyno/config/color-scheme/class-color-scheme.php:216
+msgid "Secondary content example, with borders"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:234
+msgid "Secondary content with borders"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Section ID"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Select Box"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Select Custom"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:137
+#: camyno/config/post-formats/class-format-settings.php:147
+#: camyno/config/post-formats/class-format-settings.php:208
+#: camyno/config/post-formats/class-format-settings.php:218
+msgid "Select File"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:184
+#: camyno/config/banner-settings/render.php:339
+#: camyno/config/theme-settings/pages/header.php:920
+#: camyno/config/theme-settings/pages/header.php:739
+#: camyno/config/post-formats/class-format-settings.php:228
+#: camyno/config/theme-settings/pages/branding.php:120
+#: camyno/config/background/class-background.php:249
+msgid "Select Image"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/shortcodes/controls/file.php:52
+msgid "Select a File"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Select a category to list products from."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:740
+msgid "Select a custom background image to use for the banner. You can either enter an image URL here or select one from the media library."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Select a custom icon"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:342
+msgid "Select a custom image for the banner\\'s background."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Select a preset pattern to use as the background for this section."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/shortcodes/controls/image.php:50
+#: camyno/config/shortcodes/controls/link.php:207
+msgid "Select an Image"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Select an image to be displayed adjactent to the content, please note that the image will be displayed at its full size."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Select an image to be used as the background on devices that dont fully support HTML5 video elements. Please note that this inlcudes nearly all mobile devices and tablets."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:121
+msgid "Select an image with dimensions of exactly 144px X 144px, the file type also must be \".png\"."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:110
+msgid "Select an image with dimensions of exactly 152px X 152px, the file type also must be \".png\"."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:319
+msgid "Select an outlet"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Select custom products"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:354
+#: camyno/config/theme-settings/pages/header.php:749
+msgid "Select how the background image should be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Select how the elements in this slide should be aligned."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Select how the image should be aligned."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Select how the image should be styled."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Select how this divider should be aligned."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/contact-form-7/class-contact-form-7.php:1
+msgid "Select the Contact Form 7 form to display."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:251
+msgid "Select the background color for fullscreen overlays, this includes the overlay menu and the overlay search bar. Please note that the content displayed in the overlay is semi transparent black & white."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:257
+msgid "Select the background color used for image hover effects. Please note that the content displayed in the overlay will adjust to the color you select."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:146
+msgid "Select the color to be used for the floating back to top link."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:116
+msgid "Select the color to be used for the metro tile for your website."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Select the icon for this icon box."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+msgid "Select the icon for this step."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/tab.php:1
+msgid "Select the icon for this tab."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Select the image to be displayed."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:318
+#: camyno/config/theme-settings/pages/header.php:711
+msgid "Select the source for the banner\\'s background image."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Select the style for this blog"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Select which images should be displayed."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:875
+msgid "Select which of your saved social media outlets should be displayed."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:202
+msgid "Select which of your saved social media outlets, if any, should be displayed in the socket area."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Select which products should be displayed (products are listed alphabetically)."
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/social-media.php:100
+msgid "Select which social media outlets should be displayed, if none are selected then all outlets will be shown."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Selected Products"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:572
+msgid "Selected image should be 360px x 170px for optimal display. If no image is selected then a textual logo will be used consisting of your website title. You can either enter an image URL here or select one from the media library."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:921
+msgid "Selected image should be 360px x 170px for optimal display. This setting can be overriden on each page individually. You can either enter an image URL here or select one from the media library."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:196
+msgid "Self Hosted Video"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Self Hosted Video URL"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Self hosted video"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/visual.php:196
+msgid "Serif"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Set the ID attribute for this map, this allows you to link to this map in the creation of a one page website."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Set the ID attribute for this section, this allows you to apply unique styles to this section with CSS or to link to this section in the creation of a one page website."
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/class-theme-settings.php:1
+msgid "Settings updated. <a href=\"%s\">Visit your site</a> to see how it looks."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/add-actions.php:232
+msgid "Share"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:290
+msgid "Share Buttons"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/add-actions.php:279
+msgid "Share This"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:138
+msgid "Shop Columns"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:157
+msgid "Shop Header & Banner Behavior"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:550
+msgid "Short description"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:127
+msgid "Short description of your website and its content, used by search engines."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:126
+msgid "Side Navigation Background Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:130
+msgid "Side Navigation Base Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:134
+msgid "Side Navigation Hover Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:138
+msgid "Side Navigation Labels"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:233
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/section.php:509
+msgid "Sidebar"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Sidebar Layout"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:200
+msgid "Sidebar Title"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:109
+msgid "Sidebar layout for single post pages."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:174
+msgid "Sidebar layout for single product pages."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:99
+msgid "Sidebar layout for the blog page and other blog related pages including archives."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:79
+msgid "Sidebar layout for the search results page."
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/sidebar.php:1
+msgid "Sidebars"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Sideways, large icon adjacent to box"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:109
+msgid "Simple Bread Crumbs"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Simple line border"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Simple line divider"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "Single Button"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "Single Column"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Single Icon"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:103
+msgid "Single Post Layout"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:168
+msgid "Single Product Layout"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:79
+msgid "Singular Item Label"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Size"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Slide"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Slider"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Slider Configuration"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Slow"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Small"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Smaller"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:215
+msgid "Smaller - 13px"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/social.php:1
+msgid "Social"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:847
+msgid "Social Media"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:855
+msgid "Social Media Position"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/social.php:315
+msgid "Social Media Profiles"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/social-media.php:93
+msgid "Social media Outlets:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Socket"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:230
+msgid "Socket Area"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:184
+msgid "Socket Attribution"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:161
+msgid "Socket Layout"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/custom-menus.php:1
+#: camyno/config/theme-settings/pages/footer.php:176
+msgid "Socket Menu"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/custom-menus.php:1
+msgid "Socket Menu (Logged In User)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:192
+msgid "Socket Social Media Outlets"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:170
+msgid "Socket Text"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/advanced.php:71
+msgid "Socket:"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "Something went wrong."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/recent-posts.php:1
+#: camyno/inc/widgets/recent-portfolio.php:1
+msgid "Sorry, no posts to show!"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Spacing"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Specify a background color for this promo box, if none is specified the background color will be transparent. <strong>Pro Tip: When using a background image set this color to one remotely similar to the overall image, this way as the image is loading this color will be visible.</strong> "
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+msgid "Specify a category for portfolio items to be pulled from."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Specify a category for posts to be pulled from."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:375
+#: camyno/config/theme-settings/pages/header.php:768
+msgid "Specify a color to be overlayed on top of the banner."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Specify a color to be overlayed on top of the promo box background."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Specify a color to be overlayed on top of the section background."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Specify a custom background color to be used for this section, leave this blank to use the default background color."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Specify a custom background color to be used for this theme, leave this blank to use the default background color."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Specify a custom color to be used as the color scheme for this map."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Specify a custom color to be used as the water color for this map."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Specify a custom color to be used for the accent of this divider. If this is left blank the accent color for the section will be used."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Specify a custom color to be used for the base of this divider. If this is left blank the borders color for the section will be used."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "Specify a custom color to be used for this element."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Specify a custom color to be used for this slides content, if none is specified the content will be white by default."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Specify a custom color to use for the icon, if none is specified the section\\'s accent color will be used."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Specify a custom color to use for the submit button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Specify a custom color to use for this button."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:266
+#: camyno/config/theme-settings/pages/header.php:680
+msgid "Specify a custom height for the banner, only enter a numeric value in pixels. If header transparency is enabled then the height of the header will be added to the height of the banner automatically."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Specify a custom height for this map in pixels, enter a numeric value only."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Specify a custom icon to be used for this notification box."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Specify a minimum height for this section."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Specify a title for this form which will be displayed just above the form."
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/qr-code.php:98
+msgid "Specify a valid URL the QR code should be linked to. If no URL is specified the generated QR code will automatically link to the page it is being displayed on."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Specify an aminated entrance for the gallery images to come into view, animations will occur consecutively."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Specify an aminated entrance for the slide elements to come into view, animations will occur consecutively."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Specify an aminated entrance for this image to come into view."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Specify an icon to be displayed within the button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Specify an icon to be displayed within this button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Specify an icon to be used for this divider."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Specify an icon to be used for this line."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Specify any content to be displayed immediately after the number."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/partner-group.php:1
+msgid "Specify how many columns should be used to display the logos."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+msgid "Specify how many columns should be used to display these recent portfolio items."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Specify how many columns should be used to display these recent posts."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Specify how many columns should be used to display this gallery."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Specify how many columns should be used to display this product list."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Specify how many columns should be used to display your posts."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:144
+msgid "Specify how many columns your shop should be separated into."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Specify how many products can be displayed in this list, ener a numeric vaue only, leave this blank to display as many prducts as possible."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Specify how much padding should be displayed on either side of the content."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Specify how much the map should be zoomed in upon load, 1 being 0% and 21 being 100%."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+msgid "Specify how portfolio items with featured images should be handled."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Specify how posts with featured images should be handled."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Specify how quickly the background should scroll."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Specify how the background of this section should be dislayed."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/bbpress/settings-page.php:70
+msgid "Specify how the banner and header on all forums pages should be displayed."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:164
+msgid "Specify how the banner and header on shop related pages, including category/tag archives, the Cart page, the Checkout page, the My Account page, and single product pages should be displayed."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:129
+msgid "Specify how the banner and header on single post pages and archive pages should be displayed."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:111
+msgid "Specify how the banner on portfolio item pages should be displayed, keep in mind that by default the item title is only displayed in the banner. You can override this setting for each item individually as well."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:670
+msgid "Specify how the banner should be styled, setting this to custom will allow you to select a custom background color/image and change the typography color."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:420
+#: camyno/config/theme-settings/pages/header.php:781
+msgid "Specify how the banner\\'s background image should behave as the page is scrolled."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Specify how the bottom border should be styled"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Specify how the icon should be styled for this icon box"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Specify how the images should be linked."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-marker.php:1
+msgid "Specify how the popup window should be displayed, if at all."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Specify how the products should be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Specify how the products should be listed."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:649
+msgid "Specify how the textual information within the banner should be displayed. Setting this to hidden will hide the text but still allow you to customize the background if so desired, this is especially useful for when header transparency is enabled."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:234
+msgid "Specify how the title/description should be displayed within the banner, if at all."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Specify how the top border should be styled"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+msgid "Specify how these recent portfolio items should be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Specify how these recent posts should be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Specify how this carousel should behave."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Specify how this gallery should be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Specify how this map should be styled."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Specify how this media flag should behave on mobile devices, disregard this if responsiveness for the theme has been disabled."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/partner-group.php:1
+msgid "Specify how this partner group should be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Specify how this product list should be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Specify how this slider should behave."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "Specify if this image should be linked to anything. <strong>To allow the image to be opened in a lightbox window select custom and enter lightbox into the custom URL field.</strong>"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Specify if this promo box should be linked to anything."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Specify the URL for the button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Specify the URL for this button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Specify the amount of spacing that should be used to separate the columns"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:698
+msgid "Specify the color for the banner\\'s background. <strong>Pro Tip: When using a background image set this color to one remotely similar to the overall image, this way as the image is loading the color will be visible.</strong>"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:688
+msgid "Specify the color for the banner\\'s typography."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Specify the color for the submit button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Specify the color for the text, if none is specified the color will be black."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Specify the color for this button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-marker.php:1
+msgid "Specify the coordinates for this marker. First enter a full address then hit \"Get Coordinates\"."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Specify the date that this update was released. Date can be formatted any way you see fit."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Specify the displayed width of this field, fields will be placed side by side to fill the width of the form."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Specify the email address that form submissions should be sent to, if left blank any form submissions will be sent to the admin email address (<i>%s</i>). You can specify multiple email addresses, they must be separatd by only a comma."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+msgid "Specify the height for this map in pixels, enter a numeric value only."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Specify the height for this map."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Specify the label for the submit form button. Defaults to <i>Submit</i> if left blank."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:87
+msgid "Specify the label used to describe each portfolio item. For example if your portfolio is comprised of a series of paintings you would enter <em>Painting</em>, or <em>Picture</em> for a photography based portfolio."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:166
+msgid "Specify the layout to use for the socket area."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+msgid "Specify the maximum number of portfolio items that can be displayed, leave blank to not set a maximum."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Specify the maximum number of posts that can be displayed, leave blank to not set a maximum."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Specify the message that users will see after submitting this form. Defaults to %s if left blank."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Specify the mp4 file to use for the video background."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Specify the ogv file to use for the video background."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:118
+msgid "Specify the page which is currently serving as your main blog page, this is used for site mapping. If you do not have a blog page leave this set to \"none\"."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/portfolio.php:100
+msgid "Specify the page which is currently serving as your main portfolio page, this is used for site mapping. If you do not have a portfolio page leave this set to \"none\"."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Specify the price of this option."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Specify the ratio that should be used to dictate the size of each image."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Specify the ratio that should be used to dictate the size of each tile."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Specify the ratio that should be used to dictate the size of this promo box."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+msgid "Specify the size for this button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "Specify the size of the font used to display this animated number."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Specify the size of this search bar."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Specify the source for the media."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Specify the source for this video."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Specify the style for the submit button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Specify the style for this button."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Specify the style for this icon box"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Specify the subject of the emails you will recieve from this form, if left blank it will default to <i>New Message [Sent by contact form at %s]</i>."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Specify the text for the button, if left blank the button will not be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Specify the text for this button, if left blank the button will not be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "Specify the text for this element.<br /><br /><strong>Formatting Quick Tags:</strong><br />(b)<strong>Bold</strong>(/b)<br />(i)<em>italics</em>(/i)<br />(u)<u>underlined</u>(/u)<br />(s)<del>Striked</del>(/s)<br />"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Specify the text for this line.<br /><br /><strong>Formatting Quick Tags:</strong><br />(b)<strong>Bold</strong>(/b)<br />(i)<em>italics</em>(/i)<br />(u)<u>underlined</u>(/u)<br />(s)<del>Striked</del>(/s)<br />"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Specify the text to be displayed in the notification box."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Specify the text to be displayed within the divider."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Specify the text to be used as the placeholder for the search bar."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Specify the text to be used for the search button text."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:927
+msgid "Specify the the default color for the headers typography when it is transparent, this includes nvigation items & the textual logo. This setting can be overriden on each page individually."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+msgid "Specify the title for this step"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Specify the title for this update, the title can include version number or other relevant information.<br /><br /><strong>Formatting Quick Tags:</strong><br />(b)<strong>Bold</strong>(/b)<br />(i)<em>italics</em>(/i)<br />(u)<u>underlined</u>(/u)<br />(s)<del>Striked</del>(/s)<br />"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map-marker.php:1
+msgid "Specify the title of this marker. Please note that this title will not be displayed anywhere, it is simply a way for you to keep track of your markers."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Specify the title of this option."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/toggle.php:1
+#: camyno/config/shortcodes/tags/tab.php:1
+msgid "Specify the title of this toggle."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Specify the version number for this update. Version number can be formatted any way you see fit."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Specify the webm file to use for the video background."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+msgid "Specify the weight for this line text."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Specify the width of this divider."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Specify this lines opacity."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+msgid "Specify what type of element should be displayed"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Specify whather or not this button should have an icon, and where it should be placed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "Specify where the media should be located."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Specify where the text for this promo box should be positioned."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:366
+#: camyno/config/theme-settings/pages/header.php:760
+msgid "Specify whether or not a color should be overlayed on top of the banner, and at what opacity."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Specify whether or not a color should be overlayed on top of the promo box background, and at what opacity."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Specify whether or not a color should be overlayed on top of the section background, and at what opacity."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Specify whether or not browser driven autocomplete should be enabled or not."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Specify whether or not the button should have an icon, and where it should be placed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Specify whether or not the checkbox should be checked upon page load."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Specify whether or not the layout of this gallery should be responsive, only applicable if responsiveness for the theme has not been enabled."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+msgid "Specify whether or not this button should have an icon, and where it should be placed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Specify whether or not this field is required, for checkboxes this means that the checkbox must be checked to submit the form."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Specify whether or not this option should be featured."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+msgid "Specify whether the icon should be numeric or an icon font character."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Specify whether this line should contain an icon or text."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Specify which content should be searched for."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Specify which controls should be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Specify which header tag to use for this line."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Specify which post formats, if any, should be excluded from the query."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:170
+msgid "Specify which post types comments should be disabled on."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Specify which style of divider should be displayed"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Specify which style to use to display the form."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Specify which tile type should be displayed for each post."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Specify which type of notification this is."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:138
+#: camyno/config/shortcodes/tags/form.php:1
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "Standard"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/recent-posts.php:1
+msgid "Standard format only"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Standard, large icon above title"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Standard, no special styling"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Standard, title below featured content"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+msgid "Step"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:594
+msgid "Sticky Header"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Stretched Content"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:623
+msgid "Stretched Header"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:142
+msgid "Stretched Layouts (Only applicable if the blog layout is set to no sidebar)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/partner-group.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/gallery.php:1
+#: camyno/config/shortcodes/tags/icon-box.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Style"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:665
+msgid "Style Source"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:558
+msgid "Styling"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Submit"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Submit Button Label"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/twitter-rss.php:1
+msgid "Subscribe"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Success (Green)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/tab.php:1
+msgid "Tab"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/toggle.php:1
+msgid "Tags"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/general.php:125
+msgid "Template Builder Module Previews"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:336
+msgid "Template names must have atleast 3 characters and can only contain alphanumeric characters and whitespace."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:318
+msgid "Templates"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+msgid "Text"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Text Below Price"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/text-block.php:1
+msgid "Text Block"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:686
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Text Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Text Position"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:641
+msgid "Text Style"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:886
+msgid "Text to be displayed in the top bar of the header."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Textarea"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Textual Line"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/shortcodes/controls/coordinates.php:46
+msgid "The address could not be found, please try again."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:128
+msgid "The background color for the side navigation, leave this blank for a transparent background."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "The background image for this promo box. This will be displayed on top of the background color."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "The background image for this section. This will be displayed on top of the background color."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:132
+msgid "The base color for the page navigation buttons, leave blank to hide the page navigation completely."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:193
+msgid "The color for the navigation items in the header, will be displayed while header is transparent."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "The description displayed immediately below the title."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:175
+msgid "The display title will only be shown in the banner area, if this is left blank the actual title will be used."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "The empty space above the content in this section."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "The empty space below the content in this section."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:173
+msgid "The featured image of this post will be treated as the post format specific image."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/plugins/class-tgm-plugin-activation.php:1
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:136
+msgid "The hover color for the page navigation buttons, leave blank to use the base color. This will also be used for the tooltips background color."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "The layout of this section, if you use either left or right sidebar you will be able to shoose which sidebar is displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "The maximum width this column can achieve, actual width can not be set to allow for responsiveness."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "The sidebar to be displayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/animated-number.php:1
+msgid "The title displayed immediately below the number."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:187
+msgid "The title of this post will be treated as the quote author, and the content will be treated as the quote."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Theme Colors"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/class-theme-settings.php:1
+#: camyno/config/theme-settings/class-theme-settings.php:178
+msgid "Theme Settings"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/shortcodes/controls/gallery.php:110
+msgid "There was an error retrieving the created gallery, please refresh the page and try again."
+msgstr ""
+
+#. Text in function
+#: camyno/inc/formats/gallery.php:1
+msgid "There was an error retrieving the image"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/shortcodes/controls/image.php:75
+msgid "There was an error retrieving the selected image, please refresh the page and try again."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "This is a simplified contact form builder designed to get your site up and running with beautiful custom contact forms as quickly as possible. For a more thorough form builder it is recommended you use the popular Gravity Forms plugin which is fully supported by this theme."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "This is line one"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/image.php:1
+msgid "This module allows you to add styled images to the page, if you are displaying multiple images adjacent to one another it is recomended that you use the gallery module."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:163
+msgid "This setting is also applied to other blog related pages, including archives."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "This shortcode allows you to easily display either an embedded video or self hosted HTML5 video."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "This shortcode uses the Google Maps API to display a Google Map which can be configured to your preferences. If only one location marker has been added this marker will be used as the center of the map, if more than one has been added the center of the map will be the calculated center of the markers."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "This shortcode will display a single column at the width you specify, this is useful for displaying content on top of a background image at different locations or simply to limit the size of certain content. This shortcode does not provide any added vertical spacing."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/media-flag.php:1
+msgid "This shortcode will display a single column with any content you want adjacent to a media element of your choice (image or video embed)."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "This shortcode will display a stylish search bar wherever you need one, it also supports several 3rd party plugins which when installed will allow this shortcode to be set up to search through their content."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "This will control the control scheme for the section itself and all of the modules placed inside of it. These different color schemes can be edited by navigating to Appearance > Color Scheme."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "This will dictate how the image should behave as the page is scrolled. Scroll will allow the background image to scroll normally with the rst of the page, while fixed will leave the image fixed in place as the page scrolles for what is commonly reffered to as a \"parrallax\" effect."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Tile Proportions (Width X Height)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+msgid "Tile Type"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Tiled"
+msgstr ""
+
+#. Text in function
+#: camyno/config/banner-settings/render.php:1
+#: camyno/config/theme-settings/pages/header.php:747
+msgid "Tiled, image will be tiled to cover the banner"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/recent-portfolio.php:1
+#: camyno/config/shortcodes/tags/recent-posts.php:1
+#: camyno/config/shortcodes/tags/map-marker.php:1
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/plugins/contact-form-7/class-contact-form-7.php:1
+#: camyno/config/shortcodes/tags/toggle.php:1
+#: camyno/config/shortcodes/tags/icon-box.php:1
+#: camyno/config/shortcodes/tags/tab.php:1
+#: camyno/config/shortcodes/tags/instructions-step.php:1
+#: camyno/config/shortcodes/tags/price-option.php:1
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:118
+#: camyno/inc/widgets/qr-code.php:90
+#: camyno/inc/widgets/recent-posts.php:171
+#: camyno/inc/widgets/social-media.php:89
+#: camyno/inc/widgets/recent-portfolio.php:122
+#: camyno/inc/widgets/twitter-rss.php:109
+msgid "Title:"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/widgets/twitter-rss.php:1
+msgid "To RSS Feed"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/toggle.php:1
+msgid "Toggle"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Top"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Top Border"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Top Center"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Top Left"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Top Padding"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "Top Right"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:840
+#: camyno/config/theme-settings/pages/header.php:858
+#: camyno/config/theme-settings/pages/header.php:891
+msgid "Top bar, left side"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:841
+#: camyno/config/theme-settings/pages/header.php:859
+#: camyno/config/theme-settings/pages/header.php:892
+msgid "Top bar, right side"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:107
+msgid "Touch Icon support for iOS 2.0+ & Android 2.1+"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:561
+msgid "Transparency"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:191
+msgid "Transparency Font Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:172
+msgid "Transparency Logo"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/page-settings/render.php:187
+msgid "Transparency logo will be displayed while the header is transparent, selected image should be 360px x 170px."
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/twitter-rss.php:114
+msgid "Twitter URL:"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:290
+msgid "Typography Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/visual.php:193
+msgid "Typography Scheme"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/banner-settings/render.php:223
+msgid "Typography Style"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/button.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/button-child.php:1
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "URL"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/background/class-background.php:240
+msgid "Underlying Color"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Up"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Up Left"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Up Right"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Update Title"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Upwards"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/shortcodes/controls/image.php:51
+#: camyno/config/shortcodes/controls/link.php:208
+msgid "Use This Image"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:667
+msgid "Use default styling"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box-line.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide-element.php:1
+#: camyno/config/shortcodes/tags/header-stack-line.php:1
+msgid "Use preset weight"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Use the default icon"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:159
+#: camyno/config/theme-settings/pages/blog.php:124
+#: camyno/config/theme-settings/pages/portfolio.php:106
+#: camyno/config/plugins/bbpress/settings-page.php:67
+msgid "Use theme defaults (Set in Theme Settings > Header)"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/blog.php:126
+#: camyno/config/theme-settings/pages/portfolio.php:108
+msgid "Use theme defaults (Set in Theme Settings > Header) and hide the banner text"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/plugins/woocommerce/settings-page.php:161
+msgid "Use theme defaults (Set in Theme Settings > Header) and hide the banner text on product pages"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/shortcodes/controls/file.php:53
+msgid "Use this File"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Use this control to specify the size of the white space before and after this divider."
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/footer.php:172
+msgid "Usually copyright information such as %s."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "V."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Valid E-Mail Address"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Version Number"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Vertical Bar delimited list of attributes. Example: Attribute 1|Attribute 2|Attribute 3"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Vertical Bar delimited list of available options, the first option will be used as the default. Example: Option 1|Option 2|Option 3"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Vertical Bar delimited list of features that have been added in this update. Example: Feature 1|Feature 2|Feature 3<br /><br /><strong>Formatting Quick Tags:</strong><br />(b)<strong>Bold</strong>(/b)<br />(i)<em>italics</em>(/i)<br />(u)<u>underlined</u>(/u)<br />(s)<del>Striked</del>(/s)<br />"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Vertical Bar delimited list of features that have been removed in this update. Example: Feature 1|Feature 2|Feature 3<br /><br /><strong>Formatting Quick Tags:</strong><br />(b)<strong>Bold</strong>(/b)<br />(i)<em>italics</em>(/i)<br />(u)<u>underlined</u>(/u)<br />(s)<del>Striked</del>(/s)<br />"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/change-log.php:1
+msgid "Vertical Bar delimited list of features that have been updated in this update. Example: Feature 1|Feature 2|Feature 3<br /><br /><strong>Formatting Quick Tags:</strong><br />(b)<strong>Bold</strong>(/b)<br />(i)<em>italics</em>(/i)<br />(u)<u>underlined</u>(/u)<br />(s)<del>Striked</del>(/s)<br />"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Video Embed"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+#: camyno/config/post-formats/class-format-settings.php:193
+msgid "Video Source"
+msgstr ""
+
+#. Text in function
+#: camyno/config/background/class-background.php:145
+msgid "View Fullscreen Preview"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/add-actions.php:19
+msgid "View more %s"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Visibility"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:56
+msgid "Visible on all screen sizes"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/sidebar.php:57
+msgid "Visible on large screens only"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/visual.php:1
+msgid "Visual"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/notification.php:1
+msgid "Warning (Yellow)"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Water Color"
+msgstr ""
+
+#. Text in echo
+#: camyno/functions.php:156
+msgid "We hope you enjoy creating with this theme as much as we did making it. Here are some pages to help get you started."
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/visual.php:196
+msgid "Web Safe Fonts"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:125
+msgid "Website Description"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/color-scheme/class-color-scheme.php:172
+msgid "Website Header"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:131
+msgid "Website Keywords"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/branding.php:90
+msgid "Website general Favicon, upload a 16x16 PNG or ICO file to be used as your websites favicon."
+msgstr ""
+
+#. Text in echo
+#: camyno/functions.php:155
+msgid "Welcome to Camyno!"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:412
+msgid "When adding a new module click and hold the selected module and the edit screen will automatically be opened."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:399
+msgid "When editing a modules settings, you can either press the escape (esc) key to cancel any changes, or press the enter key to confirm them."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/template-builder/class-template-builder.php:395
+msgid "When fullscreen editing is active simply press the escape (esc) key to return to normal editing."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+#: camyno/config/shortcodes/tags/fullwidth-slide.php:1
+msgid "Whether or not the background image should be tiled, or cover the section completely. Tiled will display the image at its actual size but it will repeat to fill the section. Cover will (potentially) increase or decrease either the width or height of the image to ensure that it will cover the section, please note that the image will be scaled proportionately."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Which devices this section should be visible on. This is great for optimizing your website for all devices. Please note that this setting is not applicable when full page content sliding is active."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "Which devices this single column row should be visible on. This is great for optimizing your website for all devices."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/footer.php:210
+msgid "Widgetized Columns"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "Width"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "With single icon"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/divider.php:1
+#: camyno/config/shortcodes/tags/divider-row.php:1
+msgid "With textual label"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/header.php:791
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "WooCommerce Products"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "WooCommerce Products List"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/icon-box.php:1
+msgid "Wrap this icon box in a link. <strong>Do not use this setting if you plan on placing a link within the content of this icon box.</strong>"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Yes, automatically start the video"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "Yes, checkbox should be checked"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/tab.php:1
+msgid "Yes, display the icon"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "Yes, enable parallax scrolling"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "Yes, enable the autocomplete feature"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Yes, enable video audio"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/gallery.php:1
+msgid "Yes, gallery should be responsive"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/price-option.php:1
+msgid "Yes, this option should be featured"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Yes, video will have manual controls"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/video.php:1
+msgid "Yes, video will loop continually"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/theme-settings/pages/header.php:877
+#: camyno/config/theme-settings/pages/footer.php:204
+msgid "You don\\'t have any saved social media outlets. To set some up navigate to the social tab, follow the instructions and save changes."
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:197
+#: camyno/config/post-formats/class-format-settings.php:237
+msgid "YouTube/Vimeo Embed"
+msgstr ""
+
+#. Text in function
+#: camyno/inc/formats/video.php:1
+msgid "Your browser does not support HTML5 video"
+msgstr ""
+
+#. Text in echo
+#: camyno/woocommerce/single-product/review.php:47
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#. Text in echo
+#: camyno/comments.php:129
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form.php:1
+msgid "Your message has been sent!"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/shortcodes/controls/image.php:86
+#: camyno/config/shortcodes/controls/gallery.php:121
+msgid "Your session has timed out. Please reload the page and try again."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Zoom Level"
+msgstr ""
+
+#. Text in echo
+#: camyno/inc/widgets/google-map.php:138
+msgid "Zoom Level:"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/map.php:1
+#: camyno/inc/widgets/google-map.php:1
+#: camyno/config/shortcodes/tags/map-fullwidth.php:1
+msgid "Zoom only"
+msgstr ""
+
+#. Text in function
+#: camyno/config/theme-settings/pages/header.php:791
+#: camyno/config/shortcodes/tags/search-bar.php:1
+msgid "bbPress Forums"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "center"
+msgstr ""
+
+#. Text in echo
+#: camyno/config/post-formats/class-format-settings.php:231
+msgid "here you cn optionally select an image to be displayed in place of the video before it isplayed."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "left"
+msgstr ""
+
+#. Text in function
+#: camyno/config/plugins/woocommerce/shortcodes/product-list.php:1
+msgid "products List title, will be displayed immediately before the products."
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/single-column.php:1
+msgid "right"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/promo-box.php:1
+msgid "this is line two"
+msgstr ""
+
+#. Text in function
+#: camyno/woocommerce/single-product/review.php:52
+msgid "verified owner"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "very Fast"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/blog.php:1
+msgid "yes, enable pagination"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "yes, stretched with side padding"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/section.php:1
+msgid "yes, stretched without side padding"
+msgstr ""
+
+#. Text in function
+#: camyno/config/shortcodes/tags/form-field.php:1
+msgid "yes, this field is required"
+msgstr ""

@@ -1,0 +1,41 @@
+#body #bbpress-forums {
+
+   /* ====== Edit Profile Screen ====== */
+
+   #bbp-your-profile fieldset label {
+      font-weight: 600 !important;
+      font-size: 0.85em !important;
+      padding: 10px 5px 5px 0 !important;
+   }
+   #bbp-your-profile fieldset input,
+   #bbp-your-profile fieldset textarea {
+      border-radius: 3px;
+      box-shadow: none;
+      padding: 0.75em !important;
+   }
+   #bbp-your-profile fieldset .cv-select-box,
+   #bbp-your-profile fieldset select {
+      width: 60%;
+   }
+   #bbp-your-profile fieldset .cv-select-box {
+      display: inline !important;
+      clear: none !important;
+   }
+   #bbp-your-profile fieldset .cv-select-box select {
+      width: 100% !important;
+   }
+
+
+   /* Hide header border in meta */
+   .bbp-meta .bbp-header { border: none !important; }
+
+   /* Profile Navigation */
+   #bbp-user-navigation .current a {
+      font-weight: 600;
+   }
+
+   #bbp-user-wrapper #bbp-user-avatar img {
+      border-radius: 3px;
+   }
+
+}

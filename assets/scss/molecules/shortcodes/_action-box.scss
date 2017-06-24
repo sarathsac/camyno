@@ -1,0 +1,81 @@
+.cv-action-box {
+
+   position: relative;
+   padding: 1.875em 1.5625em;
+   margin-bottom: $global_margin_after;
+   border-radius: 3px;
+   box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.15);
+   text-align: center;
+
+   /* The text */
+   .cv-header-stack {
+      width: 100%;
+   }
+   .cv-header-stack > * {
+      line-height: 1.75 !important;
+      margin-bottom: 0 !important;
+   }
+
+   /* The buttons */
+   .buttons {
+      margin-top: 1em;
+   }
+
+}
+
+@media #{$breakpoint_1} {
+
+   .cv-action-box {
+
+
+      html:not([dir="rtl"]) & {
+
+         .cv-header-stack {
+            float: left;
+            padding-right: 250px;
+            text-align: left;
+         }
+
+         .buttons {
+            font-size: 14px;
+            position: absolute;
+            width: 250px;
+            text-align: right;
+            top: 0; bottom: 0;
+            right: 1.5625em;
+            margin: auto 0;
+            height: 40px;
+            .cv-button {
+               margin: {
+                  top: 0;
+                  bottom: 0;
+               }
+            }
+         }
+
+      }
+
+      html[dir="rtl"] & {
+
+         .cv-header-stack {
+            float: right;
+            padding-left: 250px;
+            text-align: right;
+         }
+
+         .buttons {
+            position: absolute;
+            width: 250px;
+            text-align: left;
+            top: 0; bottom: 0;
+            left: 1.5625em;
+            margin: auto 0;
+            height: 2em;
+            line-height: 2em;
+         }
+
+      }
+
+   }
+
+}

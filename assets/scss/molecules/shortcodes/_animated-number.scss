@@ -1,0 +1,33 @@
+.cv-animated-number {
+
+   text-align: center;
+   margin-bottom: $global_margin_after;
+
+   /* The number */
+   .number-container {
+      .number {
+         font-size: 3em;
+         font-weight: 300;
+      }
+      .after-number {
+         display: inline;
+         font-size: 1.5em;
+         line-height: 1;
+         margin: 0 3px;
+      }
+   }
+
+   /* The title */
+   strong {
+      display: block;
+      font-size: 1.25em;
+   }
+
+   /* The description */
+   p {
+      margin-top: 0;
+      font-weight: 600;
+      font-size: 0.85em;
+   }
+
+}

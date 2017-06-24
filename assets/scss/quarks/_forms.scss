@@ -1,0 +1,66 @@
+form {
+
+   margin-bottom: $global_margin_after;
+
+   label {
+      font-weight: 600;
+      &[for] { cursor: pointer; }
+   }
+
+}
+
+select, input, textarea {
+   border: none;
+   &:focus {
+      outline: none;
+   }
+}
+
+input,
+textarea,
+button {
+   padding: 1em;
+   -webkit-border-radius: 0.2em;
+   border-radius: 0.2em;
+}
+
+input,
+textarea,
+select {
+   margin: 0 0 1em;
+}
+
+.cv-select-box {
+   position: relative;
+   select { display: block; width: 100%; }
+   &:after {
+      position: absolute;
+      top: 50%;
+      height: 20px;
+      width: 25px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 0.85em;
+      margin-top: -10px;
+      transition: color 0.25s ease;
+      html:not([dir="rtl"]) & { right: 2px; }
+      html[dir="rtl"] & { left: 2px; }
+      font-family: "theme-icons";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+      text-decoration: inherit;
+      font-variant: normal;
+      text-transform: none;
+      content: '\e94d';
+   }
+}
+
+textarea {
+   max-width: 100%;
+}
+
+/* Remove inner shadow from inputs on mobile iOS */
+textarea, input:not([type="checkbox"]):not([type="radio"]) {
+   -webkit-appearance: none;
+}

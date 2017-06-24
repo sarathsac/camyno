@@ -1,0 +1,50 @@
+blockquote {
+
+   font-style: italic;
+   font-family: georgia;
+   font-weight: 400;
+   padding: 15px;
+   font-size: 1.25em;
+   position: relative;
+   margin: 0 0 $global_margin_after;
+
+   &:after {
+      font-family: "theme-icons";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+      text-decoration: inherit;
+      font-variant: normal;
+      text-transform: none;
+      content: '\ea38';
+
+      position: absolute;
+      top: 15px;
+      height: 45px;
+      width: 45px;
+      text-align: center;
+      line-height: 45px;
+      font-size: 40px;
+      opacity: 0.75;
+   }
+
+   html:not([dir="rtl"]) & {
+
+      padding: 15px 15px 15px 75px;
+      &:after {
+         left: 15px;
+         transform: rotate(180deg);
+      }
+
+   }
+
+   html[dir="rtl"] & {
+
+      padding: 15px 75px 15px 15px;
+      &:after {
+         right: 15px;
+      }
+
+   }
+
+}

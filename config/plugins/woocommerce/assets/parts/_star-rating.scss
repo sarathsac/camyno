@@ -1,0 +1,41 @@
+.star-rating {
+
+   display: block;
+   line-height: 14px;
+
+   &.no-ratings {
+      font-weight: 300;
+   }
+
+   .star-indicator {
+      margin: 0 2px;
+      position: relative;
+      height: 14px;
+      width: 12px;
+      font-size: 14px !important;
+   }
+
+   .star-indicator:before,
+   .star-indicator:after {
+      font-family: "theme-icons";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+      text-decoration: inherit;
+      font-variant: normal;
+      text-transform: none;
+      position: absolute;
+      top: 0; left: 0;
+   }
+
+   .star-indicator,
+   .star-indicator:before,
+   .star-indicator:after {
+      display: inline-block;
+   }
+
+   .whole-star:before { content: '\e808'; }
+   .half-star:before { content: '\e809'; }
+   .half-star:after { content: '\e80a'; }
+   .empty-star:before { content: '\e809'; }
+}

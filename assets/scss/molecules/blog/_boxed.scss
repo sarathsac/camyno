@@ -1,0 +1,23 @@
+.post.style-boxed {
+
+   .post-box {
+      padding: 2.5em;
+   }
+
+   .post-title {
+      font-weight: 600 !important;
+      font-size: 2em !important;
+   }
+
+   /* Featured Image */
+   .post-featured-image img { border-radius: 0 !important; }
+
+   /* featured Content */
+   .post-featured-content { margin-bottom: 0 !important; }
+
+   /* Post Formats */
+   .post-featured-gallery {
+      margin-bottom: 0 !important;
+   }
+
+}

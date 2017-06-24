@@ -1,0 +1,205 @@
+/* Hidden until jQuery has loaded */
+body.js .cv-content-section { opacity: 0; }
+
+.cv-content-section {
+
+   position: relative;
+   transition: box-shadow 0.25s ease;
+   box-shadow: none;
+   z-index: 10;
+
+   /* Scrolling background animation */
+   &.is-animating-background {
+      background-repeat: repeat !important;
+      transition: box-shadow 0.25s ease, background 7.5s linear;
+   }
+
+   /**
+    * Support for fixed backgrounds on tablets/mobile devices
+    * is currently very hit or miss, until a solution is found
+    * fixed backgrounds are disabled on non-desktop devices
+    */
+   body.dixable-fixed-backgrounds & { background-attachment: scroll !important; }
+
+   /* Inner shadows */
+   &.top-both .cv-top-shadow,
+   &.top-shadow .cv-top-shadow,
+   &.bottom-both .cv-bottom-shadow,
+   &.bottom-shadow .cv-bottom-shadow {
+      position: absolute;
+      left: 0px;
+      height: 8px; width: 100%;
+      overflow: visible;
+   }
+   &.top-both .cv-top-shadow,
+   &.top-shadow .cv-top-shadow {
+      top: 0;
+      box-shadow: inset 0px 8px 8px -8px rgba(0,0,0,0.125);
+   }
+   &.bottom-both .cv-bottom-shadow,
+   &.bottom-shadow .cv-bottom-shadow {
+      bottom: 0;
+      box-shadow: inset 0px -8px 8px -8px rgba(0,0,0,0.125);
+   }
+
+   /* Arrows */
+   &.top-arrow .cv-top-arrow,
+   &.bottom-arrow .cv-bottom-arrow {
+      position: absolute;
+      left: 0;
+      height: 0; width: 100%;
+      overflow: visible;
+   }
+   &.top-arrow .cv-top-arrow { top: 0; }
+   &.bottom-arrow .cv-bottom-arrow { bottom: 0; }
+
+   &.top-arrow .cv-top-arrow:after,
+   &.top-arrow.top-border .cv-top-arrow:before,
+   &.bottom-arrow .cv-bottom-arrow:after,
+   &.bottom-arrow.bottom-border .cv-bottom-arrow:before {
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+   }
+   &.top-arrow .cv-top-arrow:after,
+   &.bottom-arrow .cv-bottom-arrow:after {
+      margin-left: -20px;
+      border-width: 20px;
+   }
+   &.top-arrow.top-border .cv-top-arrow:before,
+   &.bottom-arrow.bottom-border .cv-bottom-arrow:before {
+      margin-left: -21px;
+      border-width: 21px;
+   }
+
+   &.top-arrow .cv-top-arrow:after,
+   &.top-arrow.top-border .cv-top-arrow:before { bottom: 100%; }
+
+   &.bottom-arrow .cv-bottom-arrow:after,
+   &.bottom-arrow.bottom-border .cv-bottom-arrow:before { top: 100%; }
+
+   /* Bottom Arrow Z-index alignment */
+   &.bottom-arrow {
+      z-index: 15;
+      & + &.bottom-arrow {
+         z-index: 14;
+         & + &.bottom-arrow {
+            z-index: 13;
+            & + &.bottom-arrow {
+               z-index: 12;
+            }
+         }
+      }
+   }
+
+}
+
+.cv-parallax-content {
+   overflow: hidden;
+}
+
+/* Padding levels */
+.cv-content-section {
+
+   &.padding-top-none .cv-wrap-wrapper,
+   &.padding-bottom-none .cv-wrap-wrapper { overflow: hidden; }
+
+   &.padding-top-none .cv-wrap-wrapper { padding-top: 0; }
+   &.padding-bottom-none .cv-wrap-wrapper { padding-bottom: 0; }
+
+   &.padding-top-less .cv-wrap-wrapper { padding-top: 2em; }
+   &.padding-bottom-less .cv-wrap-wrapper { padding-bottom: 2em; }
+
+   &.padding-top-normal .cv-wrap-wrapper { padding-top: 3.5em; }
+   &.padding-bottom-normal .cv-wrap-wrapper { padding-bottom: 3.5em; }
+
+   &.padding-top-more .cv-wrap-wrapper { padding-top: 5em; }
+   &.padding-bottom-more .cv-wrap-wrapper { padding-bottom: 5em; }
+
+   &.padding-top-much-more .cv-wrap-wrapper { padding-top: 6.5em; }
+   &.padding-bottom-much-more .cv-wrap-wrapper { padding-bottom: 6.5em; }
+
+   /* &.padding-top-none .content-section-detail,
+   &.padding-top-none .content-section-sidebar { padding-top: 0; }
+   &.padding-bottom-none .content-section-detail,
+   &.padding-bottom-none .content-section-sidebar { padding-bottom: 0; }
+
+   &.padding-top-less .content-section-detail,
+   &.padding-top-less .content-section-sidebar { padding-top: 2em; }
+   &.padding-bottom-less .content-section-detail,
+   &.padding-bottom-less .content-section-sidebar { padding-bottom: 2em; }
+
+   &.padding-top-normal .content-section-detail,
+   &.padding-top-normal .content-section-sidebar { padding-top: 4em; }
+   &.padding-bottom-normal .content-section-detail,
+   &.padding-bottom-normal .content-section-sidebar { padding-bottom: 4em; }
+
+   &.padding-top-more .content-section-detail,
+   &.padding-top-more .content-section-sidebar { padding-top: 6em; }
+   &.padding-bottom-more .content-section-detail,
+   &.padding-bottom-more .content-section-sidebar { padding-bottom: 6em; }
+
+   &.padding-top-much-more .content-section-detail,
+   &.padding-top-much-more .content-section-sidebar { padding-top: 8em; }
+   &.padding-bottom-much-more .content-section-detail,
+   &.padding-bottom-much-more .content-section-sidebar { padding-bottom: 8em; } */
+
+}
+
+/* Video background styles */
+.cv-content-section.has-video-bg {
+
+   position: relative;
+   overflow: hidden;
+
+   .bg-video-wrapper { z-index: 10; }
+   .bg-video-overlay { z-index: 20; }
+   .cv-wrap-wrapper { position: relative; z-index: 30; }
+
+   /* Hidden By default */
+   .js & .bg-video-image-fallback { display: none; }
+
+   .bg-video-image-fallback,
+   .bg-video-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+   }
+
+   .bg-video-wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 6000px !important;
+      width: 6000px !important;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      text-align: center;
+   }
+
+   .bg-video-overlay,
+   .bg-video-wrapper {
+      opacity: 0;
+      transition: opacity 0.25s ease;
+   }
+
+   &.bg-video-loaded {
+      .bg-video-overlay,
+      .bg-video-wrapper {
+         opacity: 1;
+      }
+   }
+
+   &.bg-video-disabled {
+      .bg-video-overlay {
+         opacity: 1;
+      }
+   }
+
+}

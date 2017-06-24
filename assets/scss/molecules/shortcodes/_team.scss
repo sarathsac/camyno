@@ -1,0 +1,53 @@
+.cv-the-team {
+
+   /* Member Profiles */
+   .member-profile {
+
+      position: relative;
+
+      p { margin: 0; }
+
+      .below-image {
+         text-align: center;
+         padding: 0.9375em;
+         position: relative;
+         overflow: hidden;
+         h3, h4 {
+            font-size: 1em;
+            line-height: 1.5;
+            margin: 0;
+         }
+         h3 {
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+         }
+         h4 {
+            font-weight: 300;
+         }
+         .scalable-content {
+            border-radius: 3px;
+         }
+      }
+
+      &.has-contacts {
+
+         .member-contacts {
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-align: center;
+            overflow: hidden;
+            opacity: 0;
+            transition: opacity 0.25s ease;
+         }
+
+         &:hover .member-contacts {
+            opacity: 1;
+         }
+
+      }
+
+   }
+
+}

@@ -1,0 +1,244 @@
+.woocommerce {
+
+   .shop_table.cart {
+
+      th, td { border-right: none !important; }
+
+      /* Remove Product */
+      .product-remove {
+         a {
+            font-size: 0px;
+            &:after {
+               font-family: "theme-icons";
+               font-style: normal;
+               font-weight: normal;
+               speak: none;
+               text-decoration: inherit;
+               font-variant: normal;
+               text-transform: none;
+               content: '\e821';
+               font-size: 16px;
+            }
+         }
+      }
+
+      /* Product Thumbnail */
+      .product-thumbnail {
+         img {
+            border-radius: 3px;
+            width: 50px;
+         }
+      }
+
+      /* Product Name */
+      .product-name {
+         a {
+            font-size: 1.15em;
+            font-weight: 600;
+         }
+         dl {
+            margin: 0;
+         }
+         dt { font-weight: 600; }
+         p { margin: 0; }
+      }
+
+      /* Product Quantity */
+      .product-quantity {
+         @media #{$breakpoint_max_1} { & {
+            input[type="button"] { display: none; }
+         } }
+         .quantity {
+            margin: 0 !important;
+            input {
+               height: 40px;
+               width: 40px;
+               &[type="number"] {
+                  font-size: 1em;
+               }
+            }
+         }
+      }
+
+      /* Product Price */
+      .product-subtotal .amount {
+         font-weight: 600;
+         font-size: 1.15em;
+      }
+
+      /* Actions */
+      .actions {
+
+         padding: 2em 1em;
+
+         input {
+            margin-bottom: 0;
+            height: 3em;
+            padding: {
+               top: 0;
+               bottom: 0;
+            }
+         }
+
+         .coupon {
+            label {
+               display: none;
+            }
+         }
+
+         html:not([dir="rtl"]) & {
+            .coupon { float: left; }
+            text-align: right;
+         }
+         html[dir="rtl"] & {
+            .coupon { float: right; }
+            text-align: left;
+         }
+
+      }
+
+   }
+
+   .cart_totals {
+      th, td {
+         border-right: none !important;
+      }
+   }
+
+}
+
+@media #{$breakpoint_max_2} {
+
+   table.cart, #content table.cart {
+      .product-thumbnail {
+         display: none;
+      }
+      .actions {
+         text-align: auto;
+         .coupon {
+            float: none !important;
+            clear: both;
+            overflow: hidden;
+         }
+         input, .button, .input-text {
+            width: 48%;
+            margin: 0 1%;
+            margin-bottom: 5px !important;
+            html:not([dir="rtl"]) & {
+               float: left;
+            }
+            html[dir="rtl"] & {
+               float: right;
+            }
+         }
+         .input-text + .button, .button.alt {
+            float: right;
+         }
+      }
+   }
+   .cart-collaterals {
+      .cart_totals, .shipping_calculator, .cross-sells {
+         width:100%;
+         float: none;
+         text-align: left;
+      }
+   }
+
+}
+
+@media #{$breakpoint_max_1} {
+
+   table.cart, #content table.cart {
+      .product-remove {
+         display: none;
+      }
+      .actions {
+         input, .button, .input-text {
+            width: 100%;
+            margin: 0 0 5px !important;
+         }
+      }
+   }
+
+}
+
+/* Cart Collaterals */
+.woocommerce .cart-collaterals {
+
+   margin-bottom: 2em;
+
+   .shipping_calculator {
+
+      h2 a { cursor: text; }
+
+      .shipping-calculator-form {
+         display: block !important;
+         overflow: visible !important;
+         height: auto !important;
+         margin: 0 !important;
+         padding: 0.9375em !important;
+      }
+
+      input, select {
+         width: 100%;
+         margin-bottom: 0;
+      }
+
+   }
+
+}
+
+@media #{$breakpoint_1} {
+
+   .woocommerce .cart-collaterals {
+
+      overflow: hidden;
+
+      margin: {
+         left:  -$spacing_2/2;
+         right: -$spacing_2/2;
+      }
+
+      & > * {
+         padding: {
+            left:  $spacing_2/2;
+            right: $spacing_2/2;
+         }
+      }
+
+      html:not([dir="rtl"]) & {
+
+         & > * {
+            float: right;
+            width: 50%;
+            margin-left: -100%;
+         }
+         & > *:nth-child(odd) {
+            margin-right: 0;
+            clear: right;
+         }
+         & > *:nth-child(even) {
+            margin-right: 50%;
+         }
+
+      }
+
+      html[dir="rtl"] & {
+
+         & > * {
+            float: left;
+            width: 50%;
+            margin-right: -100%;
+         }
+         & > *:nth-child(odd) {
+            margin-left: 0;
+            clear: left;
+         }
+         & > *:nth-child(even) {
+            margin-left: 50%;
+         }
+
+      }
+
+   }
+}

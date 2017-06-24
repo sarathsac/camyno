@@ -1,0 +1,50 @@
+#body #bbpress-forums {
+
+   /* ====== Notices ====== */
+
+   .bbp-template-notice,
+   .indicator-hint {
+      border: none;
+      padding: 10px;
+      margin: 5px 0 15px;
+      border-radius: 3px;
+      background: $info_bg_color;
+      color: $info_text_color;
+      clear: both;
+   }
+   .bbp-template-notice.info {
+      display: none;
+   }
+   .bbp-template-notice a,
+   .bbp-template-notice a:hover {
+      text-decoration: underline;
+      color: $info_text_color;
+   }
+   .bbp-template-notice.important {
+      background: $info_bg_color;
+      color: $info_text_color;
+   }
+   .bbp-template-notice.error,
+   .bbp-template-notice.warning {
+      background: $error_bg_color;
+      color: $error_text_color;
+   }
+   .bbp-template-notice.error a,
+   .bbp-template-notice.warning a {
+      color: $error_text_color;
+   }
+   .bbp-template-notice p {
+      margin: 0.5em 0 6px 0 !important;
+      padding: 0;
+      font-size: 1em;
+      line-height: 1.5;
+   }
+
+   /* Profile edit notices */
+   #bbp-your-profile fieldset span.description {
+      border: none;
+      background: $info_bg_color;
+      color: $info_text_color;
+   }
+
+}

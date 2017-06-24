@@ -1,0 +1,103 @@
+.cv-progress-bars {
+
+   margin-bottom: $global_margin_after;
+
+   &.v-align-middle {
+      html:not([dir="rtl"]) & { transform: rotate(-90deg); }
+      html[dir="rtl"] & { transform: rotate(90deg); }
+      height: 25em;
+      width: 25em;
+      margin: 0 auto $global_margin_after;
+   }
+
+   /* Task Wrapper */
+   .task-wrapper {
+
+      &:not(:last-child) {
+         margin-bottom: 1em;
+      }
+
+      /* Task Title */
+      .task-label {
+         margin-bottom: 5px;
+         font-weight: 600;
+      }
+
+      /* Task Progress Bar */
+      .task-rail,
+      .task-progress {
+         height: 1em;
+         position: relative;
+         overflow: hidden;
+         box-shadow: inset rgba(0,0,0,0.1) 0px 5px 5px -5px, inset rgba(0,0,0,0.05) 0px 0px 0px 1px;
+      }
+
+      /* Task Progress */
+      .task-rail .task-percentage {
+         margin: 0;
+         position: absolute;
+         top: 0;
+         height: 1.75em;
+         line-height: 1.5em;
+         padding: 0 0.5em;
+         span {
+            font-size: 0.75em;
+            letter-spacing: 1px;
+         }
+         html:not([dir="rtl"]) & {
+            left: 0;
+            border-right: none !important;
+         }
+         html[dir="rtl"] & {
+            right: 0;
+            border-left: none !important;
+         }
+      }
+
+   }
+
+   /* Apply Border Radiuses */
+   .task-wrapper {
+      .task-rail,
+      .task-progress {
+         border-radius: 3px;
+      }
+   }
+   &.has-percentages {
+      .task-wrapper {
+         .task-rail,
+         .task-progress {
+            height: 1.75em;
+            html:not([dir="rtl"]) & { border-radius: 0px 3px 3px 0px; }
+            html[dir="rtl"] & { border-radius: 3px 0px 0px 3px; }
+         }
+      }
+   }
+
+   /* Animation styles */
+   .js &.has-animation {
+      .task-wrapper .task-progress {
+         transition: width 0.5s ease;
+         &:not(.is-visible) {
+            width: 0% !important;
+         }
+      }
+   }
+
+}
+
+.cv-section-white .cv-progress-bars {
+   .task-rail .task-percentage {
+      border: none !important;
+      color: #000 !important;
+      background: #fff !important;
+   }
+}
+
+.cv-section-black .cv-progress-bars {
+   .task-rail .task-percentage {
+      border: none !important;
+      color: #fff !important;
+      background: #000 !important;
+   }
+}

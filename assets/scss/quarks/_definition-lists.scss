@@ -1,0 +1,46 @@
+dl {
+
+   overflow: hidden;
+   margin: 0 0 $global_margin_after;
+
+   dt { font-weight: 600; }
+
+   dd {
+      margin: 0;
+      p {
+         margin: 0;
+         &:not(:last-child) { margin-bottom: 1em; }
+      }
+   }
+
+   html:not([dir="rtl"]) & {
+      dt, dd { float: left; }
+      dt {
+         clear: left;
+         margin-right: 5px;
+      }
+   }
+
+   html[dir="rtl"] & {
+      dt, dd { float: right; }
+      dt {
+         clear: right;
+         margin-left: 5px;
+      }
+   }
+
+}
+
+/* dl {
+
+   margin: 0 0 2em;
+
+   dt, dd {
+      display: block;
+   }
+
+   dt {
+      font-weight: 600;
+   }
+
+} */

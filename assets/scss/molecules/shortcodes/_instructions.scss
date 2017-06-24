@@ -1,0 +1,74 @@
+.cv-ordered-instructions {
+
+   .step-wrap {
+
+      position: relative;
+      overflow: hidden;
+      margin-bottom: $global_margin_after;
+      text-align: center;
+
+      .step-icon {
+         width: 60px;
+         height: 60px;
+         line-height: 60px;
+         border-radius: 60px;
+         margin: 0 auto;
+         font-size: 25px;
+         border: 1px solid #eee;
+         font-weight: 300;
+         text-align: center !important;
+         transition: border 0.25s ease, color 0.25s ease;
+      }
+
+      .step-title {
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         font-size: 1em;
+         font-weight: 600;
+      }
+
+   }
+
+   @media #{$breakpoint_1} {
+
+      /* General styles */
+      .step-icon {
+         position: absolute;
+         top: 0px;
+      }
+
+      .step-wrap:after {
+         position: absolute;
+         top: 70px;
+         height: 100%;
+         width: 1px;
+         display: block;
+         content: " ";
+         background: red;
+      }
+
+      .step-wrap:last-child:after { display: none; }
+
+      /* Right aligned icons */
+      &.align-right {
+         .step-wrap {
+            text-align: right;
+            &:after { right: 30px; }
+            .step-icon { right: 0; }
+            .step-info { margin-right: 75px; }
+         }
+      }
+
+      /* Left aligned icons */
+      &.align-left {
+         .step-wrap {
+            text-align: left;
+            &:after { left: 30px; }
+            .step-icon { left: 0; }
+            .step-info { margin-left: 75px; }
+         }
+      }
+
+   }
+
+}

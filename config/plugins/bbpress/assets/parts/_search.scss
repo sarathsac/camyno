@@ -1,0 +1,30 @@
+#body #bbpress-forums {
+
+   /* ====== Search Results ====== */
+
+   .bbp-search-results {
+      border: none;
+      .bbp-header {
+         display: none;
+      }
+      .bbp-topic-header,
+      .bbp-reply-header {
+         padding-top: 5px;
+      }
+      .bbp-topic-header,
+      .bbp-forum-header {
+         background: transparent;
+         border: none;
+         padding: 0;
+      }
+      .hentry,
+      .bbp-forum-content {
+         margin: 0;
+         padding: 0;
+      }
+      .forum, .reply, .topic {
+         margin-bottom: 30px;
+      }
+   }
+
+}

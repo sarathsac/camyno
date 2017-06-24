@@ -1,0 +1,146 @@
+[class*="cv-grid-"],
+[class*="cv-grid-"] > * {
+   box-sizing: border-box;
+}
+
+[class*="cv-grid-"] {
+   margin-bottom: 0;
+   margin-top: 0;
+   padding: 0;
+}
+
+ul[class*="cv-grid-"] {
+   list-style: none;
+}
+
+[class*="cv-grid-"] > * {
+   display: block;
+   width: 100%;
+   margin: 0 !important;
+}
+
+.cv-grid-7 > *,
+.cv-grid-8 > * {
+   width: 50%;
+}
+
+[class*="cv-grid-"]:not(.cv-grid-1) {
+
+   /* Spacing x 1 */
+   &.spacing-1 {
+
+      margin: {
+         left:  -$spacing_1/2;
+         right: -$spacing_1/2;
+         bottom: -$spacing_1;
+      }
+
+      & > * {
+         padding: {
+            left:  $spacing_1/2;
+            right: $spacing_1/2;
+            bottom: $spacing_1;
+         }
+      }
+
+   }
+
+   /* Spacing x 2 */
+   &.spacing-2 {
+
+      margin: {
+         left:  -$spacing_2/2;
+         right: -$spacing_2/2;
+         bottom: -$spacing_2;
+      }
+
+      & > * {
+         padding: {
+            left:  $spacing_2/2;
+            right: $spacing_2/2;
+            bottom: $spacing_2;
+         }
+      }
+
+   }
+
+   /* LTR */
+   html:not([dir="rtl"]) & > * {
+      float: left;
+   }
+
+
+   /* RTL */
+   html[dir="rtl"] & > * {
+      float: right;
+   }
+
+}
+
+/* Offstep 1, all cv-grids set to 50%
+ * =========================================== */
+
+@media #{$breakpoint_1} {
+
+   [class*="cv-grid-"] > * {
+      width: 50%;
+   }
+
+}
+
+/* General Tablet size
+ * =========================================== */
+
+@media #{$breakpoint_2} {
+
+   .cv-grid-3 > *,
+   .cv-grid-4 > *,
+   .cv-grid-5 > *,
+   .cv-grid-6 > * {
+      width: 33.33% !important;
+   }
+
+   .cv-grid-7 > *,
+   .cv-grid-8 > * {
+      width: 25% !important;
+   }
+
+}
+
+/* General Desktop size
+ * =========================================== */
+
+@media #{$breakpoint_3} {
+
+   .cv-grid-5 > *,
+   .cv-grid-6 > *,
+   .cv-grid-7 > *,
+   .cv-grid-8 > * {
+      width: 25% !important;
+   }
+
+}
+
+/* Large Desktop size
+ * =========================================== */
+
+@media #{$breakpoint_4} {
+
+   .cv-grid-4 > * { width: 25% !important; }
+   .cv-grid-5 > * { width: 20% !important; }
+   .cv-grid-6 > * { width: 16.667% !important; }
+   .cv-grid-7 > * { width: 14.285% !important; }
+   .cv-grid-8 > * { width: 12.5% !important; }
+
+}
+
+/* Non responsive styles
+ * =========================================== */
+
+.cv-grid-2.not-responsive > * { width: 50% !important; }
+.cv-grid-3.not-responsive > * { width: 33.33% !important; }
+.cv-grid-4.not-responsive > * { width: 25% !important; }
+.cv-grid-5.not-responsive > * { width: 20% !important; }
+.cv-grid-6.not-responsive > * { width: 16.667% !important; }
+.cv-grid-7.not-responsive > * { width: 14.285% !important; }
+.cv-grid-8.not-responsive > * { width: 12.5% !important; }

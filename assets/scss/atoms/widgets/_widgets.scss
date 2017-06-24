@@ -1,0 +1,97 @@
+/* Content Section Sidebars */
+.content-section-sidebar {
+
+   .widget {
+
+      margin-bottom: 4.5em;
+
+      .widget-title {
+         margin-top: 0;
+         text-transform: uppercase;
+         font-weight: 700;
+         font-size: 1em;
+         margin-bottom: 0.625em;
+         letter-spacing: 1px;
+      }
+
+      select { width: 100%; }
+
+      ul, ol {
+
+         margin: 0;
+         padding: 0;
+         list-style: none;
+
+         li {
+            display: block;
+            padding: 0.25em 0;
+            transition: background 0.25s ease, color 0.25s ease;
+            a {
+               transition: color 0.25s ease;
+            }
+            li {
+               border-bottom: none !important;
+               background: transparent !important;
+               html:not([dir="rtl"]) & {
+                  margin-left: 1.5625em;
+               }
+               html[dir="rtl"] & {
+                  margin-right: 1.5625em;
+               }
+            }
+            ul, ol {
+               margin: 0.5em 0 -0.625em !important;
+            }
+         }
+
+      }
+
+   }
+
+}
+
+/* Footer Sidebars */
+#footer {
+
+   .widget {
+
+      margin-bottom: 4.5em;
+
+      .widget-title {
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         font-weight: 700;
+         font-size: 1em;
+         margin: 0 0 1em;
+      }
+
+      select { width: 100%; }
+
+      ul, ol {
+
+         margin: 0;
+         padding: 0;
+         list-style: none;
+
+         ul, ol {
+            html:not([dir="rtl"]) & {
+               margin: 0.5em 0 0.5em 1em;
+               padding: 0 0 0 1em;
+            }
+            html[dir="rtl"] & {
+               margin: 0.5em 1em 0.5em 0;
+               padding: 0 1em 0 0;
+            }
+         }
+
+         li {
+            display: block;
+            padding: 0.3125em 0;
+            a:hover { text-decoration: underline; }
+         }
+
+      }
+
+   }
+
+}

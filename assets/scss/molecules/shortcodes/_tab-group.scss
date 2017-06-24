@@ -1,0 +1,195 @@
+.cv-tab-group {
+   margin-bottom: $global_margin_after;
+   .inner-pane-title {
+      .tab-icon {
+         html:not([dir="rtl"]) & {
+            margin-right: 0.3125em;
+         }
+         html[dir="rtl"] & {
+            margin-left: 0.3125em;
+         }
+      }
+   }
+}
+
+.js .cv-tab-group {
+
+   border-top: none !important;
+
+   /* Tabs hidden */
+   .tabs { display: none; }
+
+   /* Panes */
+   .panes {
+      position: relative;
+      z-index: 5;
+      > .pane {
+         &:not(.is-active) .pane-content { display: none; }
+         .inner-pane-title {
+            cursor: pointer;
+            font-size: 1em;
+            padding: 0.9375em;
+            margin: 0;
+         }
+         &.is-active .inner-pane-title { font-weight: 600; }
+         .pane-content {
+            padding: 0.9375em;
+         }
+      }
+   }
+
+   @media #{$breakpoint_2} {
+
+      border: none !important;
+
+      /* Tabs */
+      .tabs {
+         list-style: none;
+         position: relative;
+         z-index: 10;
+         display: block;
+         &, li {
+            padding: 0;
+            margin: 0;
+         }
+         a {
+            display: block;
+            .tab-icon {
+               html:not([dir="rtl"]) & {
+                  margin-right: 0.3125em;
+               }
+               html[dir="rtl"] & {
+                  margin-left: 0.3125em;
+               }
+            }
+         }
+      }
+
+      /* Panes */
+      .panes {
+         position: relative;
+         z-index: 5;
+         > .pane {
+            &:not(.is-active) { display: none; }
+            .inner-pane-title { display: none; }
+            .pane-content {
+               display: block !important;
+               border: none !important;
+               padding: 0 !important;
+            }
+         }
+      }
+
+      /* Horizontal style */
+      &.is-horizontal {
+
+         /* Tabs */
+         .tabs {
+            li {
+               margin-bottom: -1px;
+               html:not([dir="rtl"]) & {
+                  float: left;
+                  &:first-child { border-radius: 3px 0px 0px 0px; }
+                  &:last-child { border-radius: 0px 3px 0px 0px; }
+               }
+               html[dir="rtl"] & {
+                  float: right;
+                  &:first-child { border-radius: 0px 3px 0px 0px; }
+                  &:last-child { border-radius: 3px 0px 0px 0px; }
+               }
+            }
+            a { padding: 0.9375em; }
+         }
+
+         .panes {
+            box-shadow: 0px -5px 5px -5px rgba(0,0,0,0.1);
+         }
+
+         /* Panes */
+         .panes > .pane {
+            padding: 1.5625em 0 0;
+         }
+         &.is-boxed .panes > .pane {
+            padding: 1.5625em;
+         }
+
+      }
+
+      /* Vertical style */
+      &[class*="is-vertical-"] {
+
+         .tabs {
+            width: 12.5em;
+            padding: 0.625em 0;
+            a {
+               padding: 0.625em 0.9375em;
+            }
+            li.is-active a {
+               font-weight: 600;
+            }
+         }
+
+         /* Panes */
+         .panes > .pane {
+            padding: 0.9375em;
+         }
+
+      }
+
+      /* Vertical left */
+      &.is-vertical-left {
+
+         .tabs {
+            float: left;
+            margin-right: -12.5em;
+            li {
+               margin-right: -1px;
+            }
+         }
+
+         .panes {
+            float: left;
+            margin-left: 12.5em;
+            padding-left: 0.625em;
+            transform: translateX(-1px);
+            box-shadow: -10px 0 10px -10px rgba(0,0,0,0.15);
+         }
+
+      }
+
+      /* Vertical right */
+      &.is-vertical-right {
+
+         .tabs {
+            float: right;
+            margin-left: -12.5em;
+            li {
+               margin-left: -1px;
+            }
+         }
+
+         .panes {
+            float: right;
+            margin-right: 12.5em;
+            padding-right: 0.625em;
+            transform: translateX(1px);
+            box-shadow: 10px 0 10px -10px rgba(0,0,0,0.15);
+         }
+
+      }
+
+   }
+
+}
+
+.js .cv-section-white .cv-tab-group {
+   .tabs .is-active > a {
+      background: rgba(255,255,255,0.15) !important;
+   }
+}
+
+.js .cv-section-black .cv-tab-group {
+   .tabs .is-active > a {
+      background: rgba(0,0,0,0.15) !important;
+   }
+}

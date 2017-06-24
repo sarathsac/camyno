@@ -1,0 +1,24 @@
+.woocommerce {
+
+   .order_details {
+
+      list-style: none;
+      margin: 2em 0;
+      padding: 0;
+      border-bottom: none !important;
+
+      li {
+         font-size: 1.15em;
+         padding: 1em;
+      }
+
+   }
+
+   .shop_table {
+
+      dl { margin: 0; }
+      dd p { margin: 0; }
+
+   }
+
+}

@@ -1,0 +1,36 @@
+#cv-floating-anchor {
+
+   position: fixed;
+   bottom: 30px;
+   height: 50px;
+   line-height: 47px;
+   font-size: 24px;
+   width: 50px;
+   text-align: center;
+   color: #fff;
+   border-radius: 50px;
+   transition: opacity 0.5s ease, transform 0.5s ease;
+   display: none;
+   opacity: 0;
+   transform: translate(0px,25px);
+   z-index: 9999;
+
+   &.is-visible {
+      opacity: 0.6;
+      transform: none;
+      &:hover { opacity: 0.85; }
+   }
+
+   html:not([dir="rtl"]) & {
+      right: 30px;
+   }
+
+   html[dir="rtl"] & {
+      left: 30px;
+   }
+
+   @media #{$breakpoint_1} {
+      display: block;
+   }
+
+}

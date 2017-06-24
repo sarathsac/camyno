@@ -1,0 +1,19 @@
+body > p.demo_store {
+   position: absolute;
+   top: 0%;
+   left: 0;
+   height: 50px;
+   line-height: 50px;
+   transform-origin: left bottom;
+   transform: rotate(90deg);
+   text-align: center;
+   background: #ADD5DE;
+   color: #2D6673;
+   padding: 0 15px;
+   margin: -50px 0 0;
+   z-index: 1250;
+   font-weight: 600;
+   font-size: 12px;
+   display: none;
+   @media #{$breakpoint_1} { & { display: block; } }
+}

@@ -1,0 +1,39 @@
+.cv-before-search {
+   text-align: center;
+   margin-bottom: 3em;
+}
+
+.posts-wrapper.style-search {
+
+   .search-result {
+      margin-bottom: 1.5em;
+      padding-bottom: 1.5em;
+      .post-title, p {
+         margin-bottom: 0;
+      }
+   }
+
+   .format-quote {
+      .post-title {
+         font-family: georgia;
+         text-transform: none;
+         letter-spacing: 0px;
+         font-weight: 400;
+         font-style: italic;
+      }
+      .quote-author:before {
+         content: "- ";
+      }
+   }
+
+   /* Post Content */
+   .post-content {
+      font-size: 1em;
+      font-weight: 300;
+      margin: $global_margin_after/2 0;
+      @media #{$breakpoint_1} { & {
+         font-size: 1.25em;
+      } }
+   }
+
+}

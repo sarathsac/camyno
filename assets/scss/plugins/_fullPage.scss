@@ -1,0 +1,281 @@
+/**
+ * fullPage 1.6.7
+ * https://github.com/alvarotrigo/fullPage.js
+ * MIT licensed
+ *
+ * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
+ */
+
+html.full-page-slider-active,
+html.full-page-slider-active body {
+    margin: 0;
+    padding: 0;
+   overflow:hidden;
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html.full-page-slider-active {
+
+    /* Loading spinner */
+    body > .spinner {
+        position: fixed !important;
+        top: 50% !important;
+        left: 50% !important;
+    }
+
+    /* Apply collapsing header styles */
+    #header-marker.is-collapsing + #header {
+        &, & #header-logo {
+            height: 57px;
+            line-height: 57px;
+        }
+    }
+
+    /* Hide header on mobile devices */
+    @media #{$breakpoint_max_1} {
+        #header {
+            height: 0px !important;
+            overflow: hidden;
+        }
+    }
+
+    #superContainer {
+        height: 100%;
+        position: relative;
+        -ms-touch-action: none;
+    }
+
+    .section {
+        position: relative;
+        box-sizing: border-box;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        @media #{$breakpoint_max_4} {
+            .wrap {
+                padding-left: 4em !important;
+                padding-right: 4em !important;
+            }
+        }
+    }
+
+    .slide {
+        float: left;
+        .cv-wrap-wrapper { overflow: visible !important; }
+    }
+
+    .slide, .slidesContainer {
+        height: 100%;
+        display: block;
+    }
+
+    .slides {
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.3s ease-out;
+    }
+
+    .section.table, .slide.table {
+        display: table;
+        width: 100%;
+    }
+
+    .tableCell {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+    }
+
+    .slidesContainer {
+        float: left;
+        position: relative;
+    }
+
+    .controlArrow {
+        position: absolute;
+        top: 50%;
+        margin-top: -0.5em;
+        height: 1em;
+        width: 1em;
+        font-size: 2em;
+        color: #fff;
+        text-shadow: rgba(0,0,0,0.75) 0px 0px 1px;
+        transition: opacity 0.25s ease;
+        opacity: 0.75;
+        cursor: pointer;
+        &:hover { opacity: 1; }
+        &:before {
+            font-family: "theme-icons";
+            font-style: normal;
+            font-weight: normal;
+            speak: none;
+            text-decoration: inherit;
+            font-variant: normal;
+            text-transform: none;
+        }
+        &.prev {
+            left: 1em;
+            &:before { content: '\ea81'; }
+        }
+        &.next {
+            right: 1em;
+            &:before { content: '\ea82'; }
+        }
+    }
+
+    .scrollable {
+        overflow: scroll;
+    }
+
+    .easing {
+        transition: all 0.7s ease-out;
+    }
+
+    #fullPage-nav {
+        display: none;
+        position: fixed;
+        z-index: 100;
+        margin-top: -32px;
+        top: 50%;
+        opacity: 0;
+        transition: opacity 0.25s ease;
+        border-radius: 3px;
+        &.is-disabled { display: none !important; }
+        &.right { right: 0; border-radius: 3px 0 0 3px; }
+        &.left { left: 0; border-radius: 0 3px 3px 0; }
+    }
+
+
+    @media #{$breakpoint_1} {
+        #fullPage-nav { border-radius: 3px !important; }
+        #fullPage-nav.right { right: 17px; }
+        #fullPage-nav.left { left: 17px; }
+    }
+
+    .fullPage-slidesNav {
+        position: absolute;
+        z-index: 4;
+        left: 50%;
+        opacity: 1;
+    }
+
+    .fullPage-slidesNav.bottom {
+        bottom: 17px;
+    }
+
+    .fullPage-slidesNav.top {
+        top: 17px;
+    }
+
+    #fullPage-nav ul,
+    .fullPage-slidesNav ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    #fullPage-nav li,
+    .fullPage-slidesNav li {
+        display: block;
+        width: 30px;
+        height: 35px;
+        line-height: 25px;
+        padding: 0;
+        text-align: center;
+        position:relative;
+    }
+
+    .fullPage-slidesNav li {
+        display: inline-block;
+    }
+
+    #fullPage-nav li a,
+    .fullPage-slidesNav li a {
+        display: block;
+        position: relative;
+        z-index: 1;
+        width: 30px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #fullPage-nav span,
+    .fullPage-slidesNav span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border: 1px solid;
+        border-radius: 15px;
+        z-index: 1;
+        transition: background 0.25s ease, transform 0.25s ease, opacity 0.25s ease, border 0.25s ease;
+        transform: scale(0.75,0.75);
+        opacity: 0.65;
+    }
+
+    #fullPage-nav li .active span,
+    .fullPage-slidesNav .active span {
+        transform: none;
+        opacity: 1;
+        background: transparent !important;
+    }
+
+    .fullPage-tooltip {
+        position: absolute;
+        font-size: 13px;
+        color: #fff;
+        font-family: arial, helvetica, sans-serif;
+        height: 40px;
+        line-height: 40px;
+        top: 50%;
+        margin-top: -20px;
+        padding: 0 15px;
+        font-weight: 600;
+        background: #000;
+        border-radius: 3px;
+        white-space: nowrap;
+
+        &:empty {
+            opacity: 0 !important;
+        }
+
+        &:after {
+            top: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-top-color: transparent;
+            border-width: 8px;
+            margin-top: -8px;
+        }
+
+    }
+
+    @media #{$breakpoint_max_1} { & {
+        .fullPage-tooltip {
+            display: none !important;
+        }
+    } }
+
+    .fullPage-tooltip.right {
+        right: 40px;
+        &:after {
+            border-left-color: #000;
+            left: 100%;
+        }
+    }
+
+    .fullPage-tooltip.left {
+        left: 40px;
+        &:after {
+            border-right-color: #000;
+            right: 100%;
+        }
+    }
+
+}

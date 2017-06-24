@@ -1,0 +1,50 @@
+body {
+   line-height: 1.7;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset box sizing */
+* {
+   box-sizing: border-box;
+}
+
+/* Default Image Handling */
+img {
+   max-width: 100%;
+   &.wp-post-image, &[class*="wp-image-"], &[class*="attachment-"] {
+      &[height] { height: auto; }
+      &[width] { width: auto; }
+   }
+   &.is-block { display: block; }
+}
+
+/* Default video handling */
+video {
+   max-width: 100%;
+}
+
+
+/* Paragraphs */
+p {
+   margin: 0 0 $global_margin_after;
+   &.no-margin { margin: 0; }
+}
+
+/* Make sure all links behave as links */
+a {
+   cursor: pointer;
+   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: $global_margin_after/2 0;
+}
+
+/* Form Fields */
+input, textarea, button {
+   &:focus {
+      outline: none;
+      box-shadow: none;
+   }
+}

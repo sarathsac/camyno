@@ -1,0 +1,79 @@
+/* Standard Recent Posts Widget */
+.sidebar {
+
+   ul:not([class]) .post-date {
+      display: block;
+      font-style: italic;
+      opacity: 0.75;
+   }
+
+}
+
+/* Custom recent posts list */
+.widget .cv-recent-posts {
+
+   box-shadow: none !important;
+
+   li {
+
+      padding: 0.5em 0 !important;
+      background: transparent !important;
+
+      .entry-thumbnail {
+
+         display: block;
+         width: 2.5em;
+         height: 2.5em;
+         overflow: hidden;
+         background-size: cover;
+         text-align: center;
+         line-height: 2.5em;
+         border-radius: 3px;
+
+         &:not([style]):before {
+            font-family: "theme-icons";
+            font-style: normal;
+            font-weight: normal;
+            speak: none;
+            text-decoration: inherit;
+            font-variant: normal;
+            text-transform: none;
+            content: '\e816';
+            opacity: 0.5;
+         }
+
+      }
+
+      .entry-description {
+         line-height: 1.25;
+         span {
+            font-size: 0.85em;
+            opacity: 0.5;
+         }
+      }
+
+      html:not([dir="rtl"]) & {
+         .entry-title,
+         .entry-description {
+            margin-left: 3.125em;
+         }
+         .entry-thumbnail {
+            float: left;
+            margin-right: -2.5em;
+         }
+      }
+
+      html[dir="rtl"] & {
+         .entry-title,
+         .entry-description {
+            margin-right: 3.125em;
+         }
+         .entry-thumbnail {
+            float: right;
+            margin-left: -2.5em;
+         }
+      }
+
+   }
+
+}

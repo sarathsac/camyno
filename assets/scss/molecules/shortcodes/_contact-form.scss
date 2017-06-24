@@ -1,0 +1,148 @@
+.cv-form {
+
+   margin-bottom: $global_margin_after;
+
+   /* Form title */
+   .form-title {
+      margin-bottom: $global_margin_after*2;
+      h2 { margin: 0; }
+   }
+
+   .form-fields {
+
+      margin-bottom: -$global_margin_after;
+
+      /* Fields */
+      .cv-field {
+
+         width: 100%;
+         margin-bottom: $global_margin_after;
+         html:not([dir="rtl"]) & { float: left; }
+         html[dir="rtl"] & { float: right; }
+
+         /* Reset widths */
+         input:not([type="checkbox"]), select, textarea {
+            width: 100%;
+         }
+
+         /* Reset select box styling */
+         select {
+            padding: 0.75em;
+            -webkit-border-radius: 0.2em;
+            border-radius: 0.2em;
+            -webkit-appearance: none;
+         }
+
+         /* Remove control margins */
+         input, select, textarea {
+            margin-bottom: 0;
+         }
+
+         textarea {
+            height: 9em;
+            resize: none;
+         }
+
+         /* Checkboxes */
+         &.has-checkbox {
+            + .has-checkbox { margin-top: -$spacing_1; }
+            input {
+               html:not([dir="rtl"]) & { margin-right: 0.3125em; }
+               html[dir="rtl"] & { margin-left: 0.3125em; }
+            }
+         }
+
+         /* Labels */
+         &:not(.has-checkbox) label {
+            display: block;
+            height: 2.5em;
+            line-height: 2.5em;
+            overflow: hidden;
+         }
+
+         /* Required Markers */
+         .required-marker {
+            padding: 0 0.3125em;
+            display: inline-block;
+            color: $required_marker_color;
+         }
+
+         /* Error Styles */
+         &.has-error {
+            textarea, input:not([type="checkbox"]) {
+               border-color: $input_error_border;
+            }
+            &.has-checkbox label {
+               color: $required_marker_color;
+            }
+         }
+
+      }
+
+      @media #{$breakpoint_1} {
+         margin: 0 -$spacing_1;
+         .cv-field {
+            padding: 0 $spacing_1;
+            &.width-12 { width: 50%; }
+            &.width-13 { width: 33.33%; }
+            &.width-14 { width: 25%; }
+         }
+      }
+
+   }
+
+   /* Alternate Style */
+   &.alt-style {
+
+      .form-fields {
+
+         margin-bottom: -$global_margin_after*2;
+         font-size: 1.25em;
+
+         /* Fields */
+         .cv-field {
+
+            margin-bottom: $global_margin_after*2;
+
+            /* Labels */
+            &:not(.has-checkbox) label {
+               font-size: 0.5em;
+               text-transform: uppercase;
+               letter-spacing: 1px;
+            }
+
+            /* Reset Default styles */
+            input:not([type="checkbox"]), select {
+               border-radius: 0px !important;
+               border-width: 0px 0px 1px 0px !important;
+               background: transparent !important;
+               padding: {
+                  left: 0 !important;
+                  right: 0 !important;
+               }
+            }
+            textarea {
+               border-width: 1px !important;
+               border-radius: 0px !important;
+               background: transparent !important;
+               height: 8em;
+            }
+            .cv-select-box:after {
+               background: transparent !important;
+            }
+
+         }
+
+      }
+
+   }
+
+}
+
+.cv-section-white .cv-form .required-marker {
+   color: #fff !important;
+}
+
+.cv-section-black .cv-form .required-marker {
+   color: #000 !important;
+}

@@ -1,0 +1,14 @@
+#wp-calendar {
+
+   &, th { text-align: center; }
+
+   td, th, caption {
+      padding: 0.5em 0.25em;
+   }
+
+   tbody td a {
+      text-decoration: underline;
+      font-weight: 600;
+   }
+
+}

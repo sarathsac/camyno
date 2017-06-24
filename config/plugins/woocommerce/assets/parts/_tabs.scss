@@ -1,0 +1,196 @@
+.no-js .woocommerce-tabs .panel {
+   display: block !important;
+   margin-bottom: 1em !important;
+}
+.woocommerce {
+
+   .woocommerce-tabs {
+
+      margin: 4em 0;
+      box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.15);
+
+      .tabs {
+         margin-bottom: -1px !important;
+      }
+
+      .tabs a {
+         display: block;
+         text-align: center;
+         height: 3.25em;
+         line-height: 3.25em;
+         text-align: center;
+         overflow: hidden;
+         border-top: none !important;
+         border-left: none !important;
+         position: relative;
+         z-index: 10;
+      }
+
+      .panels {
+         box-shadow: 0px -5px 5px -5px rgba(0,0,0,0.1);
+      }
+
+      .panel {
+         display: none;
+         padding: 2em;
+         margin-top: 0 !important;
+         table { margin-bottom: 0; }
+         table, tr:last-child, td, th { border: none !important; }
+         th {
+            background: transparent;
+            padding: {
+               left: 0;
+               right: 0;
+            }
+         }
+      }
+
+      .tabs + .panel {
+         display: block;
+      }
+
+      /* Share Buttons */
+      #tab-share .share-buttons {
+         font-size: 1.25em;
+      }
+
+      /* Reviews */
+      #tab-reviews {
+         padding-bottom: 3em;
+         position: relative;
+         z-index: 8;
+      }
+      #reviews {
+
+         .commentlist {
+            overflow: hidden;
+            padding: 0;
+            li {
+               clear: both;
+               overflow: hidden;
+            }
+         }
+
+         #comments .comment_container {
+
+            img {
+               width: 60px;
+               height: 60px;
+               border-radius: 60px;
+               html:not([dir="rtl"]) & {
+                  float: left;
+                  margin-right: -60px;
+               }
+               html[dir="rtl"] {
+                  float: right;
+                  margin-left: -60px;
+               }
+            }
+
+            .star-rating {
+               html:not([dir="rtl"]) & {
+                  float: right;
+               }
+               html[dir="rtl"] & {
+                  float: left;
+               }
+            }
+
+            .comment-text {
+               html:not([dir="rtl"]) & {
+                  margin-left: 75px;
+               }
+               html[dir="rtl"] {
+                  margin-right: 75px;
+               }
+            }
+
+         }
+
+         #respond {
+
+            #reply-title {
+               cursor: pointer;
+               text-align: center;
+               transition: color 0.25s ease, border 0.25s ease, background 0.25s ease;
+               padding: 0 1em;
+               font-size: 1em;
+               height: 3em;
+               line-height: 3em;
+
+               position: absolute;
+               bottom: 0; right: 0;
+               margin-bottom: 0;
+
+            }
+
+            #reply-title + p {
+               text-align: center;
+            }
+
+            /* Star Rating */
+            .comment-form-rating {
+
+               label {
+                  font-weight: 600;
+                  font-size: 0.85em;
+               }
+
+               .cv-select-box { display: none !important; }
+
+               .stars {
+
+                  float: none !important;
+                  width: auto !important;
+                  padding: 0 !important;
+                  margin-top: 0 !important;
+
+                  a {
+                     display: inline-block;
+                     padding: 0 8px;
+                     position: relative;
+                     height: 14px;
+                     width: 12px;
+                     font-size: 14px !important;
+                  }
+
+                  a:after {
+                     display: inline-block;
+                     font-family: "theme-icons";
+                     font-style: normal;
+                     font-weight: normal;
+                     speak: none;
+                     text-decoration: inherit;
+                     font-variant: normal;
+                     text-transform: none;
+                     position: absolute;
+                     top: 0; left: 0;
+                     content: '\e809'; /* Empty Star */
+                  }
+
+                  .is-rated > a:after {
+                     content: '\e808'; /* Whole Star */
+                  }
+
+                  .is-rated a.active ~ a:after {
+                     content: '\e809'; /* Empty Star */
+                  }
+
+               }
+            }
+
+            /* Comment Field */
+            .comment-form-comment {
+               clear: both;
+               margin-top: 1em;
+            }
+
+         }
+
+      }
+
+   }
+
+}
+
+.woocommerce.js #reply-title + * { display: none; }

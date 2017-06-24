@@ -1,0 +1,23 @@
+.share-buttons {
+
+   a {
+      font-size: 0.85em;
+      display: inline-block;
+      height: 3.5em;
+      width: 3.5em;
+      line-height: 3.5em;
+      border-radius: 3.5em;
+      margin: 0 0.125em 0.3125em;
+      text-align: center;
+      text-decoration: none;
+      transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
+      html:not([dir="rtl"]) &:not(:last-child) {
+         margin-right: 0.3125em;
+      }
+      html[dir="rtl"] &:not(:first-child) {
+         margin-left: 0.3125em;
+      }
+   }
+
+
+}

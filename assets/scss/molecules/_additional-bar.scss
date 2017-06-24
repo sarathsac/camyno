@@ -1,0 +1,81 @@
+/* Additional Bar */
+.header-additional-bar {
+
+   position: relative;
+   padding: 10px 0;
+   text-align: center;
+   border-bottom: 1px solid transparent;
+   display: none;
+
+   @media #{$breakpoint_3} {
+      display: block;
+   }
+
+   a { text-decoration: none; }
+
+   .cv-user-font {  margin: 0 -0.9375em; }
+
+   /* Menu in additional bar */
+   .menu {
+      display: block;
+      margin: 0 10px;
+      list-style: none;
+      cursor: default;
+      padding: 0 !important;
+      li {
+         display: inline;
+         cursor: default;
+      }
+      li:not(:last-child):after {
+         content: "/";
+         margin: 0 3px;
+      }
+      a {
+         line-height: 30px;
+         padding: 0 5px;
+         background: transparent;
+         border-radius: 3px;
+         transition: background 0.25s ease, color 0.25s ease;
+      }
+   }
+
+   /* Social media in additional bar */
+   .cv-social-profiles {
+      list-style: none;
+      cursor: default;
+      padding: 0;
+      margin: 0 10px;
+      li {
+         display: inline;
+         cursor: default;
+      }
+      a {
+         line-height: 30px;
+         text-align: center;
+         padding: 0 5px;
+         transition: color 0.25s ease;
+         span { display: none; }
+      }
+   }
+
+   /* Additional text */
+   .header-additional-text {
+      display: block;
+      margin: 0 10px;
+      line-height: 30px;
+   }
+
+   [data-position="left"] {
+      float: left;
+   }
+   [data-position="right"] {
+      float: right;
+   }
+   .additional-bar-toggle {
+      display: none;
+   }
+   .wrap {
+      display: block !important;
+   }
+
+}

@@ -1,0 +1,110 @@
+/* JS Visibility */
+.no-js .js-only,
+.js .no-js-only {
+   display: none;
+}
+
+/* Screen size visibility */
+[class*="visible-over"] {
+   display: none;
+}
+
+[class*="visible-under"] {
+   display: block;
+}
+
+[class*="visible-under"].is-inline {
+   display: inline;
+}
+
+[class*="visible-under"].is-inline-block {
+   display: inline-block;
+}
+
+@media #{$breakpoint_1} {
+   .visible-over-1 {
+      display: block;
+      &.is-inline { display: inline; }
+      &.is-inline-block { display: inline-block; }
+   }
+   .visible-under-1 {
+      &, &.is-inline, &.is-inline-block {
+         display: none;
+      }
+   }
+}
+
+@media #{$breakpoint_2} {
+   .visible-over-2 {
+      display: block;
+      &.is-inline { display: inline; }
+      &.is-inline-block { display: inline-block; }
+   }
+   .visible-under-2 {
+      &, &.is-inline, &.is-inline-block {
+         display: none;
+      }
+   }
+}
+
+@media #{$breakpoint_3} {
+   .visible-over-3 {
+      display: block;
+      &.is-inline { display: inline; }
+      &.is-inline-block { display: inline-block; }
+   }
+   .visible-under-3 {
+      &, &.is-inline, &.is-inline-block {
+         display: none;
+      }
+   }
+}
+
+@media #{$breakpoint_4} {
+   .visible-over-4 {
+      display: block;
+      &.is-inline { display: inline; }
+      &.is-inline-block { display: inline-block; }
+   }
+   .visible-under-4 {
+      &, &.is-inline, &.is-inline-block {
+         display: none;
+      }
+   }
+}
+
+/* Device Specific Visibility */
+[data-visibility="mobile"] {
+   display: block !important;
+   @media #{$breakpoint_1} {
+      display: none !important;
+   }
+}
+[data-visibility="tablet"] {
+   display: none !important;
+   @media #{$breakpoint_1} {
+      display: block !important;
+   }
+   @media #{$breakpoint_3} {
+      display: none !important;
+   }
+}
+[data-visibility="desktop"] {
+   display: none !important;
+   @media #{$breakpoint_3} {
+      display: block !important;
+   }
+}
+[data-visibility="mobile-tablet"] {
+   display: block !important;
+   @media #{$breakpoint_3} {
+      display: none !important;
+   }
+}
+
+[data-visibility="tablet-desktop"] {
+   display: none !important;
+   @media #{$breakpoint_1} {
+      display: block !important;
+   }
+}

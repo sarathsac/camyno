@@ -1,0 +1,79 @@
+.cv-notification {
+
+   padding: 2.5em 0.9375em;
+   position: relative;
+   border-radius: 3px;
+   margin-bottom: $global_margin_after;
+   p { margin: 0 !important; }
+
+   /* Strong Text */
+   strong {
+      color: inherit !important;
+   }
+
+   /* Links */
+   a {
+      color: inherit !important;
+      padding-bottom: 2px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+   }
+
+   /* Buttons in notifications */
+   .button {
+      background: rgba(0,0,0,0.05) !important;
+      color: inherit !important;
+      text-shadow: none !important;
+      border: none !important;
+      &:hover {
+         background: rgba(0,0,0,0.1) !important;
+      }
+   }
+
+   /* Icon */
+   .notification-icon {
+      position: absolute;
+      height: 1em;
+      line-height: 1em;
+      top: 0.3125em;
+      font-size: 2em;
+      opacity: 0.75;
+      color: inherit;
+      html:not([dir="rtl"]) & { left: 0.3125em; }
+      html[dir="rtl"] & { right: 0.3125em; }
+   }
+   @media #{$breakpoint_4} {
+      .notification-icon {
+         top: 50%;
+         margin-top: -0.5em;
+         html:not([dir="rtl"]) & { left: 0.9375em; }
+         html[dir="rtl"] & { right: 0.9375em; }
+      }
+   }
+
+   /* Title */
+   .notification-title {
+      text-align: center;
+      font-weight: 300;
+      font-size: 1.25em;
+      color: inherit;
+   }
+
+   /* Types */
+   &.is-info {
+      background: $info_bg_color;
+      color: $info_text_color;
+   }
+   &.is-success {
+      background: $success_bg_color;
+      color: $success_text_color;
+   }
+   &.is-error {
+      background: $error_bg_color;
+      color: $error_text_color;
+   }
+   &.is-warning {
+      background: $warning_bg_color;
+      color: $warning_text_color;
+   }
+
+}

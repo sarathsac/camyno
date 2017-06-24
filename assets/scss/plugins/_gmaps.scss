@@ -1,0 +1,10 @@
+/* Reset styling for google maps */
+.gm-style {
+   img { max-width: none; }
+   * { box-sizing: content-box; }
+}
+
+.cv-fullwidth-map {
+   min-height: 200px;
+   .js &[data-height] { opacity: 0; }
+}

@@ -1,0 +1,102 @@
+.button {
+
+   display: inline-block;
+   padding: 0.5em 0.75em;
+   margin: 0.25em;
+   border-style: solid;
+   border-color: transparent;
+   border-width: 1px !important;
+   font-weight: 400;
+   border-radius: 3px;
+   font-size: 0.85em;
+   transition: color 0.15s ease, background 0.15s ease, border 0.15s ease;
+
+   // Custom colors always have white text
+   .js &.cv-button[data-color].is-filled { color: #fff !important; }
+
+   /* Sizes */
+   &.is-medium {
+      font-size: 1em;
+      border-width: 2px;
+   }
+   &.is-large {
+      font-size: 1.25em;
+      border-width: 3px;
+   }
+
+   /* With Icon */
+   &.has-icon {
+
+      position: relative;
+      transition: color 0.15s ease, background 0.15s ease, border 0.15s ease, padding 0.15s ease;
+
+      .button-icon {
+         position: absolute;
+         display: block;
+         top: 0.5em;
+         width: 2em;
+         text-align: center;
+         opacity: 0;
+         transition: opacity 0.15s ease;
+      }
+      &.icon-after .button-icon {
+         html:not([dir="rtl"]) & { right: 0; }
+         html[dir="rtl"] & { left: 0; }
+      }
+      &.icon-before .button-icon {
+         html:not([dir="rtl"]) & { left: 0; }
+         html[dir="rtl"] & { right: 0; }
+      }
+      &:hover .button-icon { opacity: 1; }
+
+      /* Hover state */
+      &.icon-after:hover {
+         html:not([dir="rtl"]) & { padding-right: 2em; }
+         html[dir="rtl"] & { padding-left: 2em; }
+      }
+      &.icon-before:hover {
+         html:not([dir="rtl"]) & { padding-left: 2em; }
+         html[dir="rtl"] & { padding-right: 2em; }
+      }
+
+   }
+
+   /* Circular */
+   &.is-circular {
+      padding: 0;
+      width: 3em;
+      height: 3em;
+      line-height: 3em;
+      border-radius: 3em;
+      text-align: center;
+   }
+
+}
+
+.cv-section-white .button:not(.js-color) {
+   &.is-glassy, &.is-ghost {
+      background: rgba(255,255,255,0.15) !important;
+      color: #fff !important;
+   }
+   &.is-glassy:hover, &.is-ghost:hover {
+      background: rgba(255,255,255,0.25) !important;
+   }
+   &:not(.is-ghost):not(.is-glassy) {
+      color: #fff !important;
+      background: rgba(255,255,255,0.25) !important;
+   }
+}
+
+.cv-section-black .button:not(.js-color) {
+   &.is-glassy, &.is-ghost {
+      background: rgba(0,0,0,0.025) !important;
+      color: #000 !important;
+   }
+   &.is-glassy:hover, &.is-ghost:hover {
+      background: rgba(0,0,0,0.05) !important;
+   }
+   &:not(.is-ghost):not(.is-glassy) {
+      color: #000 !important;
+      background: rgba(0,0,0,0.05) !important;
+   }
+}

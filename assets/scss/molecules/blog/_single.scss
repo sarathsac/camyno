@@ -1,0 +1,96 @@
+.post.is-single {
+   margin-bottom: 2em;
+   .post-box .post-title {
+      margin-top: 0 !important;
+      font-size: 1.75em;
+      font-weight: 400;
+      @media #{$breakpoint_1} { & {
+         font-size: 2.25em;
+      } }
+   }
+   .post-meta {
+      margin-bottom: 1.25em !important;
+   }
+}
+
+.below-single-post {
+   margin: 3em 0 0;
+}
+
+/* Post Tags */
+.below-single-post .post-tags {
+   cursor: default;
+   padding-top: 3em;
+   a {
+      padding: 0.3125em 0.625em;
+      display: inline-block;
+      margin: 0.125em;
+      border-radius: 3px;
+      transition: background 0.25s ease, color 0.25s ease, border 0.25s ease;
+   }
+   @media #{$breakpoint_1} {
+      width: 50%;
+      html:not([dir="rtl"]) & {
+         float: left;
+      }
+      html[dir="rtl"] & {
+         float: right;
+      }
+   }
+}
+
+/* Share Buttons */
+.share-buttons-wrap {
+   padding-top: 3em;
+}
+.below-single-post .post-tags + .share-buttons-wrap {
+   @media #{$breakpoint_1} {
+      width: 50%;
+      html:not([dir="rtl"]) & {
+         float: right;
+      }
+      html[dir="rtl"] & {
+         float: left;
+      }
+   }
+}
+
+/* Related Posts */
+.related-posts {
+   margin-top: 3em;
+   .title {
+      display: block;
+      height: 4em;
+      line-height: 4em;
+      overflow: hidden;
+      padding: 0 0.625em;
+   }
+}
+.portfolio-related-page-builder .related-posts { margin-top: 0; }
+
+.single-post #comments {
+   margin-top: 3em;
+}
+
+/* Proper spacing for modern & multi author styles */
+@media #{$breakpoint_2} {
+
+   html:not([dir="rtl"]) {
+      body.post-style-modern, body.post-style-author {
+         .below-single-post,
+         .above-single-post {
+            margin-left: 7em;
+         }
+      }
+   }
+
+   html[dir="rtl"] {
+      body.post-style-modern, body.post-style-author {
+         .below-single-post,
+         .above-single-post {
+            margin-right: 7em;
+         }
+      }
+   }
+
+}

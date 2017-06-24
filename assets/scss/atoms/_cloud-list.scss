@@ -1,0 +1,49 @@
+.cloud-list {
+
+   margin: 0;
+   padding: 0;
+   list-style: none !important;
+   overflow: hidden;
+
+   &, * { max-width: 100%; }
+
+   html:not([dir="rtl"]) & li { float: left; }
+   html[dir="rtl"] & li { float: right; }
+
+   &.spacing-1 {
+
+      margin: {
+         left:  -$spacing_1/2;
+         right: -$spacing_1/2;
+         top:   -$spacing_1/2;
+      }
+
+      & > * {
+         margin: {
+            left:  $spacing_1/2;
+            right: $spacing_1/2;
+            top:   $spacing_1/2;
+         }
+      }
+
+   }
+
+   &.spacing-2 {
+
+      margin: {
+         left:  -$spacing_2/2;
+         right: -$spacing_2/2;
+         top:   -$spacing_2/2;
+      }
+
+      & > * {
+         margin: {
+            left:  $spacing_2/2;
+            right: $spacing_2/2;
+            top:   $spacing_2/2;
+         }
+      }
+
+   }
+
+}

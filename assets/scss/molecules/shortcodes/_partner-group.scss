@@ -1,0 +1,20 @@
+.cv-partner-group {
+
+   &.is-grid,
+   &.is-slider .partner {
+      padding-bottom: $global_margin_after;
+   }
+
+   p {
+
+      margin: 0;
+
+      .partner {
+         &, & img {
+            display: block;
+         }
+      }
+
+   }
+
+}

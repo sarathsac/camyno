@@ -1,0 +1,91 @@
+.cv-post-tile {
+
+   .tile-caption {
+
+      text-align: center;
+      padding: 15px;
+
+      .format-icon {
+         position: absolute;
+         z-index: 10;
+         top: 50%;
+         left: 50%;
+         margin-top: -0.5em;
+         margin-left: -0.5em;
+         height: 1em;
+         width: 1em;
+         line-height: 1em;
+         font-size: 7em;
+      }
+
+      .post-content, .post-title, .extra-info {
+         position: relative;
+         z-index: 20;
+      }
+
+      .post-content {
+         font-size: 0.85em;
+         font-weight: 400;
+         line-height: 1;
+         margin: 0;
+      }
+
+      .post-title {
+         font-size: 1.25em;
+         font-weight: 300;
+      }
+
+      .extra-info {
+         font-size: 0.85em;
+         font-weight: 400;
+         font-style: italic;
+         opacity: 0.75;
+      }
+
+   }
+
+   /* Quote Format */
+   &.format-quote {
+      .post-title {
+         font-family: georgia;
+         font-weight: 400;
+         font-style: italic;
+         line-height: 1.5;
+      }
+      .quote-author {
+         font-size: 0.85em;
+      }
+   }
+
+   /* With Thumbnail */
+   &.has-thumbnail {
+      .tile-caption {
+         background: rgba(0,0,0,0.35);
+         transition: background 0.5s ease;
+         text-shadow: #000 0px 0px 3px;
+         * { color: #fff !important; }
+         .post-title {
+            font-weight: 300;
+         }
+      }
+   }
+   &.has-thumbnail:hover .tile-caption { background: rgba(0,0,0,0.5); }
+
+   /* Link Overlay */
+   .tile-link {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      opacity: 0;
+      z-index: 30;
+   }
+
+
+   &.format-quote,
+   &.format-aside {
+      .extra-info { display: none; }
+   }
+
+}
+
+.cv-section-white .cv-post-tile:not(.has-thumbnail) .tile-caption .format-icon { color: rgba(255,255,255,0.1) !important; }

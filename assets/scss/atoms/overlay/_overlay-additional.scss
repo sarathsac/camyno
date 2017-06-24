@@ -1,0 +1,58 @@
+.cv-fullscreen-overlay {
+
+   /* Overlay Menu */
+   &.overlay-additional-wrap {
+
+      .overlay-content {
+
+         ul, li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            cursor: default;
+         }
+
+         li {
+            display: inline;
+         }
+
+         /* Add some spacing */
+         > * {
+            margin-bottom: 1em !important;
+            padding: 0 1em !important;
+         }
+
+         /* Menu in overlay additional */
+         .menu {
+            li:not(:last-child):after {
+               content: "/";
+               margin: 0 3px;
+               color: rgba(255,255,255,0.5)
+            }
+            a {
+               padding: 0 5px;
+            }
+         }
+
+         /* Social media in overlay additional */
+         .cv-social-profiles {
+            cursor: default;
+            a {
+               display: inline-block;
+               line-height: 2em;
+               height: 2em;
+               width: 2em;
+               text-align: center;
+               margin: 0 0.3125em;
+               border-radius: 1em;
+               background: rgba(255,255,255,0.05);
+               transition: color 0.25s ease;
+               span { display: none; }
+            }
+         }
+
+      }
+
+   }
+
+}

@@ -1,0 +1,167 @@
+.cv-icon-box {
+
+   margin-bottom: $global_margin_after;
+
+   .cv-icon-box-title {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 1em;
+      font-weight: 600;
+   }
+
+   /* Standard, icon above title */
+   &.style-standard {
+
+      text-align: center;
+
+      /* Title */
+      .cv-icon-box-title {
+         margin-bottom: 0;
+      }
+
+      /* Icon */
+      .cv-icon-box-icon {
+         font-size: 3em;
+         line-height: 1.25;
+      }
+
+      /* Ensribed Icon */
+      &.icon-style-enscribed .cv-icon-box-icon {
+         height: 70px; width: 70px;
+         line-height: 70px;
+         border-radius: 70px;
+         padding: 0;
+         display: block;
+         margin: 0 auto;
+         position: relative;
+         &:before {
+            font-size: 35px;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -20px 0 0 -20px;
+         }
+      }
+
+   }
+
+   /* Side, icon adjacent to box */
+   &.style-side {
+
+      position: relative;
+      text-align: center;
+
+      /* Title */
+      .cv-icon-box-title {
+         margin-bottom: 0;
+      }
+
+      /* Icon */
+      .cv-icon-box-icon {
+         font-size: 3.5em;
+         line-height: 1.35;
+         height: 50px; width: 50px;
+         line-height: 50px;
+         margin: 0 auto;
+         display: block;
+      }
+
+      /* Ensribed Icon */
+      &.icon-style-enscribed .cv-icon-box-icon {
+         height: 60px; width: 60px;
+         line-height: 60px;
+         border-radius: 60px;
+         padding: 0;
+         position: relative;
+         &:before {
+            font-size: 30px;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -20px 0 0 -20px;
+         }
+      }
+
+      @media #{$breakpoint_1} {
+
+         html:not([dir="rtl"]) & { text-align: left; }
+         html[dir="rtl"] & { text-align: right; }
+
+         .cv-icon-box-title,
+         .cv-icon-box-content {
+            html:not([dir="rtl"]) & {
+               margin-left: 60px;
+            }
+            html[dir="rtl"] & {
+               margin-right: 60px;
+            }
+         }
+
+         &.icon-style-enscribed {
+            .cv-icon-box-title,
+            .cv-icon-box-content {
+               html:not([dir="rtl"]) & {
+                  margin-left: 75px;
+               }
+               html[dir="rtl"] & {
+                  margin-right: 75px;
+               }
+            }
+         }
+
+         /* Icon */
+         .cv-icon-box-icon {
+            position: absolute !important;
+            top: 0;
+            margin-top: -5px;
+            text-align: center;
+            html:not([dir="rtl"]) & {
+               left: 0;
+            }
+            html[dir="rtl"] & {
+               right: 0;
+            }
+         }
+
+      }
+
+   }
+
+   /* Inline, icon on same line as title */
+   &.style-inline {
+
+      .cv-icon-box-title {
+         line-height: 1.35;
+         font-size: 1em;
+      }
+
+      .cv-icon-box-icon {
+         font-size: 20px;
+         html:not([dir="rtl"]) & { margin-right: 0.3125em; }
+         html[dir="rtl"] & { margin-left: 0.3125em; }
+      }
+
+      &.icon-style-enscribed .cv-icon-box-icon {
+         display: inline-block;
+         height: 30px; width: 30px;
+         font-size: 1em;
+         line-height: 28px;
+         border-radius: 30px;
+         text-align: center;
+      }
+
+   }
+
+   /* Icon transitions */
+   &.icon-style-enscribed.with-border .cv-icon-box-icon {
+      transition: border 0.25s ease;
+      background: transparent !important;
+   }
+
+}

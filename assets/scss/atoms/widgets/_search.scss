@@ -1,0 +1,13 @@
+/* Search Widget */
+
+#searchform {
+
+   label, input:not([type="text"]) {
+      display: none;
+   }
+
+   input[type="text"] {
+      width: 100%;
+   }
+
+}

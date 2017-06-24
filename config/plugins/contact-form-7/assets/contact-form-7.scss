@@ -1,0 +1,70 @@
+/* Import utilities */
+@import "../../../../assets/scss/utilities/variables";
+@import "../../../../assets/scss/utilities/mixins";
+
+span.wpcf7-list-item {
+   margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+   display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+   border: none;
+   vertical-align: middle;
+   margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error {
+   display: none;
+}
+
+.wpcf7 {
+
+   .screen-reader-response {
+      position: fixed; top: -99999px; left: -9999px;
+   }
+
+   /* Response Output */
+   .wpcf7-response-output {
+      font-weight: 600;
+      font-size: 1.25em;
+   }
+
+   .wpcf7-form {
+
+      /* textareas */
+      textarea {
+         max-width: 100%;
+      }
+
+      /* Radio & checkboxes */
+      .wpcf7-radio, .wpcf7-checkbox {
+         display: block;
+         margin: 0.75em 0 2em;
+         .wpcf7-list-item {
+            display: block;
+            input { margin-bottom: 0;}
+            &:not(:last-child) { margin-bottom: 0.75em; }
+         }
+      }
+
+      /* Quizzes */
+      .wpcf7-quiz-label {
+         font-weight: 600;
+         letter-spacing: 2px;
+      }
+
+      /* Errors */
+      .wpcf7-not-valid {
+         border-color: $input_error_border;
+      }
+      .wpcf7-not-valid-tip {
+         display: block;
+         font-weight: 600;
+         color: $input_error_border;
+      }
+   }
+
+}

@@ -1,0 +1,26 @@
+.wp-caption {
+
+   max-width: 100%;
+   font-style: italic;
+   padding: 0.625em 0.625em 0 !important;
+   position: relative;
+   border-radius: 3px;
+
+   img {
+      min-width: 100%;
+      display: block;
+      margin: 0 !important;
+   }
+
+}
+
+.wp-caption-text {
+   display: block;
+   font-style: italic;
+   margin: 0 auto;
+   padding: 0.625em;
+   text-align: center;
+   float: none;
+}
+
+.gallery-caption { display: none; }

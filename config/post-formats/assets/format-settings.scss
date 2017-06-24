@@ -1,0 +1,37 @@
+.cv-post-format-meta {
+
+   .cv-post-format-meta-pane {
+      &.is-active {
+         border-top: 1px solid #eee;
+         margin-top: 15px;
+         padding-top: 5px;
+      }
+      &:not(.is-active) {
+         display: none;
+      }
+   }
+
+   // Gallery post format
+   .cv-gallery-format-preview {
+      overflow: hidden;
+      margin: 0 -5px;
+      cursor: pointer;
+      > div {
+         float: left;
+         box-sizing: border-box;
+         width: 25%;
+         padding: 5px;
+      }
+      img {
+         display: block;
+         width: 100%;
+         max-width: 100%;
+      }
+   }
+
+}
+
+/* Special styles for gallery manager */
+.cv-gallery-editor-modal-active .media-modal .gallery-settings {
+   display: none;
+}

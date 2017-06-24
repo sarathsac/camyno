@@ -1,0 +1,64 @@
+.cv-page-settings-box {
+
+   > div {
+      overflow: hidden;
+   }
+
+   /* Extra hidden controls */
+   #cv_sidebar_control_wrap,
+   #cv_page_slide_extra_controls_wrap,
+   #cv_transparency_extra_controls_wrap {
+      background: #f9f9f9;
+      margin: 0 -12px;
+      padding: 12px;
+      border-top: 1px solid #f0f0f0;
+      border-bottom: 1px solid #f0f0f0;
+   }
+   #cv_sidebar_control_wrap {
+      margin-bottom: -12px;
+      border-bottom: none;
+   }
+
+   /* Transparency Logo Chooser */
+   #cv_transparency_extra_controls_wrap.has-image #cv_transparency_select_logo,
+   #cv_transparency_extra_controls_wrap:not(.has-image) #cv_transparency_remove_logo {
+      display: none;
+   }
+
+   .cv_transparency_logo_preview {
+      padding: 5px;
+      background: #fff;
+      border: 1px solid #eee;
+      img {
+         display: block;
+         cursor: pointer;
+         max-width: 100%;
+      }
+   }
+
+   /* Color Picker */
+   .wp-picker-container .button {
+      padding: 5px 8px !important;
+      line-height: 16px !important;
+      height: auto !important;
+   }
+
+   /* When Page Builder is active */
+   .cv-builder-active & {
+      #cv_layout_control_wrap, #cv_sidebar_control_wrap {
+         display: none !important;
+      }
+   }
+
+   /* When Page Builder is not active */
+   .cv-builder-hidden & {
+      #cv_page_slide_extra_controls_wrap,
+      #cv_page_slide_control_wrap {
+         display: none !important;
+      }
+      #cv-banner-controls-outer-wrap {
+         display: block !important;
+      }
+   }
+
+}
